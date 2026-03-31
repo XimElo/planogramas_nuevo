@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Evita que Google indexe esta página -->
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Catálogo de Exhibidores</title>
+
+    <!-- Aquí se carga el archivo de estilos -->
+    styles.css
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Exhibidores</h1>
+
+        <!-- Subtítulo del catálogo -->
+        <p class="sub">Consulta rápida de exhibidores por tienda</p>
+
+        <!-- Selector para elegir la tienda -->
+        <select id="selector">
+            <option value="oxxo">OXXO</option>
+            <option value="711">7-Eleven</option>
+            <option value="cck">CCK</option>
+        </select>
+    </header>
+
+    <!-- Aquí se mostrarán las tarjetas de exhibidores -->
+    <main id="contenedor" class="grid"></main>
+
+    <script>
+        // Función que carga el JSON según la tienda elegida
+        async function cargar(tienda) {
+            const contenedor = document.getElementById("contenedor");
+            contenedor.innerHTML = "Cargando..."; // Mensaje temporal
+
+            try {
+                // Carga del archivo JSON
+                const respuesta = await fetch(`data/${tienda}.json`);
+                const datos = await respuesta.json();
+
+                contenedor.innerHTML = ""; // Limpia el contenedor
+
+                // Crea una tarjeta por cada elemento del JSON
+                datos.forEach(item => {
+                    contenedor.innerHTML += `
+                        <div class="card">
+                            <!-- Imagen del exhibidor -->
+                            ${item.imagen}
+
+                            <div class="info">
+                                <!-- Nombre del exhibidor -->
+                                <h3>${item.nombre}</h3>
+
+                                <!-- Código si existe -->
+                                <p>${item.codigo || ""}</p>
+                            </div>
+                        </div>
+                    `;
+                });
+            } catch(e) {
+                // Error generando el catálogo
+                contenedor.innerHTML = "Error al cargar los datos";
+            }
+        }
+
+        // Cuando cambia la tienda, vuelve a cargar el catálogo
+        document.getElementById("selector").addEventListener("change", e => {
+            cargar(e.target.value);
+        });
+
+        // Carga inicial: muestra OXXO al abrir la página
+        cargar("oxxo");
+    </script>
+</body>
+</html>
