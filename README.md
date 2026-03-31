@@ -33,6 +33,7 @@ Ejemplo:
   "codigo": "OXXO_5_HEADER",
   "imagen": "img/oxxo/OXXO_5_HEADER.png"
 }
+```
 
 Agregar al archivo de la tienda:
 
@@ -44,4 +45,4 @@ Guardar
 
 ---
 
-
+## 4. Listo!
