@@ -212,3 +212,49 @@ h1 {
   font-size: 0.9rem;
   color: #777;
 }
+
+/* =========================
+   BUSCADOR
+========================= */
+.buscador {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.buscador input {
+  width: 100%;
+  max-width: 420px;
+  padding: 14px 18px;
+  border-radius: 16px;
+  border: 1.5px solid var(--rosa-base);
+  font-size: 1rem;
+  outline: none;
+  background: white;
+  color: var(--gris-texto);
+  box-shadow: 0 4px 12px rgba(234, 137, 154, 0.25);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.buscador input::placeholder {
+  color: #999;
+}
+
+.buscador input:focus {
+  border-color: var(--rosa-oscuro);
+  box-shadow: 0 6px 20px rgba(234, 137, 154, 0.35);
+}
+
+/* =========================
+   MENSAJE SIN RESULTADOS
+========================= */
+.grid p {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--rosa-oscuro);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 40px;
+}
+
+
