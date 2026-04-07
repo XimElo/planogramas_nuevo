@@ -22,7 +22,7 @@ async function cargar(tienda){
  const cont=document.getElementById('contenedor');
  cont.innerHTML='Cargando...';
  try{
-  const respuesta = await fetch(`${tienda}.json`);
+  const respuesta = await fetch(`data/${tienda}.json`);
   const datos=await resp.json();
   cont.innerHTML='';
   datos.forEach(item=>{
