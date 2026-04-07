@@ -53,7 +53,6 @@
   </div>
 
   <button class="btn-limpiar" onclick="limpiarFiltros()">Limpiar filtros</button>
-
 </div>
 
 <!-- GRID -->
@@ -67,9 +66,18 @@
   let filtrosActivos = {};
 
   /* =========================
-     CARGA DE DATOS
+     CARGA DE DATOS + TIENDA ACTIVA
   ========================= */
   async function cargar(tienda) {
+    // 👉 VISUAL: marcar tienda activa
+    document.querySelectorAll(".btn-tienda").forEach(btn => {
+      btn.classList.remove("activo");
+    });
+
+    document
+      .querySelector(`.btn-tienda[onclick="cargar('${tienda}')"]`)
+      .classList.add("activo");
+
     const cont = document.getElementById("contenedor");
     cont.innerHTML = "Cargando...";
 
@@ -107,9 +115,10 @@
     );
 
     filtrados.forEach(item => {
-      cont.innerHTML += `
-        <div class="card">
-          <img src="${item.imagen}" alt="${item     </div>
+      cont.innerHTML +=tem.nombre}</h3>
+            <p>${item.codigo || ""}</p>
+          </div>
+        </div>
       `;
     });
   }
