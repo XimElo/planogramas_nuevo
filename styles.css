@@ -1,12 +1,28 @@
 /* =========================
+   VARIABLES DE COLOR
+========================= */
+:root {
+  --rosa-base: #ea899a;
+  --rosa-claro: #f4b6c1;
+  --rosa-muy-claro: #fdecef;
+  --rosa-oscuro: #d46b7e;
+  --gris-texto: #3a3a3a;
+}
+
+/* =========================
    ESTILOS GENERALES
 ========================= */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #f7f7f7;
-  color: #222;
+  color: var(--gris-texto);
+
+  background: linear-gradient(
+    180deg,
+    var(--rosa-muy-claro) 0%,
+    #ffffff 45%
+  );
 }
 
 /* =========================
@@ -41,18 +57,18 @@ h1 {
 
 .btn-tienda {
   background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 12px;
+  border: 1.5px solid var(--rosa-base);
+  border-radius: 14px;
   padding: 15px 25px;
   cursor: pointer;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  box-shadow: 0 4px 12px rgba(234, 137, 154, 0.25);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .btn-tienda:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,.2);
+  box-shadow: 0 8px 24px rgba(234, 137, 154, 0.35);
 }
 
 .btn-tienda img {
@@ -65,6 +81,72 @@ h1 {
 .btn-tienda span {
   font-weight: 600;
   font-size: 1rem;
+  color: var(--rosa-oscuro);
+}
+
+/* =========================
+   FILTROS
+========================= */
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 18px;
+  max-width: 1200px;
+  box-shadow: 0 6px 20px rgba(234, 137, 154, 0.25);
+  align-items: center;
+  justify-content: center;
+}
+
+.filtro-grupo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filtro-grupo span {
+  font-weight: 600;
+  color: var(--gris-texto);
+}
+
+/* Chips / botones de filtro */
+.filtro-btn {
+  border: 1.5px solid var(--rosa-base);
+  background: white;
+  color: var(--rosa-oscuro);
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.filtro-btn:hover {
+  background: var(--rosa-muy-claro);
+}
+
+.filtro-btn.activo {
+  background: var(--rosa-base);
+  color: white;
+}
+
+/* Botón limpiar filtros */
+.btn-limpiar {
+  background: var(--rosa-oscuro);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 14px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.btn-limpiar:hover {
+  background: #c85f72;
 }
 
 /* =========================
@@ -84,14 +166,15 @@ h1 {
 ========================= */
 .card {
   background: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(234, 137, 154, 0.15);
   overflow: hidden;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
   transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(234, 137, 154, 0.25);
 }
 
 /* Imagen dentro de la tarjeta */
@@ -101,7 +184,7 @@ h1 {
   display: block;
 }
 
-/* Texto de la tarjeta */
+/* Texto dentro de la tarjeta */
 .info {
   padding: 15px;
 }
@@ -109,10 +192,11 @@ h1 {
 .info h3 {
   margin: 0 0 5px;
   font-size: 1rem;
+  color: var(--gris-texto);
 }
 
 .info p {
   margin: 0;
   font-size: 0.9rem;
-  color: #555;
+  color: #777;
 }
