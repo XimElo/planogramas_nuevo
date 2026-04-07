@@ -4,88 +4,32 @@
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <title>Catálogo de Exhibidores</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <link rel="stylesheetody>
 
 <header>
   <h1>Catálogo de Exhibidores</h1>
   <p class="sub">Consulta rápida de exhibidores por tienda</p>
 
-  <!-- BOTONES DE TIENDA -->
   <div class="tiendas">
     <button class="btn-tienda" onclick="cargar('oxxo')">
-      <img src="img/logo/oxxo.png" alt="OXXO">
       <span>OXXO</span>
     </button>
-
     <button class="btn-tienda" onclick="cargar('711')">
-      <img src="img/logo/711.png" alt="7-Eleven">
-      <span>7-Eleven</span>
+      <span>7‑Eleven</span>
     </button>
-
     <button class="btn-tienda" onclick="cargar('cck')">
-      <img src="img/logo/ckk.png" alt="CCK">
       <span>CCK</span>
     </button>
   </div>
 </header>
 
-<!-- BUSCADOR -->
-<div class="buscador">
-  <input
-    type="text"
-    id="busqueda"
-    placeholder="Buscar por nombre o código…"
-    oninput="aplicarFiltros()"
-  />
-</div>
-
-<!-- FILTROS -->
-<div class="filtros">
-
-  <div class="filtro-grupo">
-    <span>Familia:</span>
-    <button class="filtro-btn" onclick="toggleFiltro('familia','HTU')">HTU</button>
-    <button class="filtro-btn" onclick="toggleFiltro('familia','ZYN')">ZYN</button>
-  </div>
-
-  <div class="filtro-grupo">
-    <span>Tipo:</span>
-    <button class="filtro-btn" onclick="toggleFiltro('tipo','Header')">Header</button>
-    <button class="filtro-btn" onclick="toggleFiltro('tipo','NoHeader')">No Header</button>
-  </div>
-
-  <div class="filtro-grupo">
-    <span>Charolas:</span>
-    <button class="filtro-btn" onclick="toggleFiltro('charolas',4)">4</button>
-    <button class="filtro-btn" onclick="toggleFiltro('charolas',5)">5</button>
-  </div>
-
-  <button class="btn-limpiar" onclick="limpiarFiltros()">Limpiar filtros</button>
-</div>
-
-<!-- GRID -->
 <main id="contenedor" class="grid"></main>
 
 <script>
-  /* =========================
-     VARIABLES GLOBALES
-  ========================= */
   let todosLosItems = [];
-  let filtrosActivos = {};
 
-  /* =========================
-     CARGA DE DATOS + TIENDA ACTIVA
-  ========================= */
   async function cargar(tienda) {
-    document.querySelectorAll(".btn-tienda").forEach(btn =>
-      btn.classList.remove("activo")
-    );
-
-    document
-      .querySelector(`.btn-tienda[onclick="cargar('${tienda}')"]`)
-      .classList.add("activo");
+    console.log("Cargando tienda:", tienda);
 
     const cont = document.getElementById("contenedor");
     cont.innerHTML = "Cargando...";
@@ -93,78 +37,28 @@
     try {
       const respuesta = await fetch(`data/${tienda}.json`);
       todosLosItems = await respuesta.json();
-      aplicarFiltros();
+
+      cont.innerHTML = "";
+
+      todosLosItems.forEach(item => {
+        cont.innerHTML += `
+          <div class="card">
+            <img src="${item.imagen}" alt="${item.nombre>
+              <h3>${item.nombre}</h3>
+              <p>${item.codigo}</p>
+            </div>
+          </div>
+        `;
+      });
+
+      console.log("Items cargados:", todosLosItems.length);
     } catch (error) {
-      console.error(error);
+      console.error("Error al cargar:", error);
       cont.innerHTML = "Error al cargar los datos";
     }
   }
 
-  /* =========================
-     FILTROS + BUSCADOR
-  ========================= */
-  function aplicarFiltros() {
-    const cont = document.getElementById("contenedor");
-    cont.innerHTML = "";
-
-    const texto = document
-      .getElementById("busqueda")
-      .value
-      .toLowerCase();
-
-    const filtrados = todosLosItems.filter(item => {
-      const pasaFiltros = Object.keys(filtrosActivos).every(campo =>
-        item[campo] === filtrosActivos[campo]
-      );
-
-      const pasaBusqueda =
-        item.nombre.toLowerCase().includes(texto) ||
-        item.codigo.toLowerCase().includes(texto);
-
-      return pasaFiltros && pasaBusqueda;
-    });
-
-    if (filtrados.length === 0) {
-      cont.innerHTML = "<p>No se encontraron resultados</p>";
-      return;
-    }
-
-    filtrados.forEach(item => {
-      cont.innerHTML += `
-        <div class="card">
-          <img src="${item.imagen}" alt="${item/div>
-      `;
-    });
-  }
-
-  function toggleFiltro(campo, valor) {
-    if (filtrosActivos[campo] === valor) {
-      delete filtrosActivos[campo];
-    } else {
-      filtrosActivos[campo] = valor;
-    }
-    actualizarBotones();
-    aplicarFiltros();
-  }
-
-  function limpiarFiltros() {
-    filtrosActivos = {};
-    actualizarBotones();
-    aplicarFiltros();
-  }
-
-  function actualizarBotones() {
-    document.querySelectorAll(".filtro-btn").forEach(btn => {
-      btn.classList.remove("activo");
-      Object.values(filtrosActivos).forEach(v => {
-        if (btn.textContent == v) btn.classList.add("activo");
-      });
-    });
-  }
-
-  /* =========================
-     CARGA INICIAL
-  ========================= */
+  // Carga inicial
   cargar("oxxo");
 </script>
 
