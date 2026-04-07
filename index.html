@@ -1,65 +1,146 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow" />
   <title>Catálogo de Exhibidores</title>
-  <link rel="stylesheetody>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
+<!-- ====== HEADER / SELECCIÓN DE TIENDA ====== -->
 <header>
   <h1>Catálogo de Exhibidores</h1>
   <p class="sub">Consulta rápida de exhibidores por tienda</p>
 
   <div class="tiendas">
-    <button class="btn-tienda" onclick="cargar('oxxo')">
-      <span>OXXO</span>
-    </button>
-    <button class="btn-tienda" onclick="cargar('711')">
-      <span>7‑Eleven</span>
-    </button>
-    <button class="btn-tienda" onclick="cargar('ckk')">
-      <span>CCK</span>
-    </button>
+    <button class="btn-tienda" onclick="seleccionarTienda('oxxo')">OXXO</button>
+    <button class="btn-tienda" onclick="seleccionarTienda('711')">7‑Eleven</button>
+    <button class="btn-tienda" onclick="seleccionarTienda('cck')">CCK</button>
   </div>
 </header>
 
+<!-- ====== BUSCADOR ====== -->
+<div class="buscador" id="buscador" style="display:none;">
+  <input
+    type="text"
+    placeholder="Buscar por nombre o código…"
+    oninput="aplicarFiltros()"
+    id="inputBusqueda"
+  />
+</div>
+
+<!-- ====== FILTROS ====== -->
+<div class="filtros" id="filtros" style="display:none;">
+  <div class="filtro-grupo">
+    <span>Familia:</span>
+    <button class="filtro-btn" onclick="toggleFiltro('familia','HTU')">HTU</button>
+    <button class="filtro-btn" onclick="toggleFiltro('familia','ZYN')">ZYN</button>
+  </div>
+
+  <div class="filtro-grupo">
+    <span>Tipo:</span>
+    <button class="filtro-btn" onclick="toggleFiltro('tipo','Header')">Header</button>
+    <button class="filtro-btn" onclick="toggleFiltro('tipo','NoHeader')">No Header</button>
+  </div>
+
+  <div class="filtro-grupo">
+    <span>Charolas:</span>
+    <button class="filtro-btn" onclick="toggleFiltro('charolas',4)">4</button>
+    <button class="filtro-btn" onclick="toggleFiltro('charolas',5)">5</button>
+  </div>
+
+  <button class="btn-limpiar" onclick="limpiarFiltros()">Limpiar filtros</button>
+</div>
+
+<!-- ====== CATÁLOGO ====== -->
 <main id="contenedor" class="grid"></main>
 
 <script>
-  let todosLosItems = [];
+/* ====== ESTADO GLOBAL (COMO EN EL CÓDIGO QUE SÍ FUNCIONA) ====== */
+let todosLosItems = [];
+let itemsVisibles = [];
+let filtrosActivos = {};
 
-  async function cargar(tienda) {
-    console.log("Cargando tienda:", tienda);
+/* ====== CARGA DE TIENDA ====== */
+async function seleccionarTienda(tienda) {
+  // UI
+  document.getElementById("buscador").style.display = "flex";
+  document.getElementById("filtros").style.display = "flex";
 
-    const cont = document.getElementById("contenedor");
-    cont.innerHTML = "Cargando...";
+  document.querySelectorAll(".btn-tienda").forEach(b => b.classList.remove("activo"));
+  event.target.classList.add("activo");
 
-    try {
-      const respuesta = await fetch(`data/${tienda}.json`);
-      todosLosItems = await respuesta.json();
+  // reset estado
+  filtrosActivos = {};
+  document.querySelectorAll(".filtro-btn").forEach(b => b.classList.remove("activo"));
+  document.getElementById("inputBusqueda").value = "";
 
-      cont.innerHTML = "";
+  // cargar data
+  const respuesta = await fetch(`data/${tienda}.json`);
+  todosLosItems = await respuesta.json();
+  itemsVisibles = [...todosLosItems];
 
-      todosLosItems.forEach(item => {
-        cont.innerHTML += `
-          <div class="card">
-            <img src="${item.imagen}" alt="${item.nombre>
-              <h3>${item.nombre}</h3>
-              <p>${item.codigo}</p>
-            </div>
-          </div>
-        `;
-      });
+  render();
+}
 
-      console.log("Items cargados:", todosLosItems.length);
-    } catch (error) {
-      console.error("Error al cargar:", error);
-      cont.innerHTML = "Error al cargar los datos";
-    }
+/* ====== FILTROS ====== */
+function toggleFiltro(campo, valor) {
+  if (filtrosActivos[campo] === valor) {
+    delete filtrosActivos[campo];
+    event.target.classList.remove("activo");
+  } else {
+    filtrosActivos[campo] = valor;
+    event.target.classList.add("activo");
+  }
+  aplicarFiltros();
+}
+
+function limpiarFiltros() {
+  filtrosActivos = {};
+  document.querySelectorAll(".filtro-btn").forEach(b => b.classList.remove("activo"));
+  aplicarFiltros();
+}
+
+function aplicarFiltros() {
+  const texto = document.getElementById("inputBusqueda").value.toLowerCase();
+
+  itemsVisibles = todosLosItems.filter(item => {
+    const pasaFiltros = Object.keys(filtrosActivos).every(c =>
+      item[c] === filtrosActivos[c]
+    );
+
+    const pasaBusqueda =
+      item.nombre.toLowerCase().includes(texto) ||
+      item.codigo.toLowerCase().includes(texto);
+
+    return pasaFiltros && pasaBusqueda;
+  });
+
+  render();
+}
+
+/* ====== RENDER CENTRAL (CLAVE) ====== */
+function render() {
+  const cont = document.getElementById("contenedor");
+  cont.innerHTML = "";
+
+  if (itemsVisibles.length === 0) {
+    cont.innerHTML = "<p>No se encontraron resultados</p>";
+    return;
   }
 
-  // Carga inicial
-  cargar("oxxo");
+  itemsVisibles.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <img src="${item.imagen}".nombre}</h3>
+        <p>${item.codigo}</p>
+      </div>
+    `;
+    cont.appendChild(card);
+  });
+}
 </script>
 
 </body>
