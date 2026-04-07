@@ -30,7 +30,29 @@
   </button>
 </div>
 
+<div class="filtros">
 
+  <div class="filtro-grupo">
+    <span>Familia:</span>
+    <button class="filtro-btn" onclick="toggleFiltro('familia','HTU')">HTU</button>
+    <button class="filtro-btn" onclick="toggleFiltro('familia','ZYN')">ZYN</button>
+  </div>
+
+  <div class="filtro-grupo">
+    <span>Tipo:</span>
+    <button class="filtro-btn" onclick="toggleFiltro('tipo','Backwall')">Backwall</button>
+  </div>
+
+  <div class="filtro-grupo">
+    <span>Charolas:</span>
+    <button class="filtro-btn" onclick="toggleFiltro('charolas',4)">4</button>
+    <button class="filtro-btn" onclick="toggleFiltro('charolas',5)">5</button>
+    <button class="filtro-btn" onclick="toggleFiltro('charolas',3)">3</button>
+  </div>
+
+  <button class="btn-limpiar" onclick="limpiarFiltros()">Limpiar filtros</button>
+
+</div>
 
 <main id="contenedor" class="grid"></main>
 
