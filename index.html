@@ -12,24 +12,26 @@
   <h1>Catálogo de Exhibidores</h1>
   <p class="sub">Consulta rápida de exhibidores por tienda</p>
 
-  
-<div class="tiendas">
-  <button class="btn-tienda" onclick="cargar('oxxo')">
-    <img src="img/logo/oxxo.png" alt="OXXO">
-    <span>OXXO</span>
-  </button>
+  <!-- BOTONES DE TIENDA -->
+  <div class="tiendas">
+    <button class="btn-tienda" onclick="cargar('oxxo')">
+      <img src="img/logo/oxxo.png" alt="OXXO">
+      <span>OXXO</span>
+    </button>
 
-  <button class="btn-tienda" onclick="cargar('711')">
-    <img src="img/logo/711.png" alt="7-Eleven">
-    <span>7-Eleven</span>
-  </button>
+    <button class="btn-tienda" onclick="cargar('711')">
+      <img src="img/logo/711.png" alt="7-Eleven">
+      <span>7-Eleven</span>
+    </button>
 
-  <button class="btn-tienda" onclick="cargar('cck')">
-    <img src="img/logo/ckk.png" alt="CCK">
-    <span>CCK</span>
-  </button>
-</div>
+    <button class="btn-tienda" onclick="cargar('cck')">
+      <img src="img/logo/ckk.png" alt="CCK">
+      <span>CCK</span>
+    </button>
+  </div>
+</header>
 
+<!-- FILTROS -->
 <div class="filtros">
 
   <div class="filtro-grupo">
@@ -54,38 +56,84 @@
 
 </div>
 
+<!-- GRID -->
 <main id="contenedor" class="grid"></main>
 
 <script>
+  /* =========================
+     VARIABLES GLOBALES
+  ========================= */
+  let todosLosItems = [];
+  let filtrosActivos = {};
+
+  /* =========================
+     CARGA DE DATOS
+  ========================= */
   async function cargar(tienda) {
     const cont = document.getElementById("contenedor");
     cont.innerHTML = "Cargando...";
 
     try {
       const respuesta = await fetch(`data/${tienda}.json`);
-      const datos = await respuesta.json();
-
-      cont.innerHTML = "";
-
-      datos.forEach(item => {
-        cont.innerHTML += `
-          <div class="card">
-            <img src="${item.imagen}" alt<h3>${item.nombre}</h3>
-              <p>${item.codigo || ""}</p>
-            </div>
-          </div>
-        `;
-      });
-
+      todosLosItems = await respuesta.json();
+      aplicarFiltros();
     } catch (error) {
       console.error(error);
       cont.innerHTML = "Error al cargar los datos";
     }
   }
 
-  document.getElementById("selector")
-    .addEventListener("change", e => cargar(e.target.value));
+  /* =========================
+     FILTROS
+  ========================= */
+  function toggleFiltro(campo, valor) {
+    if (filtrosActivos[campo] === valor) {
+      delete filtrosActivos[campo];
+    } else {
+      filtrosActivos[campo] = valor;
+    }
+    actualizarBotones();
+    aplicarFiltros();
+  }
 
+  function aplicarFiltros() {
+    const cont = document.getElementById("contenedor");
+    cont.innerHTML = "";
+
+    const filtrados = todosLosItems.filter(item =>
+      Object.keys(filtrosActivos).every(campo =>
+        item[campo] === filtrosActivos[campo]
+      )
+    );
+
+    filtrados.forEach(item => {
+      cont.innerHTML += `
+        <div class="card">
+          <img src="${item.imagen}" alt="${item     </div>
+      `;
+    });
+  }
+
+  function limpiarFiltros() {
+    filtrosActivos = {};
+    actualizarBotones();
+    aplicarFiltros();
+  }
+
+  function actualizarBotones() {
+    document.querySelectorAll(".filtro-btn").forEach(btn => {
+      btn.classList.remove("activo");
+      Object.values(filtrosActivos).forEach(valor => {
+        if (btn.textContent == valor) {
+          btn.classList.add("activo");
+        }
+      });
+    });
+  }
+
+  /* =========================
+     CARGA INICIAL
+  ========================= */
   cargar("oxxo");
 </script>
 
