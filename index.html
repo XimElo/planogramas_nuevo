@@ -31,6 +31,16 @@
   </div>
 </header>
 
+<!-- BUSCADOR -->
+<div class="buscador">
+  <input
+    type="text"
+    id="busqueda"
+    placeholder="Buscar por nombre o código…"
+    oninput="aplicarFiltros()"
+  />
+</div>
+
 <!-- FILTROS -->
 <div class="filtros">
 
@@ -42,14 +52,14 @@
 
   <div class="filtro-grupo">
     <span>Tipo:</span>
-    <button class="filtro-btn" onclick="toggleFiltro('tipo','Backwall')">Backwall</button>
+    <button class="filtro-btn" onclick="toggleFiltro('tipo','Header')">Header</button>
+    <button class="filtro-btn" onclick="toggleFiltro('tipo','NoHeader')">No Header</button>
   </div>
 
   <div class="filtro-grupo">
     <span>Charolas:</span>
     <button class="filtro-btn" onclick="toggleFiltro('charolas',4)">4</button>
     <button class="filtro-btn" onclick="toggleFiltro('charolas',5)">5</button>
-    <button class="filtro-btn" onclick="toggleFiltro('charolas',3)">3</button>
   </div>
 
   <button class="btn-limpiar" onclick="limpiarFiltros()">Limpiar filtros</button>
@@ -69,10 +79,9 @@
      CARGA DE DATOS + TIENDA ACTIVA
   ========================= */
   async function cargar(tienda) {
-   
-    document.querySelectorAll(".btn-tienda").forEach(btn => {
-      btn.classList.remove("activo");
-    });
+    document.querySelectorAll(".btn-tienda").forEach(btn =>
+      btn.classList.remove("activo")
+    );
 
     document
       .querySelector(`.btn-tienda[onclick="cargar('${tienda}')"]`)
@@ -92,8 +101,42 @@
   }
 
   /* =========================
-     FILTROS
+     FILTROS + BUSCADOR
   ========================= */
+  function aplicarFiltros() {
+    const cont = document.getElementById("contenedor");
+    cont.innerHTML = "";
+
+    const texto = document
+      .getElementById("busqueda")
+      .value
+      .toLowerCase();
+
+    const filtrados = todosLosItems.filter(item => {
+      const pasaFiltros = Object.keys(filtrosActivos).every(campo =>
+        item[campo] === filtrosActivos[campo]
+      );
+
+      const pasaBusqueda =
+        item.nombre.toLowerCase().includes(texto) ||
+        item.codigo.toLowerCase().includes(texto);
+
+      return pasaFiltros && pasaBusqueda;
+    });
+
+    if (filtrados.length === 0) {
+      cont.innerHTML = "<p>No se encontraron resultados</p>";
+      return;
+    }
+
+    filtrados.forEach(item => {
+      cont.innerHTML += `
+        <div class="card">
+          <img src="${item.imagen}" alt="${item/div>
+      `;
+    });
+  }
+
   function toggleFiltro(campo, valor) {
     if (filtrosActivos[campo] === valor) {
       delete filtrosActivos[campo];
@@ -102,25 +145,6 @@
     }
     actualizarBotones();
     aplicarFiltros();
-  }
-
-  function aplicarFiltros() {
-    const cont = document.getElementById("contenedor");
-    cont.innerHTML = "";
-
-    const filtrados = todosLosItems.filter(item =>
-      Object.keys(filtrosActivos).every(campo =>
-        item[campo] === filtrosActivos[campo]
-      )
-    );
-
-    filtrados.forEach(item => {
-      cont.innerHTML +=tem.nombre}</h3>
-            <p>${item.codigo || ""}</p>
-          </div>
-        </div>
-      `;
-    });
   }
 
   function limpiarFiltros() {
@@ -132,10 +156,8 @@
   function actualizarBotones() {
     document.querySelectorAll(".filtro-btn").forEach(btn => {
       btn.classList.remove("activo");
-      Object.values(filtrosActivos).forEach(valor => {
-        if (btn.textContent == valor) {
-          btn.classList.add("activo");
-        }
+      Object.values(filtrosActivos).forEach(v => {
+        if (btn.textContent == v) btn.classList.add("activo");
       });
     });
   }
