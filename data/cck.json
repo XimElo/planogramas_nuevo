@@ -1,11 +1,114 @@
 [
-
-{
-    "nombre": "ABR26 CKK 2 ft HEADER FAROS+25 LM  HTU ZYN",
-    "codigo": "ABR26_CCK_2_FT_HEADER_FAROS+25_LM--HTU_ZYN",
-    "imagen": "img/ckk/ABR26_CCK_2_FT_HEADER_FAROS+25_LM_HTU_ZYN.jpg"
+  {
+    "nombre": "ABR26 CCK 2 FT Header FAROS +25 LM",
+    "codigo": "ABR26_CCK_2_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_2_FT_HEADER_FAROS+25_LM_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 2
+  },
+  {
+    "nombre": "ABR26 CCK 2 FT Header FAROS +25 LM Reseller",
+    "codigo": "ABR26_CCK_2_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_2_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 2
+  },
+  {
+    "nombre": "ABR26 CCK 3 FT Header FAROS +25 LM CHARHTU",
+    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS+25_LM_CHARHTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_3_FT_HEADER_FAROS+25_LM_CHARHTU_ZYN.jpg",
+    "familia": "CHARHTU_ZYN",
+    "tipo": "Header",
+    "charolas": 3
+  },
+  {
+    "nombre": "ABR26 CCK 3 FT Header FAROS +25 LM",
+    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_3_FT_HEADER_FAROS+25_LM_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 3
+  },
+  {
+    "nombre": "ABR26 CCK 3 FT Header FAROS +25 LM Reseller CHARHTU",
+    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS+25_LM_RESELLER_CHARHTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_3_FT_HEADER_FAROS+25_LM_RESELLER_CHARHTU_ZYN.jpg",
+    "familia": "CHARHTU_ZYN",
+    "tipo": "Header",
+    "charolas": 3
+  },
+  {
+    "nombre": "ABR26 CCK 3 FT Header FAROS +25 LM Reseller",
+    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_3_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 3
+  },
+  {
+    "nombre": "ABR26 CCK 4 FT Header FAROS +25 LM",
+    "codigo": "ABR26_CCK_4_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_4_FT_HEADER_FAROS+25_LM_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 4
+  },
+  {
+    "nombre": "ABR26 CCK 4 FT Header FAROS +25 LM Reseller",
+    "codigo": "ABR26_CCK_4_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_4_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 4
+  },
+  {
+    "nombre": "ABR26 CCK 5 FT Header FAROS +25 LM",
+    "codigo": "ABR26_CCK_5_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_5_FT_HEADER_FAROS+25_LM_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 5
+  },
+  {
+    "nombre": "ABR26 CCK 5 FT Header FAROS +25 LM Reseller",
+    "codigo": "ABR26_CCK_5_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_5_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 5
+  },
+  {
+    "nombre": "ABR26 CCK 6 FT Header FAROS +25 LM",
+    "codigo": "ABR26_CCK_6_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_6_FT_HEADER_FAROS+25_LM_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 6
+  },
+  {
+    "nombre": "ABR26 CCK 6 FT Header FAROS +25 LM Reseller",
+    "codigo": "ABR26_CCK_6_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_6_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 6
+  },
+  {
+    "nombre": "ABR26 CCK 7 FT Header FAROS +25 LM",
+    "codigo": "ABR26_CCK_7_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_7_FT_HEADER_FAROS+25_LM_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 7
+  },
+  {
+    "nombre": "ABR26 CCK 7 FT Header FAROS +25 LM Reseller",
+    "codigo": "ABR26_CCK_7_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/ABR26_CCK_7_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN.jpg",
+    "familia": "HTU_ZYN",
+    "tipo": "Header",
+    "charolas": 7
   }
-
-
-  
 ]
