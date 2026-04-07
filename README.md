@@ -1,48 +1,49 @@
-# planogramas_nuevo
+# Planogramas nuevo
 # Catálogo de Exhibidores — Guía de Actualización
 
 Este catálogo permite consultar los exhibidores de OXXO, 7-Eleven y CCK.
-
 No requiere saber programación. Solo sigue estos pasos:
 
 ---
 
-## 1. Convertir PDF → PNG/JPG
+## Qué SÍ se puede tocar
+- Carpeta `img/`
+- Archivos dentro de `data/`
 
-
----
-
-## 2. Subir imágenes
-Ir a la carpeta correspondiente:
-
-/img/oxxo/
-/img/711/
-/img/cck/
-
-Clic en **Upload files** y subir las imágenes nuevas.
+## Qué NO se debe tocar
+- index.html
+- styles.css
+- robots.txt
 
 ---
 
-## 3. Editar el JSON
+## Cómo agregar un exhibidor nuevo
 
-Ejemplo:
+### 1. Convertir PDF a JPG
+Nombre del archivo:
+ABR26_OXXO_4_CHAR_HEADER.jpg
+
+---
+
+### 2. Subir la imagen
+- Ir a `img/oxxo/` (o la tienda correcta)
+- Subir el archivo
+
+---
+
+### 3. Editar el JSON
+- Abrir `data/oxxo.json`
+- Copiar el último bloque
+- Pegar debajo
+- Cambiar los valores:
 
 ```json
 {
-  "nombre": "Exhibidor Cabecera 5",
-  "codigo": "OXXO_5_HEADER",
-  "imagen": "img/oxxo/OXXO_5_HEADER.png"
+  "nombre": "ABR26 OXXO 4 CHAR HEADER",
+  "codigo": "ABR26_OXXO_4_CHAR_HEADER",
+  "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER.jpg"
 }
-```
 
-Agregar al archivo de la tienda:
 
-data/oxxo.json
-data/711.json
-data/cck.json
 
-Guardar
 
----
-
-## 4. Listo!
