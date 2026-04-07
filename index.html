@@ -1,36 +1,58 @@
 <!DOCTYPE html>
-<html lang='es'>
+<html lang="es">
 <head>
-<meta charset='UTF-8'>
-<meta name='robots' content='noindex, nofollow'>
-<title>Catálogo de Exhibidores</title>
-<link rel='stylesheet' href='styles.css'>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Catálogo de Exhibidores</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <header>
-<h1>Catálogo de Exhibidores</h1>
-<p class='sub'>Consulta rápida de exhibidores por tienda</p>
-<select id='selector'>
-<option value='oxxo'>OXXO</option>
-<option value='711'>7-Eleven</option>
-<option value='cck'>CCK</option>
-</select>
+  <h1>Catálogo de Exhibidores</h1>
+  <p class="sub">Consulta rápida de exhibidores por tienda</p>
+
+  <select id="selector">
+    <option value="oxxo">OXXO</option>
+    <option value="711">7-Eleven</option>
+    <option value="cck">CCK</option>
+  </select>
 </header>
-<main id='contenedor' class='grid'></main>
+
+<main id="contenedor" class="grid"></main>
+
 <script>
-async function cargar(tienda){
- const cont=document.getElementById('contenedor');
- cont.innerHTML='Cargando...';
- try{
-  const respuesta = await fetch(`data/${tienda}.json`);
-  const datos=await resp.json();
-  cont.innerHTML='';
-  datos.forEach(item=>{
-   cont.innerHTML+=`<div class='card'><img src='${item.imagen}'><div class='info'><h3>${item.nombre}</h3><p>${item.codigo||''}</p></div></div>`;
-  });
- }catch(e){cont.innerHTML='Error al cargar los datos';}
-}
-document.getElementById('selector').addEventListener('change',e=>cargar(e.target.value));
-cargar('oxxo');
+  async function cargar(tienda) {
+    const cont = document.getElementById("contenedor");
+    cont.innerHTML = "Cargando...";
+
+    try {
+      const respuesta = await fetch(`data/${tienda}.json`);
+      const datos = await respuesta.json();
+
+      cont.innerHTML = "";
+
+      datos.forEach(item => {
+        cont.innerHTML += `
+          <div class="card">
+            <img src="${item.imagen}" alt<h3>${item.nombre}</h3>
+              <p>${item.codigo || ""}</p>
+            </div>
+          </div>
+        `;
+      });
+
+    } catch (error) {
+      console.error(error);
+      cont.innerHTML = "Error al cargar los datos";
+    }
+  }
+
+  document.getElementById("selector")
+    .addEventListener("change", e => cargar(e.target.value));
+
+  cargar("oxxo");
 </script>
-</body></html>
+
+</body>
+</html>
