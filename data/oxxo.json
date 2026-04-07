@@ -1,4 +1,5 @@
 [
+  /* ========= 4 CHAR HEADER ========= */
   {
     "nombre": "ABR26 OXXO 4 Char Header",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER",
@@ -32,6 +33,7 @@
     "charolas": 4
   },
 
+  /* ========= 4 CHAR NO HEADER ========= */
   {
     "nombre": "ABR26 OXXO 4 Char No Header",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER",
@@ -65,6 +67,7 @@
     "charolas": 4
   },
 
+  /* ========= 5 CHAR HEADER ========= */
   {
     "nombre": "ABR26 OXXO 5 Char Header",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER",
@@ -96,38 +99,7 @@
     "familia": "ZYN",
     "tipo": "Header",
     "charolas": 5
-  },
-
-  {
-    "nombre": "ABR26 OXXO 5 Char No Header",
-    "codigo": "ABR26_OXXO_5_CHAR_NOHEADER",
-    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER.jpg",
-    "familia": "GENERAL",
-    "tipo": "NoHeader",
-    "charolas": 5
-  },
-  {
-    "nombre": "ABR26 OXXO 5 Char No Header HTU",
-    "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_HTU",
-    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_HTU.jpg",
-    "familia": "HTU",
-    "tipo": "NoHeader",
-    "charolas": 5
-  },
-  {
-    "nombre": "ABR26 OXXO 5 Char No Header HTU ZYN",
-    "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_HTU_ZYN",
-    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_HTU_ZYN.jpg",
-    "familia": "HTU_ZYN",
-    "tipo": "NoHeader",
-    "charolas": 5
-  },
-  {
-    "nombre": "ABR26 OXXO 5 Char No Header ZYN",
-    "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_ZYN",
-    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_ZYN.jpg",
-    "familia": "ZYN",
-    "tipo": "NoHeader",
-    "charolas": 5
   }
+
+ 
 ]
