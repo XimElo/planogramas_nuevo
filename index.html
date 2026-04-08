@@ -27,7 +27,7 @@
   <span>7‑Eleven</span>
 </button>
 
-<button class="btn-tienda" onclick="abrirTienda('cck', this)">
+<button class="btn-tienda" onclick="abrirTienda('ckk', this)">
   <img src="img/logo/ckk.png" alt="CCK">
   <span>CCK</span>
 </button>
@@ -175,6 +175,7 @@ function generarFiltrosPorTienda(tienda) {
         <span>Familia:</span>
         <button onclick="setFiltro('familia','HTU')">HTU</button>
         <button onclick="setFiltro('familia','ZYN')">ZYN</button>
+        <button onclick="setFiltro('familia','NA')">NA</button>
       </div>
       <div class="filtro-grupo">
         <span>Header:</span>
@@ -185,6 +186,15 @@ function generarFiltrosPorTienda(tienda) {
         <span>Charolas:</span>
         <button onclick="setFiltro('charolas',4)">4</button>
         <button onclick="setFiltro('charolas',5)">5</button>
+      </div>
+      <div class="filtro-grupo">
+        <span>Tipo de Charola:</span>
+        <button onclick="setFiltro('Charola','CHARHTU')">HTU</button>
+        <button onclick="setFiltro('Charola','CHARHTU_ZYN')">HTU_ZYN</button>
+        <button onclick="setFiltro('Charola','CHARHTU_ZYN_CHARZYN')">HTU_ZYN_CHARZYN</button>
+        <button onclick="setFiltro('Charola','CHARHTU_ZYN_CHARZYN25')">HTU_ZYN_CHARZYN25</button>
+        <button onclick="setFiltro('Charola','CHARZYN')">CHARZYN</button>
+        <button onclick="setFiltro('Charola','CHARZYN25')">CHARZYN25</button>
       </div>
     `;
   }
