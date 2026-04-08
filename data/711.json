@@ -3,64 +3,64 @@
     "nombre": "ABR26 7-Eleven 120",
     "codigo": "ABR26_711_120",
     "imagen": "img/711/ABR26_711_120.jpg",
-    "familia": "GENERAL",
+    "familia": "NA",
     "tipo": "Backwall",
-    "charolas": 0
+    "charolas": 7
   },
   {
     "nombre": "ABR26 7-Eleven 120 Reseller",
     "codigo": "ABR26_711_120_RESELLER",
     "imagen": "img/711/ABR26_711_120_RESELLER.jpg",
-    "familia": "GENERAL",
+    "familia": "Reseller",
     "tipo": "Backwall",
-    "charolas": 0
+    "charolas": 7
   },
   {
     "nombre": "ABR26 7-Eleven 151",
     "codigo": "ABR26_711_151",
     "imagen": "img/711/ABR26_711_151.jpg",
-    "familia": "GENERAL",
+    "familia": "NA",
     "tipo": "Backwall",
-    "charolas": 0
+    "charolas": 7
   },
   {
     "nombre": "ABR26 7-Eleven 151 Reseller",
     "codigo": "ABR26_711_151_RESELLER",
     "imagen": "img/711/ABR26_711_151_RESELLER.jpg",
-    "familia": "GENERAL",
+    "familia": "Reseller",
     "tipo": "Backwall",
-    "charolas": 0
+    "charolas": 7
   },
   {
     "nombre": "ABR26 7-Eleven 183",
     "codigo": "ABR26_711_183",
     "imagen": "img/711/ABR26_711_183.jpg",
-    "familia": "GENERAL",
+    "familia": "NA",
     "tipo": "Backwall",
-    "charolas": 0
+    "charolas": 7
   },
   {
     "nombre": "ABR26 7-Eleven 183 Reseller",
     "codigo": "ABR26_711_183_RESELLER",
     "imagen": "img/711/ABR26_711_183_RESELLER.jpg",
-    "familia": "GENERAL",
+    "familia": "Reseller",
     "tipo": "Backwall",
-    "charolas": 0
+    "charolas": 7
   },
   {
     "nombre": "ABR26 7-Eleven 193",
     "codigo": "ABR26_711_193",
     "imagen": "img/711/ABR26_711_193.jpg",
-    "familia": "GENERAL",
+    "familia": "NA",
     "tipo": "Backwall",
-    "charolas": 0
+    "charolas": 7
   },
   {
     "nombre": "ABR26 7-Eleven 193 Reseller",
     "codigo": "ABR26_711_193_RESELLER",
     "imagen": "img/711/ABR26_711_193_RESELLER.jpg",
-    "familia": "GENERAL",
+    "familia": "Reseller",
     "tipo": "Backwall",
-    "charolas": 0
+    "charolas": 7
   }
 ]
