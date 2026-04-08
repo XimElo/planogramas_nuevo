@@ -284,3 +284,26 @@ h1 {
   word-break: break-all;
 }
 
+/* ===== Mejora visual botones tienda ===== */
+.btn-tienda {
+  width: 160px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-tienda img {
+  width: 90px;
+  height: auto;
+}
+
+.btn-tienda span {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+
+
