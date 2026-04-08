@@ -125,9 +125,12 @@ function aplicarFiltros() {
   const texto = document.getElementById("inputBusqueda").value.toLowerCase();
 
   visibles = todos.filter(item => {
-    const matchFiltros = Object
-      .keys(filtrosActivos)
-      .every(k => item[k] === filtrosActivos[k]);
+    const matchFiltros = Object.keys(filtrosActivos).every(key => {
+  if (Array.isArray(item[key])) {
+    return item[key].includes(filtrosActivos[key]);
+  }
+  return item[key] === filtrosActivos[key];
+});
 
     const matchTexto =
       item.nombre.toLowerCase().includes(texto) ||
