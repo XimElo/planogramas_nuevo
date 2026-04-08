@@ -257,4 +257,30 @@ h1 {
   margin-top: 40px;
 }
 
+/* ===== Ajustes finos de tarjetas ===== */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  max-height: 180px;
+  object-fit: contain;
+  background: #fff;
+  padding: 10px;
+}
+
+.info h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.info p {
+  font-size: 0.8rem;
+  color: var(--rosa-oscuro);
+  word-break: break-all;
+}
 
