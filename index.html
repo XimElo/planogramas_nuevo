@@ -4,11 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow" />
   <title>Catálogo de Exhibidores</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-
-<!-- ========================
+  <link rel="stylesheet" href="styles.css=================
      VISTA HOME
 ======================== -->
 <div id="homeView">
@@ -18,18 +14,15 @@
 
     <div class="tiendas">
       <button class="btn-tienda" onclick="abrirTienda('oxxo', this)">
-        <img src="img/logo/oxxo.png" alt="OXXO">
-        <span>OXXO</span>
+        <img src="img/logo/oxxo.pngspan>OXXO</span>
       </button>
 
       <button class="btn-tienda" onclick="abrirTienda('711', this)">
-        <img src="img/logo/711.png" alt="7‑Eleven">
-        <span>7‑Eleven</span>
+        <img src="img/logo/711.png" alt="7leven</span>
       </button>
 
       <button class="btn-tienda" onclick="abrirTienda('cck', this)">
-        <img src="img/logo/ckk.png" alt="CCK">
-        <span>CCK</span>
+        <img src="img/logo/ckk.png" alt="CCKspan>
       </button>
     </div>
   </header>
@@ -40,14 +33,12 @@
 ======================== -->
 <div id="catalogoView" style="display:none;">
 
-  <!-- Barra superior -->
   <div class="top-bar">
     <button onclick="volverInicio()">← Volver</button>
     <span>Items: <strong id="contador">0</strong></span>
     <button onclick="limpiarFiltros()">Limpiar filtros</button>
   </div>
 
-  <!-- Buscador -->
   <div class="buscador">
     <input
       type="text"
@@ -57,10 +48,8 @@
     />
   </div>
 
-  <!-- Filtros -->
   <div class="filtros" id="filtros"></div>
 
-  <!-- Grid -->
   <main id="contenedor" class="grid"></main>
 </div>
 
@@ -126,15 +115,15 @@ function aplicarFiltros() {
 
   visibles = todos.filter(item => {
     const matchFiltros = Object.keys(filtrosActivos).every(key => {
-  if (Array.isArray(item[key])) {
-    return item[key].includes(filtrosActivos[key]);
-  }
-  return item[key] === filtrosActivos[key];
-});
+      if (Array.isArray(item[key])) {
+        return item[key].includes(filtrosActivos[key]);
+      }
+      return item[key] === filtrosActivos[key];
+    });
 
     const matchTexto =
-      item.nombre.toLowerCase().includes(texto) ||
-      item.codigo.toLowerCase().includes(texto);
+      (item.nombre && item.nombre.toLowerCase().includes(texto)) ||
+      (item.codigo && item.codigo.toLowerCase().includes(texto));
 
     return matchFiltros && matchTexto;
   });
@@ -159,7 +148,11 @@ function render() {
   visibles.forEach(item => {
     const card = document.createElement("div");
     card.className = "card";
-    card.innerHTMLgo}</p>
+    card.innerHTML = `
+      ${item.imagen}
+      <div class="info">
+        <h3>${item.nombre}</h3>
+        <p>${item.codigo}</p>
       </div>
     `;
     cont.appendChild(card);
@@ -173,40 +166,35 @@ function generarFiltrosPorTienda(tienda) {
   const f = document.getElementById("filtros");
   f.innerHTML = "";
 
-if (tienda === "oxxo") {
-  f.innerHTML = `
-    <div class="filtro-grupo">
-      <span>Familia:</span>
-      <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">HTU</button>
-      <button class="filtro-btn" onclick="setFiltro('familia','ZYN',this)">ZYN</button>
-      <button class="filtro-btn" onclick="setFiltro('familia','NA',this)">NA</button>
-    </div>
+  if (tienda === "oxxo") {
+    f.innerHTML = `
+      <div class="filtro-grupo">
+        <span>Familia:</span>
+        <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">HTU</button>
+        <button class="filtro-btn" onclick="setFiltro('familia','ZYN',this)">ZYN</button>
+        <button class="filtro-btn" onclick="setFiltro('familia','NA',this)">NA</button>
+      </div>
 
-    <div class="filtro-grupo">
-      <span>Header:</span>
-      <button class="filtro-btn" onclick="setFiltro('header','HEADER',this)">Header</button>
-      <button class="filtro-btn" onclick="setFiltro('header','NOHEADER',this)">No Header</button>
-    </div>
+      <div class="filtro-grupo">
+        <span>Header:</span>
+        <button class="filtro-btn" onclick="setFiltro('header','HEADER',this)">Header</button>
+        <button class="filtro-btn" onclick="setFiltro('header','NOHEADER',this)">No Header</button>
+      </div>
 
-    <div class="filtro-grupo">
-      <span>Charolas:</span>
-      <button class="filtro-btn" onclick="setFiltro('charolas',4,this)">4</button>
-      <button class="filtro-btn" onclick="setFiltro('charolas',5,this)">5</button>
-    </div>
+      <div class="filtro-grupo">
+        <span>Charolas:</span>
+        <button class="filtro-btn" onclick="setFiltro('charolas',4,this)">4</button>
+        <button class="filtro-btn" onclick="setFiltro('charolas',5,this)">5</button>
+      </div>
 
-    <div class="filtro-grupo">
-      <span>Tipo de Charola:</span>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU',this)">HTU</button>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU_ZYN',this)">HTU_ZYN</button>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU_ZYN_CHARZYN',this)">HTU_ZYN_CHARZYN</button>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU_ZYN_CHARZYN25',this)">HTU_ZYN_CHARZYN25</button>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARZYN',this)">CHARZYN</button>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARZYN25',this)">CHARZYN25</button>
-    </div>
-  `;
-}
-
-
+      <div class="filtro-grupo">
+        <span>Tipo de Charola:</span>
+        <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU',this)">HTU</button>
+        <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU_ZYN',this)">HTU_ZYN</button>
+        <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARZYN',this)">CHARZYN</button>
+      </div>
+    `;
+  }
 
   if (tienda === "cck") {
     f.innerHTML = `
