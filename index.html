@@ -152,12 +152,13 @@ function render() {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
-  ${item.imagen}
+  <img src="${item.imagen}" alt="${item.nombre}">
   <div class="info">
     <h3>${item.nombre}</h3>
     <p>${item.codigo}</p>
   </div>
-    `;
+`;
+
     cont.appendChild(card);
   });
 }
@@ -192,7 +193,6 @@ function generarFiltrosPorTienda(tienda) {
     filtros.innerHTML = `
       <div class="filtro-grupo">
         <span>Familia:</span>
-        <button onclick="setFiltro('familia','FAROS')">Faros</button>
         <button onclick="setFiltro('familia','HTU')">HTU</button>
         <button onclick="setFiltro('familia','ZYN')">ZYN</button>
         <button onclick="setFiltro('familia','RESELLER')">Reseller</button>
