@@ -18,19 +18,19 @@
 
     <div class="tiendas">
       <button class="btn-tienda" onclick="abrirTienda('oxxo', this)">
-  <img src="img/logo/oxxo.png" alt="OXXO">
-  <span>OXXO</span>
-</button>
+        <img src="img/logo/oxxo.png" alt="OXXO">
+        <span>OXXO</span>
+      </button>
 
-<button class="btn-tienda" onclick="abrirTienda('711', this)">
-  <img src="img/logo/711.png" alt="7‑Eleven">
-  <span>7‑Eleven</span>
-</button>
+      <button class="btn-tienda" onclick="abrirTienda('711', this)">
+        <img src="img/logo/711.png" alt="7‑Eleven">
+        <span>7‑Eleven</span>
+      </button>
 
-<button class="btn-tienda" onclick="abrirTienda('ckk', this)">
-  <img src="img/logo/ckk.png" alt="CCK">
-  <span>CCK</span>
-</button>
+      <button class="btn-tienda" onclick="abrirTienda('cck', this)">
+        <img src="img/logo/ckk.png" alt="CCK">
+        <span>CCK</span>
+      </button>
     </div>
   </header>
 </div>
@@ -57,7 +57,7 @@
     />
   </div>
 
-  <!-- Filtros (se llenarán según tienda) -->
+  <!-- Filtros -->
   <div class="filtros" id="filtros"></div>
 
   <!-- Grid -->
@@ -71,7 +71,6 @@
 let todos = [];
 let visibles = [];
 let filtrosActivos = {};
-let tiendaActual = "";
 
 /* ========================
    ABRIR TIENDA
@@ -80,11 +79,9 @@ async function abrirTienda(tienda, btn) {
   document.getElementById("homeView").style.display = "none";
   document.getElementById("catalogoView").style.display = "block";
 
-  // activar botón
   document.querySelectorAll(".btn-tienda").forEach(b => b.classList.remove("activo"));
   btn.classList.add("activo");
 
-  // reset estado
   filtrosActivos = {};
   document.getElementById("inputBusqueda").value = "";
 
@@ -95,6 +92,7 @@ async function abrirTienda(tienda, btn) {
   generarFiltrosPorTienda(tienda);
   render();
 }
+
 /* ========================
    VOLVER
 ======================== */
@@ -106,13 +104,20 @@ function volverInicio() {
 /* ========================
    FILTROS
 ======================== */
-function setFiltro(campo, valor) {
+function setFiltro(campo, valor, btn) {
   filtrosActivos[campo] = valor;
+
+  btn.parentElement.querySelectorAll(".filtro-btn")
+    .forEach(b => b.classList.remove("activo"));
+  btn.classList.add("activo");
+
   aplicarFiltros();
 }
 
 function limpiarFiltros() {
   filtrosActivos = {};
+  document.querySelectorAll(".filtro-btn")
+    .forEach(b => b.classList.remove("activo"));
   aplicarFiltros();
 }
 
@@ -120,9 +125,9 @@ function aplicarFiltros() {
   const texto = document.getElementById("inputBusqueda").value.toLowerCase();
 
   visibles = todos.filter(item => {
-    const matchFiltros = Object.keys(filtrosActivos).every(key =>
-      item[key] === filtrosActivos[key]
-    );
+    const matchFiltros = Object
+      .keys(filtrosActivos)
+      .every(k => item[k] === filtrosActivos[k]);
 
     const matchTexto =
       item.nombre.toLowerCase().includes(texto) ||
@@ -151,80 +156,67 @@ function render() {
   visibles.forEach(item => {
     const card = document.createElement("div");
     card.className = "card";
-    card.innerHTML = `
-  <img src="${item.imagen}" alt="${item.nombre}">
-  <div class="info">
-    <h3>${item.nombre}</h3>
-    <p>${item.codigo}</p>
-  </div>
-`;
-
+    card.innerHTMLgo}</p>
+      </div>
+    `;
     cont.appendChild(card);
   });
 }
+
 /* ========================
    FILTROS POR TIENDA
 ======================== */
 function generarFiltrosPorTienda(tienda) {
-  const filtros = document.getElementById("filtros");
-  filtros.innerHTML = "";
+  const f = document.getElementById("filtros");
+  f.innerHTML = "";
 
   if (tienda === "oxxo") {
-    filtros.innerHTML = `
+    f.innerHTML = `
       <div class="filtro-grupo">
         <span>Familia:</span>
-        <button onclick="setFiltro('familia','HTU')">HTU</button>
-        <button onclick="setFiltro('familia','ZYN')">ZYN</button>
-        <button onclick="setFiltro('familia','NA')">NA</button>
+        <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">HTU</button>
+        <button class="filtro-btn" onclick="setFiltro('familia','ZYN',this)">ZYN</button>
+        <button class="filtro-btn" onclick="setFiltro('familia','NA',this)">NA</button>
       </div>
       <div class="filtro-grupo">
         <span>Header:</span>
-        <button onclick="setFiltro('header','HEADER')">Header</button>
-        <button onclick="setFiltro('header','NOHEADER')">No Header</button>
+        <button class="filtro-btn" onclick="setFiltro('header','HEADER',this)">Header</button>
+        <button class="filtro-btn" onclick="setFiltro('header','NOHEADER',this)">No Header</button>
       </div>
       <div class="filtro-grupo">
         <span>Charolas:</span>
-        <button onclick="setFiltro('charolas',4)">4</button>
-        <button onclick="setFiltro('charolas',5)">5</button>
-      </div>
-      <div class="filtro-grupo">
-        <span>Tipo de Charola:</span>
-        <button onclick="setFiltro('Charola','CHARHTU')">HTU</button>
-        <button onclick="setFiltro('Charola','CHARHTU_ZYN')">HTU_ZYN</button>
-        <button onclick="setFiltro('Charola','CHARHTU_ZYN_CHARZYN')">HTU_ZYN_CHARZYN</button>
-        <button onclick="setFiltro('Charola','CHARHTU_ZYN_CHARZYN25')">HTU_ZYN_CHARZYN25</button>
-        <button onclick="setFiltro('Charola','CHARZYN')">CHARZYN</button>
-        <button onclick="setFiltro('Charola','CHARZYN25')">CHARZYN25</button>
+        <button class="filtro-btn" onclick="setFiltro('charolas',4,this)">4</button>
+        <button class="filtro-btn" onclick="setFiltro('charolas',5,this)">5</button>
       </div>
     `;
   }
 
-  if (tienda === "ckk") {
-    filtros.innerHTML = `
+  if (tienda === "cck") {
+    f.innerHTML = `
       <div class="filtro-grupo">
         <span>Familia:</span>
-        <button onclick="setFiltro('familia','HTU')">HTU</button>
-        <button onclick="setFiltro('familia','ZYN')">ZYN</button>
-        <button onclick="setFiltro('familia','RESELLER')">Reseller</button>
+        <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">HTU</button>
+        <button class="filtro-btn" onclick="setFiltro('familia','ZYN',this)">ZYN</button>
+        <button class="filtro-btn" onclick="setFiltro('familia','RESELLER',this)">Reseller</button>
       </div>
       <div class="filtro-grupo">
         <span>FT:</span>
-        <button onclick="setFiltro('ft',2)">2</button>
-        <button onclick="setFiltro('ft',3)">3</button>
-        <button onclick="setFiltro('ft',4)">4</button>
-        <button onclick="setFiltro('ft',5)">5</button>
-        <button onclick="setFiltro('ft',6)">6</button>
-        <button onclick="setFiltro('ft',7)">7</button>
+        <button class="filtro-btn" onclick="setFiltro('ft',2,this)">2</button>
+        <button class="filtro-btn" onclick="setFiltro('ft',3,this)">3</button>
+        <button class="filtro-btn" onclick="setFiltro('ft',4,this)">4</button>
+        <button class="filtro-btn" onclick="setFiltro('ft',5,this)">5</button>
+        <button class="filtro-btn" onclick="setFiltro('ft',6,this)">6</button>
+        <button class="filtro-btn" onclick="setFiltro('ft',7,this)">7</button>
       </div>
     `;
   }
 
   if (tienda === "711") {
-    filtros.innerHTML = `
+    f.innerHTML = `
       <div class="filtro-grupo">
         <span>Familia:</span>
-        <button onclick="setFiltro('familia','RESELLER')">Reseller</button>
-        <button onclick="setFiltro('familia','NA')">NA</button>
+        <button class="filtro-btn" onclick="setFiltro('familia','RESELLER',this)">Reseller</button>
+        <button class="filtro-btn" onclick="setFiltro('familia','NA',this)">NA</button>
       </div>
     `;
   }
