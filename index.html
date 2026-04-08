@@ -17,20 +17,20 @@
     <p class="sub">POGS ABRIL 2026</p>
 
     <div class="tiendas">
-      <button class="btn-tienda" onclick="abrirTienda('oxxo')">
-        <img src="img/logo/oxxo.png" alt="OXXO" />
-        <span>OXXO</span>
-      </button>
+      <button class="btn-tienda" onclick="abrirTienda('oxxo', this)">
+  <img src="img/logo/oxxo.png" alt="OXXO">
+  <span>OXXO</span>
+</button>
 
-      <button class="btn-tienda" onclick="abrirTienda('711')">
-        <img src="img/logo/711.png" alt="7-Eleven" />
-        <span>7‑Eleven</span>
-      </button>
+<button class="btn-tienda" onclick="abrirTienda('711', this)">
+  <img src="img/logo/711.png" alt="7‑Eleven">
+  <span>7‑Eleven</span>
+</button>
 
-      <button class="btn-tienda" onclick="abrirTienda('cck')">
-        <img src="img/logo/ckk.png" alt="CCK" />
-        <span>CCK</span>
-      </button>
+<button class="btn-tienda" onclick="abrirTienda('cck', this)">
+  <img src="img/logo/ckk.png" alt="CCK">
+  <span>CCK</span>
+</button>
     </div>
   </header>
 </div>
@@ -76,12 +76,15 @@ let tiendaActual = "";
 /* ========================
    ABRIR TIENDA
 ======================== */
-async function abrirTienda(tienda) {
-  tiendaActual = tienda;
-
+async function abrirTienda(tienda, btn) {
   document.getElementById("homeView").style.display = "none";
   document.getElementById("catalogoView").style.display = "block";
 
+  // activar botón
+  document.querySelectorAll(".btn-tienda").forEach(b => b.classList.remove("activo"));
+  btn.classList.add("activo");
+
+  // reset estado
   filtrosActivos = {};
   document.getElementById("inputBusqueda").value = "";
 
@@ -92,7 +95,6 @@ async function abrirTienda(tienda) {
   generarFiltrosPorTienda(tienda);
   render();
 }
-
 /* ========================
    VOLVER
 ======================== */
