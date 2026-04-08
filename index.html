@@ -8,153 +8,209 @@
 </head>
 <body>
 
-<!-- ====== HEADER / SELECCIÓN DE TIENDA ====== -->
-<header>
-  <h1>Catálogo de Exhibidores</h1>
-  <p class="sub">Consulta rápida de exhibidores por tienda</p>
+<!-- ========================
+     VISTA HOME
+======================== -->
+<div id="homeView">
+  <header>
+    <h1>Bienvenido a los Planogramas Web</h1>
+    <p class="sub">POGS ABRIL 2026</p>
 
-  <div class="tiendas">
+    <div class="tiendas">
+      <button class="btn-tienda" onclick="abrirTienda('oxxo')">
+        <img src="img/logo/oxxo.png" alt="OXXO" />
+        <span>OXXO</span>
+      </button>
 
-    </header>
-<button class="btn-tienda" onclick="seleccionarTienda('oxxo')">
-  <img src="img/logo/oxxo.png" alt="OXXO">
-  <span>OXXO</span>
-</button>
+      <button class="btn-tienda" onclick="abrirTienda('711')">
+        <img src="img/logo/711.png" alt="7-Eleven" />
+        <span>7‑Eleven</span>
+      </button>
 
-<button class="btn-tienda" onclick="seleccionarTienda('711')">
-  <img src="img/logo/711.png" alt="7‑Eleven">
-  <span>7‑Eleven</span>
-</button>
-
-<button class="btn-tienda" onclick="seleccionarTienda('cck')">
-  <img src="img/logo/ckk.png" alt="CCK">
-  <span>CCK</span>
-</button>
-    
-
-
-  </div>
-  
-<!-- ====== BUSCADOR ====== -->
-<div class="buscador" id="buscador" style="display:none;">
-  <input
-    type="text"
-    placeholder="Buscar por nombre o código…"
-    oninput="aplicarFiltros()"
-    id="inputBusqueda"
-  />
+      <button class="btn-tienda" onclick="abrirTienda('cck')">
+        <img src="img/logo/ckk.png" alt="CCK" />
+        <span>CCK</span>
+      </button>
+    </div>
+  </header>
 </div>
 
-<!-- ====== FILTROS ====== -->
-<div class="filtros" id="filtros" style="display:none;">
-  <div class="filtro-grupo">
-    <span>Familia:</span>
-    <button class="filtro-btn" onclick="toggleFiltro('familia','HTU')">HTU</button>
-    <button class="filtro-btn" onclick="toggleFiltro('familia','ZYN')">ZYN</button>
+<!-- ========================
+     VISTA CATÁLOGO
+======================== -->
+<div id="catalogoView" style="display:none;">
+
+  <!-- Barra superior -->
+  <div class="top-bar">
+    <button onclick="volverInicio()">← Volver</button>
+    <span>Items: <strong id="contador">0</strong></span>
+    <button onclick="limpiarFiltros()">Limpiar filtros</button>
   </div>
 
-  <div class="filtro-grupo">
-    <span>Tipo:</span>
-    <button class="filtro-btn" onclick="toggleFiltro('tipo','Header')">Header</button>
-    <button class="filtro-btn" onclick="toggleFiltro('tipo','NoHeader')">No Header</button>
+  <!-- Buscador -->
+  <div class="buscador">
+    <input
+      type="text"
+      id="inputBusqueda"
+      placeholder="Buscar por nombre o código…"
+      oninput="aplicarFiltros()"
+    />
   </div>
 
-  <div class="filtro-grupo">
-    <span>Charolas:</span>
-    <button class="filtro-btn" onclick="toggleFiltro('charolas',4)">4</button>
-    <button class="filtro-btn" onclick="toggleFiltro('charolas',5)">5</button>
-  </div>
+  <!-- Filtros (se llenarán según tienda) -->
+  <div class="filtros" id="filtros"></div>
 
-  <button class="btn-limpiar" onclick="limpiarFiltros()">Limpiar filtros</button>
+  <!-- Grid -->
+  <main id="contenedor" class="grid"></main>
 </div>
-
-<!-- ====== CATÁLOGO ====== -->
-<main id="contenedor" class="grid"></main>
 
 <script>
-/* ====== ESTADO GLOBAL (COMO EN EL CÓDIGO QUE SÍ FUNCIONA) ====== */
-let todosLosItems = [];
-let itemsVisibles = [];
+/* ========================
+   ESTADO GLOBAL
+======================== */
+let todos = [];
+let visibles = [];
 let filtrosActivos = {};
+let tiendaActual = "";
 
-/* ====== CARGA DE TIENDA ====== */
-async function seleccionarTienda(tienda) {
-  // UI
-  document.getElementById("buscador").style.display = "flex";
-  document.getElementById("filtros").style.display = "flex";
+/* ========================
+   ABRIR TIENDA
+======================== */
+async function abrirTienda(tienda) {
+  tiendaActual = tienda;
 
-  document.querySelectorAll(".btn-tienda").forEach(b => b.classList.remove("activo"));
-  event.target.classList.add("activo");
+  document.getElementById("homeView").style.display = "none";
+  document.getElementById("catalogoView").style.display = "block";
 
-  // reset estado
   filtrosActivos = {};
-  document.querySelectorAll(".filtro-btn").forEach(b => b.classList.remove("activo"));
   document.getElementById("inputBusqueda").value = "";
 
-  // cargar data
-  const respuesta = await fetch(`data/${tienda}.json`);
-  todosLosItems = await respuesta.json();
-  itemsVisibles = [...todosLosItems];
+  const res = await fetch(`data/${tienda}.json`);
+  todos = await res.json();
+  visibles = [...todos];
 
+  generarFiltrosPorTienda(tienda);
   render();
 }
 
-/* ====== FILTROS ====== */
-function toggleFiltro(campo, valor) {
-  if (filtrosActivos[campo] === valor) {
-    delete filtrosActivos[campo];
-    event.target.classList.remove("activo");
-  } else {
-    filtrosActivos[campo] = valor;
-    event.target.classList.add("activo");
-  }
+/* ========================
+   VOLVER
+======================== */
+function volverInicio() {
+  document.getElementById("catalogoView").style.display = "none";
+  document.getElementById("homeView").style.display = "block";
+}
+
+/* ========================
+   FILTROS
+======================== */
+function setFiltro(campo, valor) {
+  filtrosActivos[campo] = valor;
   aplicarFiltros();
 }
 
 function limpiarFiltros() {
   filtrosActivos = {};
-  document.querySelectorAll(".filtro-btn").forEach(b => b.classList.remove("activo"));
   aplicarFiltros();
 }
 
 function aplicarFiltros() {
   const texto = document.getElementById("inputBusqueda").value.toLowerCase();
 
-  itemsVisibles = todosLosItems.filter(item => {
-    const pasaFiltros = Object.keys(filtrosActivos).every(c =>
-      item[c] === filtrosActivos[c]
+  visibles = todos.filter(item => {
+    const matchFiltros = Object.keys(filtrosActivos).every(key =>
+      item[key] === filtrosActivos[key]
     );
 
-    const pasaBusqueda =
+    const matchTexto =
       item.nombre.toLowerCase().includes(texto) ||
       item.codigo.toLowerCase().includes(texto);
 
-    return pasaFiltros && pasaBusqueda;
+    return matchFiltros && matchTexto;
   });
 
   render();
 }
 
-/* ====== RENDER CENTRAL (CLAVE) ====== */
+/* ========================
+   RENDER
+======================== */
 function render() {
   const cont = document.getElementById("contenedor");
   cont.innerHTML = "";
 
-  if (itemsVisibles.length === 0) {
+  document.getElementById("contador").textContent = visibles.length;
+
+  if (visibles.length === 0) {
     cont.innerHTML = "<p>No se encontraron resultados</p>";
     return;
   }
 
-  itemsVisibles.forEach(item => {
+  visibles.forEach(item => {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
-      <img src="${item.imagen}".nombre}</h3>
-        <p>${item.codigo}</p>
+      <img src="${item.imagen}" alt="${ard);
+  });
+}
+
+/* ========================
+   FILTROS POR TIENDA
+======================== */
+function generarFiltrosPorTienda(tienda) {
+  const filtros = document.getElementById("filtros");
+  filtros.innerHTML = "";
+
+  if (tienda === "oxxo") {
+    filtros.innerHTML = `
+      <div class="filtro-grupo">
+        <span>Familia:</span>
+        <button onclick="setFiltro('familia','HTU')">HTU</button>
+        <button onclick="setFiltro('familia','ZYN')">ZYN</button>
+      </div>
+      <div class="filtro-grupo">
+        <span>Header:</span>
+        <button onclick="setFiltro('header','HEADER')">Header</button>
+        <button onclick="setFiltro('header','NOHEADER')">No Header</button>
+      </div>
+      <div class="filtro-grupo">
+        <span>Charolas:</span>
+        <button onclick="setFiltro('charolas',4)">4</button>
+        <button onclick="setFiltro('charolas',5)">5</button>
       </div>
     `;
-    cont.appendChild(card);
-  });
+  }
+
+  if (tienda === "cck") {
+    filtros.innerHTML = `
+      <div class="filtro-grupo">
+        <span>Familia:</span>
+        <button onclick="setFiltro('familia','FAROS')">Faros</button>
+        <button onclick="setFiltro('familia','HTU')">HTU</button>
+        <button onclick="setFiltro('familia','ZYN')">ZYN</button>
+        <button onclick="setFiltro('familia','RESELLER')">Reseller</button>
+      </div>
+      <div class="filtro-grupo">
+        <span>FT:</span>
+        <button onclick="setFiltro('ft',2)">2</button>
+        <button onclick="setFiltro('ft',3)">3</button>
+        <button onclick="setFiltro('ft',4)">4</button>
+        <button onclick="setFiltro('ft',5)">5</button>
+        <button onclick="setFiltro('ft',6)">6</button>
+        <button onclick="setFiltro('ft',7)">7</button>
+      </div>
+    `;
+  }
+
+  if (tienda === "711") {
+    filtros.innerHTML = `
+      <div class="filtro-grupo">
+        <span>Familia:</span>
+        <button onclick="setFiltro('familia','RESELLER')">Reseller</button>
+        <button onclick="setFiltro('familia','NA')">NA</button>
+      </div>
+    `;
+  }
 }
 </script>
 
