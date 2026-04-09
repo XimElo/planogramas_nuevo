@@ -11,7 +11,7 @@
     "nombre": "ABR26 7-Eleven 120 Reseller",
     "codigo": "ABR26_711_120_RESELLER",
     "imagen": "img/711/ABR26_711_120_RESELLER.jpg",
-    "familia": "Reseller",
+    "familia": "RESELLER",
     "tipo": "Backwall",
     "charolas": 7
   },
@@ -27,7 +27,7 @@
     "nombre": "ABR26 7-Eleven 151 Reseller",
     "codigo": "ABR26_711_151_RESELLER",
     "imagen": "img/711/ABR26_711_151_RESELLER.jpg",
-    "familia": "Reseller",
+    "familia": "RESELLER",
     "tipo": "Backwall",
     "charolas": 7
   },
@@ -43,7 +43,7 @@
     "nombre": "ABR26 7-Eleven 183 Reseller",
     "codigo": "ABR26_711_183_RESELLER",
     "imagen": "img/711/ABR26_711_183_RESELLER.jpg",
-    "familia": "Reseller",
+    "familia": "RESELLER",
     "tipo": "Backwall",
     "charolas": 7
   },
@@ -59,7 +59,7 @@
     "nombre": "ABR26 7-Eleven 193 Reseller",
     "codigo": "ABR26_711_193_RESELLER",
     "imagen": "img/711/ABR26_711_193_RESELLER.jpg",
-    "familia": "Reseller",
+    "familia": "RESELLER",
     "tipo": "Backwall",
     "charolas": 7
   }
