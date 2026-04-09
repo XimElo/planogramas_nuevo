@@ -124,10 +124,12 @@ function aplicarFiltros() {
 
   visibles = todos.filter(item => {
     const matchFiltros = Object.keys(filtrosActivos).every(key => {
-      if (Array.isArray(item[key])) {
-        return item[key].includes(filtrosActivos[key]);
+        if (Array.isArray(item[key])) {
+        return item[key]
+          .map(v => String(v))
+          .includes(String(filtrosActivos[key]));
       }
-      return item[key] === filtrosActivos[key];
+      return String(item[key]) === String(filtrosActivos[key]);
     });
 
     const matchTexto =
