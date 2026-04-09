@@ -150,20 +150,40 @@ function render() {
   document.getElementById("contador").textContent = visibles.length;
 
   if (visibles.length === 0) {
-    cont.innerHTML = "<p>No se encontraron resultados</p>";
+    const p = document.createElement("p");
+    p.textContent = "No se encontraron resultados";
+    cont.appendChild(p);
     return;
   }
 
   visibles.forEach(item => {
     const card = document.createElement("div");
     card.className = "card";
-    card.innerHTML = `
-      ${item.imagen}
-      <div class="info">
-        <h3>${item.nombre}</h3>
-        <p>${item.codigo}</p>
-      </div>
-    `;
+
+    const img = document.createElement("img");
+    img.src = item.imagen;
+    img.alt = item.nombre;
+
+    // DEBUG visual (opcional, ayuda mucho)
+    img.onerror = () => {
+      img.style.border = "2px solid red";
+      img.alt = "No cargó: " + item.imagen;
+    };
+
+    const info = document.createElement("div");
+    info.className = "info";
+
+    const h3 = document.createElement("h3");
+    h3.textContent = item.nombre;
+
+    const p = document.createElement("p");
+    p.textContent = item.codigo;
+
+    info.appendChild(h3);
+    info.appendChild(p);
+
+    card.appendChild(img);
+    card.appendChild(info);
     cont.appendChild(card);
   });
 }
