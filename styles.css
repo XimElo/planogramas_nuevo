@@ -305,5 +305,63 @@ h1 {
   margin-top: 5px;
 }
 
+/* =========================
+   TOP BAR (VOLVER / ITEMS / LIMPIAR)
+========================= */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 14px 20px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(234, 137, 154, 0.25);
+}
+
+/* Botones de la barra */
+.top-bar button {
+  border: 1.5px solid var(--rosa-base);
+  background: white;
+  color: var(--rosa-oscuro);
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.top-bar button:hover {
+  background: var(--rosa-muy-claro);
+}
+
+/* Botón volver (menos protagonista) */
+.top-bar button:first-child {
+  border-color: #ccc;
+  color: #555;
+}
+
+/* Botón limpiar filtros (acción importante) */
+.top-bar button:last-child {
+  background: var(--rosa-oscuro);
+  color: white;
+  border-color: var(--rosa-oscuro);
+}
+
+.top-bar button:last-child:hover {
+  background: #c85f72;
+}
+
+/* Contador de items */
+.top-bar span {
+  font-weight: 600;
+  color: var(--gris-texto);
+  background: var(--rosa-muy-claro);
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
 
 
