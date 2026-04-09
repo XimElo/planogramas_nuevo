@@ -1,100 +1,102 @@
 [
   {
-    "nombre": "ABR26 CCK 2 FT Header FAROS +25 LM",
-    "codigo": "ABR26_CCK_2_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "nombre": "ABR26 CCK 2 FT Header FAROS25 LM",
+    "codigo": "ABR26_CCK_2_FT_HEADER_FAROS25_LM_HTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_2_FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
     "familia": ["HTU", "ZYN"],
     "FT": 2
   },
+
   {
-    "nombre": "ABR26 CCK 2 FT Header FAROS +25 LM Reseller",
-    "codigo": "ABR26_CCK_2_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
-    "imagen": "img/cck/ABR26_CCK_2_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN.jpg",
-    "familia": ["HTU", "ZYN", "Reseller"],
-    "FT": 2
+  "nombre": "ABR26 CCK 2 FT Header FAROS25 LM Reseller",
+  "codigo": "ABR26_CCK_2_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN",
+  "imagen": "img/cck/ABR26_CCK_2_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN.jpg",
+  "familia": ["HTU", "ZYN", "RESELLER"],
+  "ft": 2
+
   },
   {
-    "nombre": "ABR26 CCK 3 FT Header FAROS +25 LM CHARHTU",
-    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS+25_LM_CHARHTU_ZYN",
+    "nombre": "ABR26 CCK 3 FT Header FAROS25 LM CHARHTU",
+    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS25_LM_CHARHTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_3_FT_HEADER_FAROS25_LM_CHARHTU_ZYN.jpg",
     "familia": ["HTU", "ZYN"],
     "FT": 3
   },
   {
-    "nombre": "ABR26 CCK 3 FT Header FAROS +25 LM",
-    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "nombre": "ABR26 CCK 3 FT Header FAROS25 LM",
+    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS25_LM_HTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_3_FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
     "familia": ["HTU", "ZYN"],
     "FT": 3
   },
   {
-    "nombre": "ABR26 CCK 3 FT Header FAROS +25 LM Reseller CHARHTU",
-    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS+25_LM_RESELLER_CHARHTU_ZYN",
+    "nombre": "ABR26 CCK 3 FT Header FAROS25 LM Reseller CHARHTU",
+    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS25_LM_RESELLER_CHARHTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_3_FT_HEADER_FAROS25_LM_RESELLER_CHARHTU_ZYN.jpg",
-    "familia": ["HTU", "ZYN", "Reseller"],
+    "familia": ["HTU", "ZYN", "RESELLER"],
     "FT": 3
   },
   {
-    "nombre": "ABR26 CCK 3 FT Header FAROS +25 LM Reseller",
-    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
+    "nombre": "ABR26 CCK 3 FT Header FAROS25 LM Reseller",
+    "codigo": "ABR26_CCK_3_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_3_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN.jpg",
-    "familia": ["HTU", "ZYN", "Reseller"],
+    "familia":["HTU", "ZYN", "RESELLER"],
     "FT": 3
   },
   {
-    "nombre": "ABR26 CCK 4 FT Header FAROS +25 LM",
-    "codigo": "ABR26_CCK_4_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "nombre": "ABR26 CCK 4 FT Header FAROS25 LM",
+    "codigo": "ABR26_CCK_4_FT_HEADER_FAROS25_LM_HTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_4_FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
     "familia": ["HTU", "ZYN"],
     "FT": 4
   },
   {
-    "nombre": "ABR26 CCK 4 FT Header FAROS +25 LM Reseller",
-    "codigo": "ABR26_CCK_4_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
+    "nombre": "ABR26 CCK 4 FT Header FAROS25 LM Reseller",
+    "codigo": "ABR26_CCK_4_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_4_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN.jpg",
-    "familia": ["HTU", "ZYN", "Reseller"],
+    "familia": ["HTU", "ZYN", "RESELLER"],
     "FT": 4
   },
   {
-    "nombre": "ABR26 CCK 5 FT Header FAROS +25 LM",
-    "codigo": "ABR26_CCK_5_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "nombre": "ABR26 CCK 5 FT Header FAROS25 LM",
+    "codigo": "ABR26_CCK_5_FT_HEADER_FAROS25_LM_HTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_5_FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
     "familia": ["HTU", "ZYN"],
     "FT": 5
   },
   {
-    "nombre": "ABR26 CCK 5 FT Header FAROS +25 LM Reseller",
-    "codigo": "ABR26_CCK_5_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
+    "nombre": "ABR26 CCK 5 FT Header FAROS25 LM Reseller",
+    "codigo": "ABR26_CCK_5_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_5_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN.jpg",
-    "familia": ["HTU", "ZYN", "Reseller"],
+    "familia": ["HTU", "ZYN", "RESELLER"],
     "FT": 5
   },
   {
-    "nombre": "ABR26 CCK 6 FT Header FAROS +25 LM",
-    "codigo": "ABR26_CCK_6_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "nombre": "ABR26 CCK 6 FT Header FAROS25 LM",
+    "codigo": "ABR26_CCK_6_FT_HEADER_FAROS25_LM_HTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_6_FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
     "familia": ["HTU", "ZYN"],
     "FT": 6
   },
   {
-    "nombre": "ABR26 CCK 6 FT Header FAROS +25 LM Reseller",
-    "codigo": "ABR26_CCK_6_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
+    "nombre": "ABR26 CCK 6 FT Header FAROS25 LM Reseller",
+    "codigo": "ABR26_CCK_6_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_6_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN.jpg",
-    "familia": ["HTU", "ZYN", "Reseller"],
+    "familia": ["HTU", "ZYN", "RESELLER"],
     "FT": 6
   },
   {
-    "nombre": "ABR26 CCK 7 FT Header FAROS +25 LM",
-    "codigo": "ABR26_CCK_7_FT_HEADER_FAROS+25_LM_HTU_ZYN",
+    "nombre": "ABR26 CCK 7 FT Header FAROS25 LM",
+    "codigo": "ABR26_CCK_7_FT_HEADER_FAROS25_LM_HTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_7_FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
     "familia": ["HTU", "ZYN"],
     "FT": 7
   },
   {
-    "nombre": "ABR26 CCK 7 FT Header FAROS +25 LM Reseller",
-    "codigo": "ABR26_CCK_7_FT_HEADER_FAROS+25_LM_RESELLER_HTU_ZYN",
+    "nombre": "ABR26 CCK 7 FT Header FAROS25 LM Reseller",
+    "codigo": "ABR26_CCK_7_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN",
     "imagen": "img/cck/ABR26_CCK_7_FT_HEADER_FAROS25_LM_RESELLER_HTU_ZYN.jpg",
-    "familia": ["HTU", "ZYN", "Reseller"],
+    "familia": ["HTU", "ZYN", "RESELLER"],
     "FT": 7
   }
 ]
