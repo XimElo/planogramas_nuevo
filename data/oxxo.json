@@ -1,6 +1,8 @@
 [
-  _comment Burbuja red cc
+  
+  
   {
+  "_comment": "Burbuja red cc",
   "nombre": "ABR26 OXXO 4 Char Header", 
   "codigo": "ABR26_OXXO_4_CHAR_HEADER",
   "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER.jpg",
@@ -130,8 +132,8 @@
   "charolas": 5
   },
 
-  _comment charola cc mix 
   {
+  "_comment": "charola cc mix ",
   "nombre": "ABR26 OXXO 4 Char Header ", 
   "codigo": "ABR26_OXXO_4_CHAR_HEADER_",
   "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_.jpg",
@@ -259,8 +261,9 @@
   "header": "NOHEADER",
   "charolas": 5
   },
-    _comment charola cc RED 
+     
   {
+  "_comment": "charola cc RED",
   "nombre": "ABR26 OXXO 4 Char Header", 
   "codigo": "ABR26_OXXO_4CHAR_HEADER",
   "imagen": "img/oxxo/ABR26_OXXO_4CHAR_HEADER.jpg",
