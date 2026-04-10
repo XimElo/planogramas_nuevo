@@ -104,18 +104,11 @@ function volverInicio() {
    FILTROS
 ======================== */
 function setFiltro(campo, valor, btn) {
-  if (!filtrosActivos[campo]) filtrosActivos[campo] = [];
+  filtrosActivos[campo] = valor;
 
-  const i = filtrosActivos[campo].indexOf(valor);
+  btn.parentElement.querySelectorAll(".filtro-btn").forEach(b => b.classList.remove("activo"));
+  btn.classList.add("activo");
 
-  if (i === -1) {
-    filtrosActivos[campo].push(valor);
-    btn.classList.add("activo");
-  } else {
-    filtrosActivos[campo].splice(i, 1);
-    btn.classList.remove("activo");
-    if (filtrosActivos[campo].length === 0) delete filtrosActivos[campo];
-  }
 
   aplicarFiltros();
 }
