@@ -84,14 +84,12 @@ async function abrirTienda(tienda, btn) {
   document.getElementById("inputBusqueda").value = "";
 
   const res = await fetch(`data/${tienda}.json`);
-  todos = await res.json();
-   generarFiltrosPorTienda(tienda);
-  render();
+todos = await res.json();
 
-
-  visibles = [...todos];
-  generarFiltrosPorTienda(tienda);
-  render();
+visibles = [...todos];
+generarFiltrosPorTienda(tienda);
+render();
+  
 }
 
 /* ========================
@@ -198,7 +196,6 @@ function render() {
 /* ========================
    FILTROS POR TIENDA
 ======================== */
-  
 function generarFiltrosPorTienda(tienda) {
   const f = document.getElementById("filtros");
   f.innerHTML = "";
@@ -225,14 +222,11 @@ function generarFiltrosPorTienda(tienda) {
       </div>
 
       <div class="filtro-grupo">
-      <span>Tipo de Charola:</span>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU',this)">HTU</button>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU_ZYN',this)">HTU_ZYN</button>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU_ZYN_CHARZYN',this)">HTU_ZYN_CHARZYN</button>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU_ZYN_CHARZYN25',this)">HTU_ZYN_CHARZYN25</button>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARZYN',this)">CHARZYN</button>
-      <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARZYN25',this)">CHARZYN25</button>
-    </div>
+        <span>Tipo de Charola:</span>
+        <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU',this)">HTU</button>
+        <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU_ZYN',this)">HTU_ZYN</button>
+        <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARZYN',this)">CHARZYN</button>
+      </div>
     `;
   }
 
@@ -264,21 +258,10 @@ function generarFiltrosPorTienda(tienda) {
         <button class="filtro-btn" onclick="setFiltro('familia','RESELLER',this)">Reseller</button>
         <button class="filtro-btn" onclick="setFiltro('familia','NA',this)">NA</button>
       </div>
-
-       <div class="filtro-grupo">
-        <span>FT:</span>
-        <button class="filtro-btn" onclick="setFiltro('ft',2,this)">2</button>
-        <button class="filtro-btn" onclick="setFiltro('ft',3,this)">3</button>
-        <button class="filtro-btn" onclick="setFiltro('ft',4,this)">4</button>
-        <button class="filtro-btn" onclick="setFiltro('ft',5,this)">5</button>
-        <button class="filtro-btn" onclick="setFiltro('ft',6,this)">6</button>
-        <button class="filtro-btn" onclick="setFiltro('ft',7,this)">7</button>
-      </div>
-
-      
     `;
   }
-}
+}  
+
 </script>
 
 </body>
