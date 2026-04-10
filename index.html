@@ -89,19 +89,6 @@ async function abrirTienda(tienda, btn) {
   render();
 
 
-  // Inferir programa para OXXO según carpeta
-  if (tienda === "oxxo") {
-    todos = todos.map(item => {
-      if (!item.programa && item.imagen) {
-        if (item.imagen.includes("/abril_26/")) item.programa = "ABRIL_26";
-        else if (item.imagen.includes("/cc_burbuja_red/")) item.programa = "CC_BURBUJA_RED";
-        else if (item.imagen.includes("/cc_mix/")) item.programa = "CC_MIX";
-        else if (item.imagen.includes("/cc_red/")) item.programa = "CC_RED";
-      }
-      return item;
-    });
-  }
-
   visibles = [...todos];
   generarFiltrosPorTienda(tienda);
   render();
