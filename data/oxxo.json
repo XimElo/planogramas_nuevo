@@ -1,401 +1,9 @@
 [
-  
-  
- {
-  "_comment": "Burbuja red cc",
-  "nombre": "ABR26 OXXO 4 Char Header",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_4_CHAR_HEADER.jpg",
-  "familia": "NA",
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char Header HTU",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_4_CHAR_HEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char Header HTU ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char Header ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_4_CHAR_HEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_4_CHAR_NOHEADER.jpg",
-  "familia": "NA",
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header HTU",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_4_CHAR_NOHEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header HTU ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_4_CHAR_NOHEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_5CHAR_HEADER.jpg",
-  "familia": "NA",
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header HTU",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_5CHAR_HEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header HTU ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_5CHAR_HEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_5CHAR_HEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_5CHAR_NOHEADER.jpg",
-  "familia": "NA",
-  "header": "NOHEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header HTU",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_5CHAR_NOHEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "NOHEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header HTU ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_5CHAR_NOHEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "NOHEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_burbuja_red/ABR26_OXXO_5CHAR_NOHEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "NOHEADER",
-  "charolas": 5 
-  },
-
-  {
-  "_comment": "Mix cc",
-  "nombre": "ABR26 OXXO 4 Char Header",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_4_CHAR_HEADER.jpg",
-  "familia": "NA",
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char Header HTU",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_4_CHAR_HEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char Header HTU ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char Header ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_4_CHAR_HEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_4_CHAR_NOHEADER.jpg",
-  "familia": "NA",
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header HTU",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_4_CHAR_NOHEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header HTU ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_4_CHAR_NOHEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_5CHAR_HEADER.jpg",
-  "familia": "NA",
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header HTU",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_5CHAR_HEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header HTU ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_5CHAR_HEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_5CHAR_HEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_5CHAR_NOHEADER.jpg",
-  "familia": "NA",
-  "header": "NOHEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header HTU",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_5CHAR_NOHEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "NOHEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header HTU ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_5CHAR_NOHEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "NOHEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_mix/ABR26_OXXO_5CHAR_NOHEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "NOHEADER",
-  "charolas": 5
-  }, 
-
-  {
-  "_comment": "Red cc",
-  "nombre": "ABR26 OXXO 4 Char Header",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_4_CHAR_HEADER.jpg",
-  "familia": "NA",
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char Header HTU",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_4_CHAR_HEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char Header HTU ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char Header ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_HEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_4_CHAR_HEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "HEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_4_CHAR_NOHEADER.jpg",
-  "familia": "NA",
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header HTU",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_4_CHAR_NOHEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header HTU ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 4 Char No Header ZYN",
-  "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_4_CHAR_NOHEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "NOHEADER",
-  "charolas": 4
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_5CHAR_HEADER.jpg",
-  "familia": "NA",
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header HTU",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_5CHAR_HEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header HTU ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_5CHAR_HEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char Header ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_HEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_5CHAR_HEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "HEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_5CHAR_NOHEADER.jpg",
-  "familia": "NA",
-  "header": "NOHEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header HTU",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER_HTU",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_5CHAR_NOHEADER_HTU.jpg",
-  "familia": "HTU",
-  "header": "NOHEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header HTU ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER_HTU_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_5CHAR_NOHEADER_HTU_ZYN.jpg",
-  "familia": ["HTU","ZYN"],
-  "header": "NOHEADER",
-  "charolas": 5
-},
-{
-  "nombre": "ABR26 OXXO 5 Char No Header ZYN",
-  "codigo": "ABR26_OXXO_5CHAR_NOHEADER_ZYN",
-  "imagen": "img/oxxo/oxxo_charola_CC_red/ABR26_OXXO_5CHAR_NOHEADER_ZYN.jpg",
-  "familia": "ZYN",
-  "header": "NOHEADER",
-  "charolas": 5
-},
-
   {
     "_comment": "ABRIL 2026"
     "nombre": "ABR26 OXXO 4 Char Header",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER.jpg",
     "familia": "NA",
     "header": "HEADER",
     "charolas": 4
@@ -403,7 +11,7 @@
   {
     "nombre": "ABR26 OXXO 4 Char Header HTU",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER_HTU.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_HTU.jpg",
     "familia": "HTU",
     "header": "HEADER",
     "charolas": 4
@@ -411,39 +19,43 @@
   {
     "nombre": "ABR26 OXXO 4 Char Header HTU CharHTU",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU.jpg",
     "familia": "HTU",
+    "tipo_charola" : "CHARHTU",
     "header": "HEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char Header HTU CharHTU ZYN",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN.jpg",
-    "familia": "ZYN",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN.jpg",
+    "familia": "ZYN",}
+    "tipo_charola" : "CHARHTU_ZYN",
     "header": "HEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char Header HTU CharHTU ZYN CharZYN",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARHTU_ZYN_CHARZYN",
     "header": "HEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char Header HTU CharHTU ZYN CharZYN25",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARHTU_ZYN_CHARZYN25",
     "header": "HEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char Header HTU ZYN",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "HEADER",
     "charolas": 4
@@ -451,23 +63,25 @@
   {
     "nombre": "ABR26 OXXO 4 Char Header HTU ZYN CharZYN",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN",
     "header": "HEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char Header HTU ZYN CharZYN25",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_HTU_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN25",
     "header": "HEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char Header ZYN",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER_ZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_ZYN.jpg",
     "familia": "ZYN",
     "header": "HEADER",
     "charolas": 4
@@ -476,16 +90,18 @@
   {
     "nombre": "ABR26 OXXO 4 Char Header ZYN CharZYN",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN",
     "header": "HEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char Header ZYN CharZYN25",
     "codigo": "ABR26_OXXO_4_CHAR_HEADER_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_HEADER_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_HEADER_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN25",
     "header": "HEADER",
     "charolas": 4
   },
@@ -493,7 +109,7 @@
   {
     "nombre": "ABR26 OXXO 4 Char No Header",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER.jpg",
     "familia": "NA",
     "header": "NOHEADER",
     "charolas": 4
@@ -501,7 +117,7 @@
   {
     "nombre": "ABR26 OXXO 4 Char No Header HTU",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER_HTU.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER_HTU.jpg",
     "familia": "HTU",
     "header": "NOHEADER",
     "charolas": 4
@@ -509,39 +125,43 @@
   {
     "nombre": "ABR26 OXXO 4 Char No Header HTU CharHTU",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU.jpg",
     "familia": "HTU",
+    "tipo_charola" : "CHARHTU",
     "header": "NOHEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char No Header HTU CharHTU ZYN",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU_ZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU_ZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARHTU_ZYN",
     "header": "NOHEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char No Header HTU CharHTU ZYN CharZYN",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARHTU_ZYN_CHARZYN",
     "header": "NOHEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char No Header HTU CharHTU ZYN CharZYN25",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARHTU_ZYN_CHARZYN25",
     "header": "NOHEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char No Header HTU ZYN",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "NOHEADER",
     "charolas": 4
@@ -550,23 +170,25 @@
   {
     "nombre": "ABR26 OXXO 4 Char No Header HTU ZYN CharZYN",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN",
     "header": "NOHEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char No Header HTU ZYN CharZYN25",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER_HTU_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN25",
     "header": "NOHEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char No Header ZYN",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER_ZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER_ZYN.jpg",
     "familia": "ZYN",
     "header": "NOHEADER",
     "charolas": 4
@@ -574,16 +196,18 @@
   {
     "nombre": "ABR26 OXXO 4 Char No Header ZYN CharZYN",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN",
     "header": "NOHEADER",
     "charolas": 4
   },
   {
     "nombre": "ABR26 OXXO 4 Char No Header ZYN CharZYN25",
     "codigo": "ABR26_OXXO_4_CHAR_NOHEADER_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_4_CHAR_NOHEADER_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_4_CHAR_NOHEADER_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN25",
     "header": "NOHEADER",
     "charolas": 4
   },
@@ -591,7 +215,7 @@
   {
     "nombre": "ABR26 OXXO 5 Char Header",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER.jpg",
     "familia": "NA",
     "header": "HEADER",
     "charolas": 5
@@ -599,7 +223,7 @@
   {
     "nombre": "ABR26 OXXO 5 Char Header HTU",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER_HTU",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER_HTU.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER_HTU.jpg",
     "familia": "HTU",
     "header": "HEADER",
     "charolas": 5
@@ -607,32 +231,36 @@
   {
     "nombre": "ABR26 OXXO 5 Char Header HTU CharHTU",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU.jpg",
     "familia": "HTU",
+    "tipo_charola" : "CHARHTU",
     "header": "HEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char Header HTU CharHTU ZYN",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARHTU_ZYN",
     "header": "HEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char Header HTU CharHTU ZYN CharZYN",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARHTU_ZYN_CHARZYN",    
     "header": "HEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char Header HTU CharHTU ZYN CharZYN25",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARHTU_ZYN_CHARZYN25",
     "header": "HEADER",
     "charolas": 5
   },
@@ -640,7 +268,7 @@
   {
     "nombre": "ABR26 OXXO 5 Char Header HTU ZYN",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER_HTU_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER_HTU_ZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "HEADER",
     "charolas": 5
@@ -648,23 +276,25 @@
   {
     "nombre": "ABR26 OXXO 5 Char Header HTU ZYN CharZYN",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER_HTU_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER_HTU_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER_HTU_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN",
     "header": "HEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char Header HTU ZYN CharZYN25",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER_HTU_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER_HTU_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER_HTU_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN25",
     "header": "HEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char Header ZYN",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER_ZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER_ZYN.jpg",
     "familia": "ZYN",
     "header": "HEADER",
     "charolas": 5
@@ -673,16 +303,18 @@
   {
     "nombre": "ABR26 OXXO 5 Char Header ZYN CharZYN",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN",
     "header": "HEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char Header ZYN CharZYN25",
     "codigo": "ABR26_OXXO_5_CHAR_HEADER_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_HEADER_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_HEADER_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN25",
     "header": "HEADER",
     "charolas": 5
   },
@@ -690,7 +322,7 @@
   {
     "nombre": "ABR26 OXXO 5 Char No Header",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER.jpg",
     "familia": "NA",
     "header": "NOHEADER",
     "charolas": 5
@@ -698,7 +330,7 @@
   {
     "nombre": "ABR26 OXXO 5 Char No Header HTU",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_HTU",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER_HTU.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_HTU.jpg",
     "familia": "HTU",
     "header": "NOHEADER",
     "charolas": 5
@@ -706,32 +338,36 @@
   {
     "nombre": "ABR26 OXXO 5 Char No Header HTU CharHTU",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU.jpg",
     "familia": "HTU",
+    "tipo_charola" : "CHARHTU",
     "header": "NOHEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char No Header HTU CharHTU ZYN",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU_ZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU_ZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARHTU_ZYN",
     "header": "NOHEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char No Header HTU CharHTU ZYN CharZYN",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARHTU_ZYN_CHARZYN",
     "header": "NOHEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char No Header HTU CharHTU ZYN CharZYN25",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_HTU_CHARHTU_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARHTU_ZYN_CHARZYN25",
     "header": "NOHEADER",
     "charolas": 5
   },
@@ -739,7 +375,7 @@
   {
     "nombre": "ABR26 OXXO 5 Char No Header HTU ZYN",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_HTU_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER_HTU_ZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "NOHEADER",
     "charolas": 5
@@ -747,23 +383,25 @@
   {
     "nombre": "ABR26 OXXO 5 Char No Header HTU ZYN CharZYN",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_HTU_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER_HTU_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_HTU_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN",
     "header": "NOHEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char No Header HTU ZYN CharZYN25",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_HTU_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER_HTU_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_HTU_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN25",
     "header": "NOHEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char No Header ZYN",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_ZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER_ZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_ZYN.jpg",
     "familia": "ZYN",
     "header": "NOHEADER",
     "charolas": 5
@@ -771,16 +409,18 @@
   {
     "nombre": "ABR26 OXXO 5 Char No Header ZYN CharZYN",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_ZYN_CHARZYN",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER_ZYN_CHARZYN.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_ZYN_CHARZYN.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN",
     "header": "NOHEADER",
     "charolas": 5
   },
   {
     "nombre": "ABR26 OXXO 5 Char No Header ZYN CharZYN25",
     "codigo": "ABR26_OXXO_5_CHAR_NOHEADER_ZYN_CHARZYN25",
-    "imagen": "img/oxxo/oxxo_abril_2026/ABR26_OXXO_5_CHAR_NOHEADER_ZYN_CHARZYN25.jpg",
+    "imagen": "img/oxxo/ABR26_OXXO_5_CHAR_NOHEADER_ZYN_CHARZYN25.jpg",
     "familia": "ZYN",
+    "tipo_charola" : "CHARZYN25",
     "header": "NOHEADER",
     "charolas": 5
   }
