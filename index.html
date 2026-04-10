@@ -70,6 +70,14 @@ let todos = [];
 let visibles = [];
 let filtrosActivos = {};
 
+<script>
+/* ========================
+   ESTADO GLOBAL
+======================== */
+let todos = [];
+let visibles = [];
+let filtrosActivos = {};
+
 /* ========================
    ABRIR TIENDA
 ======================== */
@@ -85,27 +93,21 @@ async function abrirTienda(tienda, btn) {
 
   const res = await fetch(`data/${tienda}.json`);
   todos = await res.json();
-  // Asignar programa automáticamente para OXXO
-if (tienda === "oxxo") {
-  todos = todos.map(item => {
-    if (!item.programa && item.imagen) {
-      if (item.imagen.includes("/oxxo_abril_2026/")) {
-        item.programa = "ABRIL_26";
-      } else if (item.imagen.includes("/oxxo_charola_CC_burbuja_red/")) {
-        item.programa = "CC_BURBUJA_RED";
-      } else if (item.imagen.includes("/oxxo_charola_CC_mix/")) {
-        item.programa = "CC_MIX";
-      } else if (item.imagen.includes("/oxxo_charola_CC_red/")) {
-        item.programa = "CC_RED";
+
+  // ✅ Inferir programa para OXXO según carpeta
+  if (tienda === "oxxo") {
+    todos = todos.map(item => {
+      if (!item.programa && item.imagen) {
+        if (item.imagen.includes("/abril_26/")) item.programa = "ABRIL_26";
+        else if (item.imagen.includes("/cc_burbuja_red/")) item.programa = "CC_BURBUJA_RED";
+        else if (item.imagen.includes("/cc_mix/")) item.programa = "CC_MIX";
+        else if (item.imagen.includes("/cc_red/")) item.programa = "CC_RED";
       }
-    }
-    return item;
-  });
-}
+      return item;
+    });
+  }
 
-  
   visibles = [...todos];
-
   generarFiltrosPorTienda(tienda);
   render();
 }
@@ -122,25 +124,17 @@ function volverInicio() {
    FILTROS
 ======================== */
 function setFiltro(campo, valor, btn) {
-  if (!filtrosActivos[campo]) {
-    filtrosActivos[campo] = [];
-  }
+  if (!filtrosActivos[campo]) filtrosActivos[campo] = [];
 
-  const index = filtrosActivos[campo].indexOf(valor);
+  const i = filtrosActivos[campo].indexOf(valor);
 
-  if (index === -1) {
-    // Agregar valor
+  if (i === -1) {
     filtrosActivos[campo].push(valor);
     btn.classList.add("activo");
   } else {
-    // Quitar valor
-    filtrosActivos[campo].splice(index, 1);
+    filtrosActivos[campo].splice(i, 1);
     btn.classList.remove("activo");
-
-    // Si el array queda vacío, borramos el campo
-    if (filtrosActivos[campo].length === 0) {
-      delete filtrosActivos[campo];
-    }
+    if (filtrosActivos[campo].length === 0) delete filtrosActivos[campo];
   }
 
   aplicarFiltros();
@@ -148,31 +142,22 @@ function setFiltro(campo, valor, btn) {
 
 function limpiarFiltros() {
   filtrosActivos = {};
-  document.querySelectorAll(".filtro-btn")
-    .forEach(b => b.classList.remove("activo"));
+  document.querySelectorAll(".filtro-btn").forEach(b => b.classList.remove("activo"));
   aplicarFiltros();
 }
 
 function aplicarFiltros() {
-  const texto = document.getElementById("inputBusqueda")
-    ? document.getElementById("inputBusqueda").value.toLowerCase()
-    : "";
+  const texto = document.getElementById("inputBusqueda").value.toLowerCase();
 
   visibles = todos.filter(item => {
     const matchFiltros = Object.keys(filtrosActivos).every(campo => {
       const filtrosCampo = filtrosActivos[campo];
 
-      // Si el item tiene array (ej. familia)
       if (Array.isArray(item[campo])) {
-        return filtrosCampo.some(f =>
-          item[campo].map(String).includes(String(f))
-        );
+        return filtrosCampo.some(v => item[campo].map(String).includes(String(v)));
       }
 
-      // Si el item es valor simple (ej. charolas, ft)
-      return filtrosCampo
-        .map(String)
-        .includes(String(item[campo]));
+      return filtrosCampo.map(String).includes(String(item[campo]));
     });
 
     const matchTexto =
@@ -209,12 +194,6 @@ function render() {
     img.src = item.imagen;
     img.alt = item.nombre;
 
-    // DEBUG visual (opcional, ayuda mucho)
-    img.onerror = () => {
-      img.style.border = "2px solid red";
-      img.alt = "No cargó: " + item.imagen;
-    };
-
     const info = document.createElement("div");
     info.className = "info";
 
@@ -232,7 +211,7 @@ function render() {
     cont.appendChild(card);
   });
 }
-
+</script>
 /* ========================
    FILTROS POR TIENDA
 ======================== */
