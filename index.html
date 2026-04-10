@@ -89,13 +89,13 @@ async function abrirTienda(tienda, btn) {
 if (tienda === "oxxo") {
   todos = todos.map(item => {
     if (!item.programa && item.imagen) {
-      if (item.imagen.includes("/oxxo_abril_26/")) {
+      if (item.imagen.includes("/oxxo_abril_2026/")) {
         item.programa = "ABRIL_26";
-      } else if (item.imagen.includes("/oxxo_cc_burbuja_red/")) {
+      } else if (item.imagen.includes("/oxxo_charola_CC_burbuja_red/")) {
         item.programa = "CC_BURBUJA_RED";
-      } else if (item.imagen.includes("/oxxo_cc_mix/")) {
+      } else if (item.imagen.includes("/oxxo_charola_CC_mix/")) {
         item.programa = "CC_MIX";
-      } else if (item.imagen.includes("/oxxo_cc_red/")) {
+      } else if (item.imagen.includes("/oxxo_charola_CC_red/")) {
         item.programa = "CC_RED";
       }
     }
