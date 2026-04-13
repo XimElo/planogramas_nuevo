@@ -6,6 +6,12 @@
   <title>Catálogo de Exhibidores</title>
    <link rel="stylesheet" href="styles.css" />
 </head>
+  <!-- ========================
+     ZOOM DE IMAGEN
+======================== -->
+<div id="zoomOverlay" class="zoom-overlay" onclick="cerrarZoom()">
+  <img id="zoomImg" src="" alt="">
+</div>
 <body>
 
 <!-- ========================
@@ -200,6 +206,7 @@ function render() {
     const img = document.createElement("img");
     img.src = item.imagen;
     img.alt = item.nombre;
+    img.onclick = () => abrirZoom(item.imagen, item.nombre);
 
     const info = document.createElement("div");
     info.className = "info";
@@ -216,6 +223,36 @@ function render() {
     card.appendChild(info);
     cont.appendChild(card);
   });
+}
+
+
+  /* ========================
+  ZOOM CEL
+======================== */
+
+  function abrirZoom(src, alt) {
+  const overlay = document.getElementById("zoomOverlay");
+  const img = document.getElementById("zoomImg");
+
+  img.src = src;
+  img.alt = alt || "";
+
+  overlay.classList.add("activo");
+}
+
+function cerrarZoom() {
+  const overlay = document.getElementById("zoomOverlay");
+  overlay.classList.remove("activo");
+}
+
+  function abrirZoom(src, alt) {
+  document.body.style.overflow = "hidden";
+  ...
+}
+
+function cerrarZoom() {
+  document.body.style.overflow = "";
+  ...
 }
 
 /* ========================
