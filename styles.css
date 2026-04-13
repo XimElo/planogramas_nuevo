@@ -396,5 +396,39 @@ h1 {
     font-size: 0.9rem;
   }
 }
+/* =========================
+   ZOOM DE IMÁGENES
+========================= */
+.zoom-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.zoom-overlay img {
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+/* Mostrar overlay */
+.zoom-overlay.activo {
+  display: flex;
+}
+
+/* Cursor bonito */
+.card img {
+  cursor: zoom-in;
+}
+
+.zoom-overlay img {
+  transition: transform 0.2s ease;
+}
+``
 
 
