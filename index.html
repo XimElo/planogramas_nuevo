@@ -74,23 +74,46 @@ let filtrosActivos = {};
 /* ========================
    ABRIR TIENDA
 ======================== */
-async function abrirTienda(tienda, btn) {
-  document.getElementById("homeView").style.display = "none";
-  document.getElementById("catalogoView").style.display = "block";
+ document.getElementById("contador").textContent = visibles.length;
 
-  document.querySelectorAll(".btn-tienda").forEach(b => b.classList.remove("activo"));
-  btn.classList.add("activo");
+  if (visibles.length === 0) {
+    const p = document.createElement("p");
+    p.textContent = "No se encontraron resultados";
+    cont.appendChild(p);
+    return;
+  }
 
-  filtrosActivos = {};
-  document.getElementById("inputBusqueda").value = "";
+  visibles.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
 
-  const res = await fetch(`data/${tienda}.json`);
-  todos = await res.json();
+    const img = document.createElement("img");
+    img.src = item.imagen;
+    img.alt = item.nombre;
 
-  visibles = [...todos];
-  generarFiltrosPorTienda(tienda);
-  render();
-}
+    // DEBUG visual (opcional, ayuda mucho)
+    img.onerror = () => {
+      img.style.border = "2px solid red";
+      img.alt = "No cargó: " + item.imagen;
+    };
+
+    const info = document.createElement("div");
+    info.className = "info";
+
+    const h3 = document.createElement("h3");
+    h3.textContent = item.nombre;
+
+    const p = document.createElement("p");
+    p.textContent = item.codigo;
+
+    info.appendChild(h3);
+    info.appendChild(p);
+
+    card.appendChild(img);
+    card.appendChild(info);
+    cont.appendChild(card);
+  });
+
 
 /* ========================
    VOLVER
