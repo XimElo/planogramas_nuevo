@@ -1,4 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Catálogo de Exhibidores</title>
+   <link rel="stylesheet" href="styles.css" />
+</head>
+  <!-- ========================
+     ZOOM DE IMAGEN
+======================== -->
+<div id="zoomOverlay" class="zoom-overlay" onclick="cerrarZoom()">
+  <img id="zoomImg" src="" alt="">
+</div>
+<body>
+
+<!-- ========================
+     VISTA HOME
+======================== -->
+
+<div id="homeView">
+  <header>
+    <h1>Bienvenido a los Planogramas Web</h1>
+    <p class="sub">POGS ABRIL 2026</p>
+
+    <div class="tiendas">
+      <button class="btn-tienda" onclick="abrirTienda('oxxo', this)">
+        <img src="img/logo/oxxo.png" alt="OXXO">
+        <span>OXXO</span>
+      </button>
+
+      <button class="btn-tienda" onclick="abrirTienda('711', this)">
+        <img src="img/logo/711.png" alt="7-Eleven">
+      <span>7‑Eleven</span>
+      </button>
+
+      <button class="btn-tienda" onclick="abrirTienda('cck', this)">
+        <img src="img/logo/ckk.png" alt="CCK">
+        <span>CCK</span>
+      </button>
+    </div>
+  </header>
+</div>
+
+<!-- ========================
+     VISTA CATÁLOGO
+======================== -->
+<div id="catalogoView" style="display:none;">
+
+
+  <div class="top-bar">
+    <button onclick="volverInicio()">← Volver</button>
+    <span>Items: <strong id="contador">0</strong></span>
+    <button onclick="limpiarFiltros()">Limpiar filtros</button>
+  </div>
+
+  <div class="buscador">
+    <input
+      type="text"
+      id="inputBusqueda"
+      placeholder="Buscar por nombre o código…"
+      oninput="aplicarFiltros()"
+    />
+  </div>
+
+  <div class="filtros" id="filtros"></div>
+
+  <main id="contenedor" class="grid"></main>
+</div>
+
 <script>
+
 /* ========================
    ESTADO GLOBAL
 ======================== */
