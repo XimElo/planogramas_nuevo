@@ -63,6 +63,7 @@
 </div>
 
 <script>
+<script>
 /* ========================
    ESTADO GLOBAL
 ======================== */
@@ -84,12 +85,11 @@ async function abrirTienda(tienda, btn) {
   document.getElementById("inputBusqueda").value = "";
 
   const res = await fetch(`data/${tienda}.json`);
-todos = await res.json();
+  todos = await res.json();
 
-visibles = [...todos];
-generarFiltrosPorTienda(tienda);
-render();
-  
+  visibles = [...todos];
+  generarFiltrosPorTienda(tienda);
+  render();
 }
 
 /* ========================
@@ -101,14 +101,23 @@ function volverInicio() {
 }
 
 /* ========================
-   FILTROS
+   FILTROS (MÚLTIPLES)
 ======================== */
 function setFiltro(campo, valor, btn) {
-  filtrosActivos[campo] = valor;
+  if (!filtrosActivos[campo]) filtrosActivos[campo] = [];
 
-  btn.parentElement.querySelectorAll(".filtro-btn").forEach(b => b.classList.remove("activo"));
-  btn.classList.add("activo");
+  const index = filtrosActivos[campo].indexOf(valor);
 
+  if (index === -1) {
+    filtrosActivos[campo].push(valor);
+    btn.classList.add("activo");
+  } else {
+    filtrosActivos[campo].splice(index, 1);
+    btn.classList.remove("activo");
+    if (filtrosActivos[campo].length === 0) {
+      delete filtrosActivos[campo];
+    }
+  }
 
   aplicarFiltros();
 }
@@ -124,13 +133,15 @@ function aplicarFiltros() {
 
   visibles = todos.filter(item => {
     const matchFiltros = Object.keys(filtrosActivos).every(campo => {
-      const filtrosCampo = filtrosActivos[campo];
+      const seleccionados = filtrosActivos[campo];
 
       if (Array.isArray(item[campo])) {
-        return filtrosCampo.some(v => item[campo].map(String).includes(String(v)));
+        return seleccionados.some(v =>
+          item[campo].map(String).includes(String(v))
+        );
       }
 
-      return filtrosCampo.map(String).includes(String(item[campo]));
+      return seleccionados.map(String).includes(String(item[campo]));
     });
 
     const matchTexto =
@@ -178,14 +189,12 @@ function render() {
 
     info.appendChild(h3);
     info.appendChild(p);
-
     card.appendChild(img);
     card.appendChild(info);
     cont.appendChild(card);
   });
 }
 
-  
 /* ========================
    FILTROS POR TIENDA
 ======================== */
@@ -212,13 +221,6 @@ function generarFiltrosPorTienda(tienda) {
         <span>Charolas:</span>
         <button class="filtro-btn" onclick="setFiltro('charolas',4,this)">4</button>
         <button class="filtro-btn" onclick="setFiltro('charolas',5,this)">5</button>
-      </div>
-
-      <div class="filtro-grupo">
-        <span>Tipo de Charola:</span>
-        <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU',this)">HTU</button>
-        <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARHTU_ZYN',this)">HTU_ZYN</button>
-        <button class="filtro-btn" onclick="setFiltro('tipo_charola','CHARZYN',this)">CHARZYN</button>
       </div>
     `;
   }
@@ -253,9 +255,7 @@ function generarFiltrosPorTienda(tienda) {
       </div>
     `;
   }
-}  
-
+}
 </script>
-
 </body>
 </html>
