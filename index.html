@@ -1,73 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="robots" content="noindex, nofollow" />
-  <title>Catálogo de Exhibidores</title>
-   <link rel="stylesheet" href="styles.css" />
-</head>
-  <!-- ========================
-     ZOOM DE IMAGEN
-======================== -->
-<div id="zoomOverlay" class="zoom-overlay" onclick="cerrarZoom()">
-  <img id="zoomImg" src="" alt="">
-</div>
-<body>
-
-<!-- ========================
-     VISTA HOME
-======================== -->
-
-<div id="homeView">
-  <header>
-    <h1>Bienvenido a los Planogramas Web</h1>
-    <p class="sub">POGS ABRIL 2026</p>
-
-    <div class="tiendas">
-      <button class="btn-tienda" onclick="abrirTienda('oxxo', this)">
-        <img src="img/logo/oxxo.png" alt="OXXO">
-        <span>OXXO</span>
-      </button>
-
-      <button class="btn-tienda" onclick="abrirTienda('711', this)">
-        <img src="img/logo/711.png" alt="7-Eleven">
-      <span>7‑Eleven</span>
-      </button>
-
-      <button class="btn-tienda" onclick="abrirTienda('cck', this)">
-        <img src="img/logo/ckk.png" alt="CCK">
-        <span>CCK</span>
-      </button>
-    </div>
-  </header>
-</div>
-
-<!-- ========================
-     VISTA CATÁLOGO
-======================== -->
-<div id="catalogoView" style="display:none;">
-
-
-  <div class="top-bar">
-    <button onclick="volverInicio()">← Volver</button>
-    <span>Items: <strong id="contador">0</strong></span>
-    <button onclick="limpiarFiltros()">Limpiar filtros</button>
-  </div>
-
-  <div class="buscador">
-    <input
-      type="text"
-      id="inputBusqueda"
-      placeholder="Buscar por nombre o código…"
-      oninput="aplicarFiltros()"
-    />
-  </div>
-
-  <div class="filtros" id="filtros"></div>
-
-  <main id="contenedor" class="grid"></main>
-</div>
-
 <script>
 /* ========================
    ESTADO GLOBAL
@@ -79,46 +9,23 @@ let filtrosActivos = {};
 /* ========================
    ABRIR TIENDA
 ======================== */
- document.getElementById("contador").textContent = visibles.length;
+async function abrirTienda(tienda, btn) {
+  document.getElementById("homeView").style.display = "none";
+  document.getElementById("catalogoView").style.display = "block";
 
-  if (visibles.length === 0) {
-    const p = document.createElement("p");
-    p.textContent = "No se encontraron resultados";
-    cont.appendChild(p);
-    return;
-  }
+  document.querySelectorAll(".btn-tienda").forEach(b => b.classList.remove("activo"));
+  btn.classList.add("activo");
 
-  visibles.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "card";
+  filtrosActivos = {};
+  document.getElementById("inputBusqueda").value = "";
 
-    const img = document.createElement("img");
-    img.src = item.imagen;
-    img.alt = item.nombre;
+  const res = await fetch(`data/${tienda}.json`);
+  todos = await res.json();
 
-    // DEBUG visual (opcional, ayuda mucho)
-    img.onerror = () => {
-      img.style.border = "2px solid red";
-      img.alt = "No cargó: " + item.imagen;
-    };
-
-    const info = document.createElement("div");
-    info.className = "info";
-
-    const h3 = document.createElement("h3");
-    h3.textContent = item.nombre;
-
-    const p = document.createElement("p");
-    p.textContent = item.codigo;
-
-    info.appendChild(h3);
-    info.appendChild(p);
-
-    card.appendChild(img);
-    card.appendChild(info);
-    cont.appendChild(card);
-  });
-
+  visibles = [...todos];
+  generarFiltrosPorTienda(tienda);
+  render();
+}
 
 /* ========================
    VOLVER
@@ -129,7 +36,7 @@ function volverInicio() {
 }
 
 /* ========================
-   FILTROS (MÚLTIPLES)
+   FILTROS MÚLTIPLES
 ======================== */
 function setFiltro(campo, valor, btn) {
   if (!filtrosActivos[campo]) filtrosActivos[campo] = [];
@@ -142,9 +49,7 @@ function setFiltro(campo, valor, btn) {
   } else {
     filtrosActivos[campo].splice(index, 1);
     btn.classList.remove("activo");
-    if (filtrosActivos[campo].length === 0) {
-      delete filtrosActivos[campo];
-    }
+    if (filtrosActivos[campo].length === 0) delete filtrosActivos[campo];
   }
 
   aplicarFiltros();
@@ -161,15 +66,15 @@ function aplicarFiltros() {
 
   visibles = todos.filter(item => {
     const matchFiltros = Object.keys(filtrosActivos).every(campo => {
-      const seleccionados = filtrosActivos[campo];
+      const valores = filtrosActivos[campo];
 
       if (Array.isArray(item[campo])) {
-        return seleccionados.some(v =>
+        return valores.some(v =>
           item[campo].map(String).includes(String(v))
         );
       }
 
-      return seleccionados.map(String).includes(String(item[campo]));
+      return valores.map(String).includes(String(item[campo]));
     });
 
     const matchTexto =
@@ -218,40 +123,30 @@ function render() {
 
     info.appendChild(h3);
     info.appendChild(p);
+
     card.appendChild(img);
     card.appendChild(info);
     cont.appendChild(card);
   });
 }
 
-
-  /* ========================
-  ZOOM CEL
+/* ========================
+   ZOOM
 ======================== */
-
-  function abrirZoom(src, alt) {
+function abrirZoom(src, alt) {
   const overlay = document.getElementById("zoomOverlay");
   const img = document.getElementById("zoomImg");
 
   img.src = src;
   img.alt = alt || "";
-
+  document.body.style.overflow = "hidden";
   overlay.classList.add("activo");
 }
 
 function cerrarZoom() {
   const overlay = document.getElementById("zoomOverlay");
-  overlay.classList.remove("activo");
-}
-
-  function abrirZoom(src, alt) {
-  document.body.style.overflow = "hidden";
-  ...
-}
-
-function cerrarZoom() {
   document.body.style.overflow = "";
-  ...
+  overlay.classList.remove("activo");
 }
 
 /* ========================
