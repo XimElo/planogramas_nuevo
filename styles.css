@@ -364,4 +364,37 @@ h1 {
 }
 
 
+/* =========================
+   RESPONSIVE – MÓVIL
+========================= */
+@media (max-width: 768px) {
+
+  /* Grid: una sola columna */
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 16px;
+  }
+
+  /* Cards más grandes */
+  .card {
+    border-radius: 20px;
+  }
+
+  /* Imagen MUCHO más grande */
+  .card img {
+    max-height: 320px;
+    padding: 16px;
+  }
+
+  /* Texto más legible */
+  .info h3 {
+    font-size: 1.1rem;
+  }
+
+  .info p {
+    font-size: 0.9rem;
+  }
+}
+
 
