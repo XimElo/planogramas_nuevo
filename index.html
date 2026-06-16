@@ -106,18 +106,10 @@ async function abrirTienda(tienda, btn) {
   filtrosActivos = {};
   document.getElementById("inputBusqueda").value = "";
 
- if (tienda === "oxxo") {
-  const res1 = await fetch(`data/oxxo_ABR26.json`);
-  const res2 = await fetch(`data/oxxo_JUN26.json`);
 
-  const abr = await res1.json();
-  const jun = await res2.json();
-
-  todos = [...abr, ...jun];
-} else {
   const res = await fetch(`data/${tienda}.json`);
   todos = await res.json();
-}
+
 
 
   visibles = [...todos];
@@ -257,11 +249,7 @@ function generarFiltrosPorTienda(tienda) {
 
   if (tienda === "oxxo") {
     f.innerHTML = `
-  <div class="filtro-grupo">
-    <span>Mes:</span>
-    <button class="filtro-btn" onclick="setFiltro('mes','JUN26',this)">Jun 26</button>
-    <button class="filtro-btn" onclick="setFiltro('mes','ABR26',this)">Abr 26</button>
-  </div>
+ 
 
   <div class="filtro-grupo">
     <span>Familia:</span>
@@ -309,8 +297,8 @@ function generarFiltrosPorTienda(tienda) {
     f.innerHTML = `
       <div class="filtro-grupo">
         <span>Familia:</span>
-        <button class="filtro-btn" onclick="setFiltro('familia','RESELLER',this)">Reseller</button>
-        <button class="filtro-btn" onclick="setFiltro('familia','NA',this)">NA</button>
+        <button class="filtro-btn" onclick="setFiltro('tipo','RESELLER',this)">Reseller</button>
+        <button class="filtro-btn" onclick="setFiltro('tipo','NA',this)">NA</button>
       </div>
     `;
   }
