@@ -1,66 +1,82 @@
 [
   {
-    "nombre": "ABR26 7-Eleven 120",
-    "codigo": "ABR26_711_120",
-    "imagen": "img/711/ABR26_711_120.jpg",
-    "familia": "NA",
-    "tipo": "Backwall",
-    "charolas": 7
+    "mes": "JUN26",
+    "nombre": "JUN26 711 120",
+    "codigo": "JUN26_711_120",
+    "imagen": "img/711/JUN26_711_120.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "120",
+    "tipo": "NORMAL",
+    "familia": "HTU"
   },
   {
-    "nombre": "ABR26 7-Eleven 120 Reseller",
-    "codigo": "ABR26_711_120_RESELLER",
-    "imagen": "img/711/ABR26_711_120_RESELLER.jpg",
-    "familia": "RESELLER",
-    "tipo": "Backwall",
-    "charolas": 7
+    "mes": "JUN26",
+    "nombre": "JUN26 711 120 RESELLER",
+    "codigo": "JUN26_711_120_RESELLER",
+    "imagen": "img/711/JUN26_711_120_RESELLER.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "120",
+    "tipo": "RESELLER",
+    "familia": "HTU"
   },
   {
-    "nombre": "ABR26 7-Eleven 151",
-    "codigo": "ABR26_711_151",
-    "imagen": "img/711/ABR26_711_151.jpg",
-    "familia": "NA",
-    "tipo": "Backwall",
-    "charolas": 7
+    "mes": "JUN26",
+    "nombre": "JUN26 711 151",
+    "codigo": "JUN26_711_151",
+    "imagen": "img/711/JUN26_711_151.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "151",
+    "tipo": "NORMAL",
+    "familia": "HTU"
   },
   {
-    "nombre": "ABR26 7-Eleven 151 Reseller",
-    "codigo": "ABR26_711_151_RESELLER",
-    "imagen": "img/711/ABR26_711_151_RESELLER.jpg",
-    "familia": "RESELLER",
-    "tipo": "Backwall",
-    "charolas": 7
+    "mes": "JUN26",
+    "nombre": "JUN26 711 151 RESELLER",
+    "codigo": "JUN26_711_151_RESELLER",
+    "imagen": "img/711/JUN26_711_151_RESELLER.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "151",
+    "tipo": "RESELLER",
+    "familia": "HTU"
   },
   {
-    "nombre": "ABR26 7-Eleven 183",
-    "codigo": "ABR26_711_183",
-    "imagen": "img/711/ABR26_711_183.jpg",
-    "familia": "NA",
-    "tipo": "Backwall",
-    "charolas": 7
+    "mes": "JUN26",
+    "nombre": "JUN26 711 183",
+    "codigo": "JUN26_711_183",
+    "imagen": "img/711/JUN26_711_183.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "183",
+    "tipo": "NORMAL",
+    "familia": "HTU"
   },
   {
-    "nombre": "ABR26 7-Eleven 183 Reseller",
-    "codigo": "ABR26_711_183_RESELLER",
-    "imagen": "img/711/ABR26_711_183_RESELLER.jpg",
-    "familia": "RESELLER",
-    "tipo": "Backwall",
-    "charolas": 7
+    "mes": "JUN26",
+    "nombre": "JUN26 711 183 RESELLER",
+    "codigo": "JUN26_711_183_RESELLER",
+    "imagen": "img/711/JUN26_711_183_RESELLER.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "183",
+    "tipo": "RESELLER",
+    "familia": "HTU"
   },
   {
-    "nombre": "ABR26 7-Eleven 193",
-    "codigo": "ABR26_711_193",
-    "imagen": "img/711/ABR26_711_193.jpg",
-    "familia": "NA",
-    "tipo": "Backwall",
-    "charolas": 7
+    "mes": "JUN26",
+    "nombre": "JUN26 711 193",
+    "codigo": "JUN26_711_193",
+    "imagen": "img/711/JUN26_711_193.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "193",
+    "tipo": "NORMAL",
+    "familia": "HTU"
   },
   {
-    "nombre": "ABR26 7-Eleven 193 Reseller",
-    "codigo": "ABR26_711_193_RESELLER",
-    "imagen": "img/711/ABR26_711_193_RESELLER.jpg",
-    "familia": "RESELLER",
-    "tipo": "Backwall",
-    "charolas": 7
+    "mes": "JUN26",
+    "nombre": "JUN26 711 193 RESELLER",
+    "codigo": "JUN26_711_193_RESELLER",
+    "imagen": "img/711/JUN26_711_193_RESELLER.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "193",
+    "tipo": "RESELLER",
+    "familia": "HTU"
   }
 ]
