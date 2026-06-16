@@ -68,8 +68,24 @@
   <main id="contenedor" class="grid"></main>
 </div>
 
+  
+
 <script>
 
+
+/* ========================
+   TRADUCCIÓN GLOBAL
+======================== */
+const equivalencias = {
+  "HTU": "TEREA"
+};
+
+function traducir(valor) {
+  return equivalencias[valor] || valor;
+}
+
+
+  
 /* ========================
    ESTADO GLOBAL
 ======================== */
@@ -198,10 +214,11 @@ function render() {
     info.className = "info";
 
     const h3 = document.createElement("h3");
-    h3.textContent = item.nombre;
+    h3.textContent = traducir(item.nombre);
 
+    
     const p = document.createElement("p");
-    p.textContent = item.codigo;
+    p.textContent = traducir(item.codigo);
 
     info.appendChild(h3);
     info.appendChild(p);
@@ -248,7 +265,7 @@ function generarFiltrosPorTienda(tienda) {
 
   <div class="filtro-grupo">
     <span>Familia:</span>
-    <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">HTU</button>
+    <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">TEREA</button>
     <button class="filtro-btn" onclick="setFiltro('familia','ZYN',this)">ZYN</button>
     <button class="filtro-btn" onclick="setFiltro('familia','NA',this)">NA</button>
   </div>
@@ -271,7 +288,7 @@ function generarFiltrosPorTienda(tienda) {
     f.innerHTML = `
       <div class="filtro-grupo">
         <span>Familia:</span>
-        <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">HTU</button>
+        <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">TEREA</button>
         <button class="filtro-btn" onclick="setFiltro('familia','ZYN',this)">ZYN</button>
         <button class="filtro-btn" onclick="setFiltro('familia','RESELLER',this)">Reseller</button>
       </div>
