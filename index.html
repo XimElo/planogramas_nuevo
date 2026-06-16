@@ -21,7 +21,7 @@
 <div id="homeView">
   <header>
     <h1>Bienvenido a los Planogramas Web</h1>
-    <p class="sub">POGS ABRIL 2026</p>
+    <p class="sub">POGS 2026(JUN26)</p>
 
     <div class="tiendas">
       <button class="btn-tienda" onclick="abrirTienda('oxxo', this)">
@@ -228,7 +228,15 @@ function generarFiltrosPorTienda(tienda) {
   f.innerHTML = "";
 
   if (tienda === "oxxo") {
-    f.innerHTML = `
+    f.innerHTML = 
+
+    <div class="filtro-grupo">
+      <span>Mes:</span>
+      <button class="filtro-btn" onclick="setFiltro('mes','JUN26',this)">Jun 26</button>
+      <button class="filtro-btn" onclick="setFiltro('mes','ABR26',this)">Abr 26</button>
+    </div>
+
+      
       <div class="filtro-grupo">
         <span>Familia:</span>
         <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">HTU</button>
