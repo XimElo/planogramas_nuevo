@@ -228,36 +228,34 @@ function generarFiltrosPorTienda(tienda) {
   f.innerHTML = "";
 
   if (tienda === "oxxo") {
-    f.innerHTML = 
+    f.innerHTML = `
+  <div class="filtro-grupo">
+    <span>Mes:</span>
+    <button class="filtro-btn" onclick="setFiltro('mes','JUN26',this)">Jun 26</button>
+    <button class="filtro-btn" onclick="setFiltro('mes','ABR26',this)">Abr 26</button>
+  </div>
 
-    <div class="filtro-grupo">
-      <span>Mes:</span>
-      <button class="filtro-btn" onclick="setFiltro('mes','JUN26',this)">Jun 26</button>
-      <button class="filtro-btn" onclick="setFiltro('mes','ABR26',this)">Abr 26</button>
-    </div>
+  <div class="filtro-grupo">
+    <span>Familia:</span>
+    <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">HTU</button>
+    <button class="filtro-btn" onclick="setFiltro('familia','ZYN',this)">ZYN</button>
+    <button class="filtro-btn" onclick="setFiltro('familia','NA',this)">NA</button>
+  </div>
 
-      
-      <div class="filtro-grupo">
-        <span>Familia:</span>
-        <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">HTU</button>
-        <button class="filtro-btn" onclick="setFiltro('familia','ZYN',this)">ZYN</button>
-        <button class="filtro-btn" onclick="setFiltro('familia','NA',this)">NA</button>
-      </div>
+  <div class="filtro-grupo">
+    <span>Header:</span>
+    <button class="filtro-btn" onclick="setFiltro('header','HEADER',this)">Header</button>
+    <button class="filtro-btn" onclick="setFiltro('header','NOHEADER',this)">No Header</button>
+  </div>
 
-      <div class="filtro-grupo">
-        <span>Header:</span>
-        <button class="filtro-btn" onclick="setFiltro('header','HEADER',this)">Header</button>
-        <button class="filtro-btn" onclick="setFiltro('header','NOHEADER',this)">No Header</button>
-      </div>
-
-      <div class="filtro-grupo">
-        <span>Charolas:</span>
-        <button class="filtro-btn" onclick="setFiltro('charolas',4,this)">4</button>
-        <button class="filtro-btn" onclick="setFiltro('charolas',5,this)">5</button>
-      </div>
-    `;
+  <div class="filtro-grupo">
+    <span>Charolas:</span>
+    <button class="filtro-btn" onclick="setFiltro('charolas',4,this)">4</button>
+    <button class="filtro-btn" onclick="setFiltro('charolas',5,this)">5</button>
+  </div>
+`;
   }
-
+  
   if (tienda === "cck") {
     f.innerHTML = `
       <div class="filtro-grupo">
