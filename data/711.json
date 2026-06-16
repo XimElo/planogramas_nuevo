@@ -1,0 +1,82 @@
+[
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 711 120",
+    "codigo": "JUN26_711_120",
+    "imagen": "img/711/JUN26_711_120.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "120",
+    "tipo": "NORMAL",
+    "familia": "HTU"
+  },
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 711 120 RESELLER",
+    "codigo": "JUN26_711_120_RESELLER",
+    "imagen": "img/711/JUN26_711_120_RESELLER.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "120",
+    "tipo": "RESELLER",
+    "familia": "HTU"
+  },
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 711 151",
+    "codigo": "JUN26_711_151",
+    "imagen": "img/711/JUN26_711_151.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "151",
+    "tipo": "NORMAL",
+    "familia": "HTU"
+  },
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 711 151 RESELLER",
+    "codigo": "JUN26_711_151_RESELLER",
+    "imagen": "img/711/JUN26_711_151_RESELLER.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "151",
+    "tipo": "RESELLER",
+    "familia": "HTU"
+  },
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 711 183",
+    "codigo": "JUN26_711_183",
+    "imagen": "img/711/JUN26_711_183.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "183",
+    "tipo": "NORMAL",
+    "familia": "HTU"
+  },
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 711 183 RESELLER",
+    "codigo": "JUN26_711_183_RESELLER",
+    "imagen": "img/711/JUN26_711_183_RESELLER.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "183",
+    "tipo": "RESELLER",
+    "familia": "HTU"
+  },
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 711 193",
+    "codigo": "JUN26_711_193",
+    "imagen": "img/711/JUN26_711_193.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "193",
+    "tipo": "NORMAL",
+    "familia": "HTU"
+  },
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 711 193 RESELLER",
+    "codigo": "JUN26_711_193_RESELLER",
+    "imagen": "img/711/JUN26_711_193_RESELLER.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "193",
+    "tipo": "RESELLER",
+    "familia": "HTU"
+  }
+]
