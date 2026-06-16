@@ -90,8 +90,19 @@ async function abrirTienda(tienda, btn) {
   filtrosActivos = {};
   document.getElementById("inputBusqueda").value = "";
 
+ if (tienda === "oxxo") {
+  const res1 = await fetch(`data/oxxo_ABR26.json`);
+  const res2 = await fetch(`data/oxxo_JUN26.json`);
+
+  const abr = await res1.json();
+  const jun = await res2.json();
+
+  todos = [...abr, ...jun];
+} else {
   const res = await fetch(`data/${tienda}.json`);
   todos = await res.json();
+}
+
 
   visibles = [...todos];
   generarFiltrosPorTienda(tienda);
