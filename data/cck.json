@@ -1,82 +1,110 @@
 [
   {
     "mes": "JUN26",
-    "nombre": "JUN26 711 120",
-    "codigo": "JUN26_711_120",
-    "imagen": "img/711/JUN26_711_120.jpg",
-    "tienda": "7ELEVEN",
-    "formato": "120",
-    "tipo": "NORMAL",
-    "familia": "HTU"
+    "nombre": "JUN26 CCK 2FT HEADER FAROS25 LM HTU ZYN",
+    "codigo": "JUN26_CCK_2FT_HEADER_FAROS25_LM_HTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_2FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "NORMAL",
+    "ft": "2FT"
   },
   {
     "mes": "JUN26",
-    "nombre": "JUN26 711 120 RESELLER",
-    "codigo": "JUN26_711_120_RESELLER",
-    "imagen": "img/711/JUN26_711_120_RESELLER.jpg",
-    "tienda": "7ELEVEN",
-    "formato": "120",
-    "tipo": "RESELLER",
-    "familia": "HTU"
+    "nombre": "JUN26 CCK 2FT HEADER RESELLER FAROS25 LM HTU ZYN",
+    "codigo": "JUN26_CCK_2FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_2FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "RESELLER",
+    "ft": "2FT"
   },
   {
     "mes": "JUN26",
-    "nombre": "JUN26 711 151",
-    "codigo": "JUN26_711_151",
-    "imagen": "img/711/JUN26_711_151.jpg",
-    "tienda": "7ELEVEN",
-    "formato": "151",
-    "tipo": "NORMAL",
-    "familia": "HTU"
+    "nombre": "JUN26 CCK 3FT HEADER FAROS25 LM CHARHTU ZYN",
+    "codigo": "JUN26_CCK_3FT_HEADER_FAROS25_LM_CHARHTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_3FT_HEADER_FAROS25_LM_CHARHTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "NORMAL",
+    "ft": "3FT"
   },
   {
     "mes": "JUN26",
-    "nombre": "JUN26 711 151 RESELLER",
-    "codigo": "JUN26_711_151_RESELLER",
-    "imagen": "img/711/JUN26_711_151_RESELLER.jpg",
-    "tienda": "7ELEVEN",
-    "formato": "151",
-    "tipo": "RESELLER",
-    "familia": "HTU"
+    "nombre": "JUN26 CCK 3FT HEADER FAROS25 LM HTU ZYN",
+    "codigo": "JUN26_CCK_3FT_HEADER_FAROS25_LM_HTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_3FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "NORMAL",
+    "ft": "3FT"
   },
   {
     "mes": "JUN26",
-    "nombre": "JUN26 711 183",
-    "codigo": "JUN26_711_183",
-    "imagen": "img/711/JUN26_711_183.jpg",
-    "tienda": "7ELEVEN",
-    "formato": "183",
-    "tipo": "NORMAL",
-    "familia": "HTU"
+    "nombre": "JUN26 CCK 3FT HEADER RESELLER FAROS25 LM HTU ZYN",
+    "codigo": "JUN26_CCK_3FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_3FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "RESELLER",
+    "ft": "3FT"
   },
   {
     "mes": "JUN26",
-    "nombre": "JUN26 711 183 RESELLER",
-    "codigo": "JUN26_711_183_RESELLER",
-    "imagen": "img/711/JUN26_711_183_RESELLER.jpg",
-    "tienda": "7ELEVEN",
-    "formato": "183",
-    "tipo": "RESELLER",
-    "familia": "HTU"
+    "nombre": "JUN26 CCK 4FT HEADER FAROS25 LM HTU ZYN",
+    "codigo": "JUN26_CCK_4FT_HEADER_FAROS25_LM_HTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_4FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "NORMAL",
+    "ft": "4FT"
   },
   {
     "mes": "JUN26",
-    "nombre": "JUN26 711 193",
-    "codigo": "JUN26_711_193",
-    "imagen": "img/711/JUN26_711_193.jpg",
-    "tienda": "7ELEVEN",
-    "formato": "193",
-    "tipo": "NORMAL",
-    "familia": "HTU"
+    "nombre": "JUN26 CCK 4FT HEADER RESELLER FAROS25 LM HTU ZYN",
+    "codigo": "JUN26_CCK_4FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_4FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "RESELLER",
+    "ft": "4FT"
   },
   {
     "mes": "JUN26",
-    "nombre": "JUN26 711 193 RESELLER",
-    "codigo": "JUN26_711_193_RESELLER",
-    "imagen": "img/711/JUN26_711_193_RESELLER.jpg",
-    "tienda": "7ELEVEN",
-    "formato": "193",
-    "tipo": "RESELLER",
-    "familia": "HTU"
+    "nombre": "JUN26 CCK 5FT HEADER FAROS25 LM HTU ZYN",
+    "codigo": "JUN26_CCK_5FT_HEADER_FAROS25_LM_HTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_5FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "NORMAL",
+    "ft": "5FT"
+  },
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 CCK 5FT HEADER RESELLER FAROS25 LM HTU ZYN",
+    "codigo": "JUN26_CCK_5FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_5FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "RESELLER",
+    "ft": "5FT"
+  },
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 CCK 6FT HEADER FAROS25 LM HTU ZYN",
+    "codigo": "JUN26_CCK_6FT_HEADER_FAROS25_LM_HTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_6FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "NORMAL",
+    "ft": "6FT"
+  },
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 CCK 7FT HEADER FAROS25 LM HTU ZYN",
+    "codigo": "JUN26_CCK_7FT_HEADER_FAROS25_LM_HTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_7FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "NORMAL",
+    "ft": "7FT"
+  },
+  {
+    "mes": "JUN26",
+    "nombre": "JUN26 CCK 7FT HEADER RESELLER FAROS25 LM HTU ZYN",
+    "codigo": "JUN26_CCK_7FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN",
+    "imagen": "img/cck/JUN26_CCK_7FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "RESELLER",
+    "ft": "7FT"
   }
 ]
