@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>Catálogo de Exhibidores</title>
+  <title>Catálogo Planogramas</title>
    <link rel="stylesheet" href="styles.css" />
 </head>
   <!-- ========================
@@ -21,7 +21,7 @@
 <div id="homeView">
   <header>
     <h1>Bienvenido a los Planogramas Web</h1>
-    <p class="sub">POGS 2026(JUN26)</p>
+    <p class="sub">POGS 2026 (JUN2026)</p>
 
     <div class="tiendas">
       <button class="btn-tienda" onclick="abrirTienda('oxxo', this)">
@@ -276,7 +276,6 @@ function generarFiltrosPorTienda(tienda) {
     f.innerHTML = `
       <div class="filtro-grupo">
         <span>Familia:</span>
-        <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">TEREA</button>
         <button class="filtro-btn" onclick="setFiltro('familia','ZYN',this)">ZYN</button>
         <button class="filtro-btn" onclick="setFiltro('familia','RESELLER',this)">Reseller</button>
       </div>
