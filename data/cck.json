@@ -1,128 +1,128 @@
 [
   {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 2FT HEADER FAROS25 LM HTU ZYN",
-    "codigo": "JUN26_CCK_2FT_HEADER_FAROS25_LM_HTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_2FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK 2 FT HEADER HTU ZYN",
+    "codigo": "AGO26_CCK_2 FT_HEADER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_2 FT_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "NORMAL",
     "ft": "2"
   },
   {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 2FT HEADER RESELLER FAROS25 LM HTU ZYN",
-    "codigo": "JUN26_CCK_2FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_2FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN.jpg",
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK 2 FT HEADER RESELLER HTU ZYN",
+    "codigo": "AGO26_CCK_2 FT_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_2 FT_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "RESELLER",
     "ft": "2"
   },
   {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 3FT HEADER FAROS25 LM CHARHTU ZYN",
-    "codigo": "JUN26_CCK_3FT_HEADER_FAROS25_LM_CHARHTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_3FT_HEADER_FAROS25_LM_CHARHTU_ZYN.jpg",
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK 3 FT HEADER HTU ZYN",
+    "codigo": "AGO26_CCK_3 FT_HEADER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_3 FT_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "NORMAL",
     "ft": "3"
   },
   {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 3FT HEADER FAROS25 LM HTU ZYN",
-    "codigo": "JUN26_CCK_3FT_HEADER_FAROS25_LM_HTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_3FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
-    "familia": "ZYN",
-    "header": "NORMAL",
-    "ft": "3"
-  },
-  {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 3FT HEADER RESELLER FAROS25 LM HTU ZYN",
-    "codigo": "JUN26_CCK_3FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_3FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN.jpg",
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK 3 FT HEADER RESELLER HTU ZYN",
+    "codigo": "AGO26_CCK_3 FT_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_3 FT_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "RESELLER",
-    "ft": "3"
+    "ft": "AGO26_CCK_3 FT_HEADER_RESELLER_HTU_ZYN"
   },
   {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 4FT HEADER FAROS25 LM HTU ZYN",
-    "codigo": "JUN26_CCK_4FT_HEADER_FAROS25_LM_HTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_4FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK 4 FT HEADER HTU ZYN",
+    "codigo": "AGO26_CCK_4 FT_HEADER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_4 FT_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "NORMAL",
     "ft": "4"
   },
   {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 4FT HEADER RESELLER FAROS25 LM HTU ZYN",
-    "codigo": "JUN26_CCK_4FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_4FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN.jpg",
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK 4 FT HEADER RESELLER HTU ZYN",
+    "codigo": "AGO26_CCK_4 FT_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_4 FT_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "RESELLER",
     "ft": "4"
   },
   {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 5FT HEADER FAROS25 LM HTU ZYN",
-    "codigo": "JUN26_CCK_5FT_HEADER_FAROS25_LM_HTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_5FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK 5 FT HEADER HTU ZYN",
+    "codigo": "AGO26_CCK_5 FT_HEADER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_5 FT_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "NORMAL",
     "ft": "5"
   },
   {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 5FT HEADER RESELLER FAROS25 LM HTU ZYN",
-    "codigo": "JUN26_CCK_5FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_5FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN.jpg",
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK 5 FT HEADER RESELLER HTU ZYN",
+    "codigo": "AGO26_CCK_5 FT_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_5 FT_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "RESELLER",
     "ft": "5"
   },
   {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 6FT HEADER FAROS25 LM HTU ZYN",
-    "codigo": "JUN26_CCK_6FT_HEADER_FAROS25_LM_HTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_6FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK 6 FT HEADER HTU ZYN",
+    "codigo": "AGO26_CCK_6 FT_HEADER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_6 FT_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "NORMAL",
     "ft": "6"
   },
   {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 7FT HEADER FAROS25 LM HTU ZYN - copia",
-    "codigo": "JUN26_CCK_7FT_HEADER_FAROS25_LM_HTU_ZYN - copia",
-    "imagen": "img/cck/JUN26_CCK_7FT_HEADER_FAROS25_LM_HTU_ZYN - copia.jpg",
-    "familia": "ZYN",
-    "header": "NORMAL",
-    "ft": "7"
-  },
-  {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 7FT HEADER FAROS25 LM HTU ZYN",
-    "codigo": "JUN26_CCK_7FT_HEADER_FAROS25_LM_HTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_7FT_HEADER_FAROS25_LM_HTU_ZYN.jpg",
-    "familia": "ZYN",
-    "header": "NORMAL",
-    "ft": "7"
-  },
-  {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 7FT HEADER RESELLER FAROS25 LM HTU ZYN - copia",
-    "codigo": "JUN26_CCK_7FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN - copia",
-    "imagen": "img/cck/JUN26_CCK_7FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN - copia.jpg",
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK 6 FT HEADER RESELLER HTU ZYN",
+    "codigo": "AGO26_CCK_6 FT_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_6 FT_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "RESELLER",
-    "ft": "7"
+    "ft": "6"
   },
   {
-    "mes": "JUN26",
-    "nombre": "JUN26 CCK 7FT HEADER RESELLER FAROS25 LM HTU ZYN",
-    "codigo": "JUN26_CCK_7FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN",
-    "imagen": "img/cck/JUN26_CCK_7FT_HEADER_RESELLER_FAROS25_LM_HTU_ZYN.jpg",
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK NS 1 HEADER HTU ZYN",
+    "codigo": "AGO26_CCK_NS_1_HEADER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_NS_1_HEADER_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "NORMAL",
+    "ft": "NS1"
+  },
+  {
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK NS 1 HEADER RESELLER HTU ZYN",
+    "codigo": "AGO26_CCK_NS_1_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_NS_1_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "RESELLER",
-    "ft": "7"
+    "ft": "NS1"
+  },
+  {
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK NS 2 HEADER HTU ZYN",
+    "codigo": "AGO26_CCK_NS_2_HEADER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_NS_2_HEADER_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "NORMAL",
+    "ft": "NS2"
+  },
+  {
+    "mes": "AGO26",
+    "nombre": "AGO26 CCK NS 2 HEADER RESELLER HTU ZYN",
+    "codigo": "AGO26_CCK_NS_2_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/AGO26_CCK_NS_2_HEADER_RESELLER_HTU_ZYN.jpg",
+    "familia": "ZYN",
+    "header": "RESELLER",
+    "ft": "NS2"
   }
 ]
