@@ -535,7 +535,7 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_NS",
     "tipo": "NORMAL",
-    "familia": "HTU",
+    "familia": "NS",
     "header": "HEADER"
   },
   {
@@ -546,7 +546,7 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_NS_RESELLER",
     "tipo": "RESELLER",
-    "familia": "HTU",
+    "familia": "NS",
     "header": "HEADER"
   }
 ]
