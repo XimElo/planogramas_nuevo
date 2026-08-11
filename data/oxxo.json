@@ -1,4 +1,5 @@
-[ {
+[
+  {
     "mes": "AGO26",
     "nombre": "AGO26 OXXO 4 CHAR HEADER-HTU",
     "codigo": "AGO26_OXXO_4 CHAR_HEADER-HTU",
@@ -6,7 +7,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER-HTU",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -16,7 +18,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER-HTU_CHARHTU",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -26,7 +29,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER-HTU_CHARHTU_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -36,7 +40,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER-HTU_CHARHTU_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -46,7 +51,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER-HTU_CHARHTU_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -56,7 +62,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER-HTU_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -66,7 +73,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER-HTU_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -76,7 +84,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER-HTU_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -86,7 +95,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -96,7 +106,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -106,7 +117,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -116,7 +128,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_HEADER_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -126,7 +139,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER-HTU",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -136,7 +150,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER-HTU_CHARHTU",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -146,7 +161,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER-HTU_CHARHTU_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -156,7 +172,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER-HTU_CHARHTU_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -166,7 +183,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER-HTU_CHARHTU_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -176,7 +194,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER-HTU_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -186,7 +205,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER-HTU_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -196,7 +216,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER-HTU_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -206,7 +227,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -216,7 +238,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -226,7 +249,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -236,7 +260,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_4 CHAR_NOHEADER_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -246,7 +271,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER-HTU",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -256,7 +282,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER-HTU_CHARHTU",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -266,7 +293,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER-HTU_CHARHTU_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -276,7 +304,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER-HTU_CHARHTU_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -286,7 +315,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER-HTU_CHARHTU_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -296,7 +326,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER-HTU_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -306,7 +337,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER-HTU_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -316,7 +348,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER-HTU_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -326,7 +359,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -336,7 +370,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -346,7 +381,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -356,7 +392,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_HEADER_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -366,7 +403,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER-HTU",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -376,7 +414,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER-HTU_CHARHTU",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -386,7 +425,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER-HTU_CHARHTU_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -396,7 +436,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER-HTU_CHARHTU_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -406,7 +447,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER-HTU_CHARHTU_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -416,7 +458,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER-HTU_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -426,7 +469,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER-HTU_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -436,7 +480,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER-HTU_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -446,7 +491,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -456,7 +502,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER_ZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -466,7 +513,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER_ZYN_CHARZYN",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -476,7 +524,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_5 CHAR_NOHEADER_ZYN_CHARZYN25",
     "tipo": "NORMAL",
-    "familia": "ZYN"
+    "familia": "ZYN",
+    "header": "NOHEADER"
   },
   {
     "mes": "AGO26",
@@ -486,7 +535,8 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_NS",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "HTU",
+    "header": "HEADER"
   },
   {
     "mes": "AGO26",
@@ -496,5 +546,7 @@
     "tienda": "OXXO",
     "formato": "AGO26_OXXO_NS_RESELLER",
     "tipo": "RESELLER",
-    "familia": "HTU"
-  } ]
+    "familia": "HTU",
+    "header": "HEADER"
+  }
+]
