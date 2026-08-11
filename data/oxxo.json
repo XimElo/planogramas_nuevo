@@ -1,5 +1,4 @@
-[
-  {
+[ {
     "mes": "AGO26",
     "nombre": "AGO26 OXXO 4 CHAR HEADER-HTU",
     "codigo": "AGO26_OXXO_4 CHAR_HEADER-HTU",
@@ -498,5 +497,4 @@
     "formato": "AGO26_OXXO_NS_RESELLER",
     "tipo": "RESELLER",
     "familia": "HTU"
-  }
-]
+  } ]
