@@ -164,7 +164,7 @@ function aplicarFiltros() {
         );
       }
 
-      return valores.map(String).includes(String(item[campo]));
+      return valores.map(String).includes(String(item[campo] || ""));
     });
 
     const matchTexto =
@@ -271,6 +271,12 @@ function generarFiltrosPorTienda(tienda) {
     <button class="filtro-btn" onclick="setFiltro('charolas',4,this)">4</button>
     <button class="filtro-btn" onclick="setFiltro('charolas',5,this)">5</button>
   </div>
+
+<div class="filtro-grupo">
+<span>Extras:</span>
+<button class="filtro-btn" onclick="setFiltro('material','MUEBLE',this)">Muebles</button>
+</div>
+  
 `;
   }
   
