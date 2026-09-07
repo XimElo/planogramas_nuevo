@@ -549,7 +549,6 @@
     "familia": "NS",
     "header": "HEADER"
   },
-  [
   {
     "material": "MUEBLE",
     "nombre": "MUEBLE B1 2024 OXXO RESELLER",
@@ -595,6 +594,6 @@
     "formato": "MUEBLE_B1_OXXO_RESELLER",
     "tipo": "RESELLER"
   }
-]
+
 
 ]
