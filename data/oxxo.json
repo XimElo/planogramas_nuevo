@@ -553,7 +553,7 @@
     "material": "MUEBLE",
     "nombre": "MUEBLE B1 2024 OXXO RESELLER",
     "codigo": "MUEBLE_B1_2024_OXXO_RESELLER",
-    "imagen": "img/oxxoB1/MUEBLE_B1_2024_OXXO_RESELLER.jpg",
+    "imagen": "MUEBLE_B1_2024_OXXO_RESELLER.jpg",
     "tienda": "OXXO",
     "formato": "MUEBLE_B1_2024_OXXO_RESELLER",
     "tipo": "RESELLER"
@@ -562,7 +562,7 @@
     "material": "MUEBLE",
     "nombre": "MUEBLE B1 OXXO",
     "codigo": "MUEBLE_B1_OXXO",
-    "imagen": "img/oxxoB1/MUEBLE_B1_OXXO.jpg",
+    "imagen": "MUEBLE_B1_OXXO.jpg",
     "tienda": "OXXO",
     "formato": "MUEBLE_B1_OXXO",
     "tipo": "LINEAL"
@@ -571,7 +571,7 @@
     "material": "MUEBLE",
     "nombre": "MUEBLE B1 OXXO LINEAL",
     "codigo": "MUEBLE_B1_OXXO_LINEAL",
-    "imagen": "img/oxxoB1/MUEBLE_B1_OXXO_LINEAL.jpg",
+    "imagen": "MUEBLE_B1_OXXO_LINEAL.jpg",
     "tienda": "OXXO",
     "formato": "MUEBLE_B1_OXXO_LINEAL",
     "tipo": "LINEAL"
@@ -589,7 +589,7 @@
     "material": "MUEBLE",
     "nombre": "MUEBLE B1 OXXO RESELLER",
     "codigo": "MUEBLE_B1_OXXO_RESELLER",
-    "imagen": "img/oxxoB1/MUEBLE_B1_OXXO_RESELLER.jpg",
+    "imagen": "MUEBLE_B1_OXXO_RESELLER.jpg",
     "tienda": "OXXO",
     "formato": "MUEBLE_B1_OXXO_RESELLER",
     "tipo": "RESELLER"
