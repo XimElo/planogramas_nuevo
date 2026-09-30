@@ -304,15 +304,28 @@ function generarFiltrosPorTienda(tienda) {
     `;
   }
 
-  if (tienda === "711") {
-    f.innerHTML = `
-      <div class="filtro-grupo">
-        <span>Familia:</span>
-        <button class="filtro-btn" onclick="setFiltro('tipo','RESELLER',this)">Reseller</button>
-        <button class="filtro-btn" onclick="setFiltro('tipo','NA',this)">NA</button>
-      </div>
-    `;
-  }
+ if (tienda === "711") {
+  f.innerHTML = `
+    <div class="filtro-grupo">
+      <span>Tipo:</span>
+
+      <button class="filtro-btn"
+              onclick="setFiltro('tipo','RESELLER',this)">
+        Reseller
+      </button>
+
+      <button class="filtro-btn"
+              onclick="setFiltro('tipo','NORMAL',this)">
+        Normal
+      </button>
+
+      <button class="filtro-btn"
+              onclick="limpiarFiltro('tipo',this)">
+        Todos
+      </button>
+    </div>
+  `;
+}
 }
 </script>
 </body>
