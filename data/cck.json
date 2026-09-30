@@ -1,137 +1,139 @@
+
+
 [
   {
-    "mes": "CCK26SEP",
-    "nombre": "CCK26SEP",
-    "codigo": "CCK26SEP",
-    "imagen": "img/cck/CCK26SEP.jpg",
+    "mes": "CCK26OCT",
+    "nombre": "CCK26OCT",
+    "codigo": "CCK26OCT",
+    "imagen": "img/cck/CCK26OCT.jpg",
     "familia": "NA",
-    "header": "NORMAL",
-    "ft": "CCK26SEP"
+    "header": "HEADER",
+    "FT": "NA"
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK 2 FT HEADER HTU ZYN",
-    "codigo": "SEP26_CCK_2_FT_HEADER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_2_FT_HEADER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK 2 FT HEADER HTU ZYN",
+    "codigo": "OCT26_CCK_2_FT_HEADER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_2_FT_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "NORMAL",
-    "ft": "2"
+    "header": "HEADER",
+    "FT": 2
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK 2 FT HEADER RESELLER HTU ZYN",
-    "codigo": "SEP26_CCK_2_FT_HEADER_RESELLER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_2_FT_HEADER_RESELLER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK 2 FT HEADER RESELLER HTU ZYN",
+    "codigo": "OCT26_CCK_2_FT_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_2_FT_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "RESELLER",
-    "ft": "2"
+    "header": "HEADER",
+    "FT": 2
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK 3 FT HEADER HTU ZYN",
-    "codigo": "SEP26_CCK_3_FT_HEADER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_3_FT_HEADER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK 3 FT HEADER HTU ZYN",
+    "codigo": "OCT26_CCK_3_FT_HEADER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_3_FT_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "NORMAL",
-    "ft": "3"
+    "header": "HEADER",
+    "FT": 3
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK 3 FT HEADER RESELLER HTU ZYN",
-    "codigo": "SEP26_CCK_3_FT_HEADER_RESELLER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_3_FT_HEADER_RESELLER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK 3 FT HEADER RESELLER HTU ZYN",
+    "codigo": "OCT26_CCK_3_FT_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_3_FT_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "RESELLER",
-    "ft": "3"
+    "header": "HEADER",
+    "FT": 3
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK 4 FT HEADER HTU ZYN",
-    "codigo": "SEP26_CCK_4_FT_HEADER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_4_FT_HEADER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK 4 FT HEADER HTU ZYN",
+    "codigo": "OCT26_CCK_4_FT_HEADER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_4_FT_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "NORMAL",
-    "ft": "4"
+    "header": "HEADER",
+    "FT": 4
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK 4 FT HEADER RESELLER HTU ZYN",
-    "codigo": "SEP26_CCK_4_FT_HEADER_RESELLER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_4_FT_HEADER_RESELLER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK 4 FT HEADER RESELLER HTU ZYN",
+    "codigo": "OCT26_CCK_4_FT_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_4_FT_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "RESELLER",
-    "ft": "4"
+    "header": "HEADER",
+    "FT": 4
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK 5 FT HEADER HTU ZYN",
-    "codigo": "SEP26_CCK_5_FT_HEADER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_5_FT_HEADER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK 5 FT HEADER HTU ZYN",
+    "codigo": "OCT26_CCK_5_FT_HEADER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_5_FT_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "NORMAL",
-    "ft": "5"
+    "header": "HEADER",
+    "FT": 5
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK 5 FT HEADER RESELLER HTU ZYN",
-    "codigo": "SEP26_CCK_5_FT_HEADER_RESELLER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_5_FT_HEADER_RESELLER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK 5 FT HEADER RESELLER HTU ZYN",
+    "codigo": "OCT26_CCK_5_FT_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_5_FT_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "RESELLER",
-    "ft": "5"
+    "header": "HEADER",
+    "FT": 5
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK 6 FT HEADER HTU ZYN",
-    "codigo": "SEP26_CCK_6_FT_HEADER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_6_FT_HEADER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK 6 FT HEADER HTU ZYN",
+    "codigo": "OCT26_CCK_6_FT_HEADER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_6_FT_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "NORMAL",
-    "ft": "6"
+    "header": "HEADER",
+    "FT": 6
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK 6 FT HEADER RESELLER HTU ZYN",
-    "codigo": "SEP26_CCK_6_FT_HEADER_RESELLER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_6_FT_HEADER_RESELLER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK 6 FT HEADER RESELLER HTU ZYN",
+    "codigo": "OCT26_CCK_6_FT_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_6_FT_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "RESELLER",
-    "ft": "6"
+    "header": "HEADER",
+    "FT": 6
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK NS 1 HEADER HTU ZYN",
-    "codigo": "SEP26_CCK_NS_1_HEADER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_NS_1_HEADER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK NS 1 HEADER HTU ZYN",
+    "codigo": "OCT26_CCK_NS_1_HEADER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_NS_1_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "NORMAL",
-    "ft": "NS1"
+    "header": "HEADER",
+    "FT": "NA"
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK NS 1 HEADER RESELLER HTU ZYN",
-    "codigo": "SEP26_CCK_NS_1_HEADER_RESELLER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_NS_1_HEADER_RESELLER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK NS 1 HEADER RESELLER HTU ZYN",
+    "codigo": "OCT26_CCK_NS_1_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_NS_1_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "RESELLER",
-    "ft": "NS1"
+    "header": "HEADER",
+    "FT": "NA"
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK NS 2 HEADER HTU ZYN",
-    "codigo": "SEP26_CCK_NS_2_HEADER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_NS_2_HEADER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK NS 2 HEADER HTU ZYN",
+    "codigo": "OCT26_CCK_NS_2_HEADER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_NS_2_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "NORMAL",
-    "ft": "NS2"
+    "header": "HEADER",
+    "FT": 2
   },
   {
-    "mes": "SEP26",
-    "nombre": "SEP26 CCK NS 2 HEADER RESELLER HTU ZYN",
-    "codigo": "SEP26_CCK_NS_2_HEADER_RESELLER_HTU_ZYN",
-    "imagen": "img/cck/SEP26_CCK_NS_2_HEADER_RESELLER_HTU_ZYN.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 CCK NS 2 HEADER RESELLER HTU ZYN",
+    "codigo": "OCT26_CCK_NS_2_HEADER_RESELLER_HTU_ZYN",
+    "imagen": "img/cck/OCT26_CCK_NS_2_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
-    "header": "RESELLER",
-    "ft": "NS2"
+    "header": "HEADER",
+    "FT": 2
   }
 ]
