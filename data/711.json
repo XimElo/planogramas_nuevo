@@ -1,82 +1,212 @@
+
 [
   {
-    "mes": "AGO26",
-    "nombre": "AGO26 711 120",
-    "codigo": "AGO26_711_120",
-    "imagen": "img/711/AGO26_711_120.jpg",
+    "mes": "711OCT26",
+    "nombre": "711OCT26",
+    "codigo": "711OCT26",
+    "imagen": "img/711/711OCT26.jpg",
+    "tienda": "7ELEVEN",
+    "formato": null,
+    "tipo": "NORMAL",
+    "familia": null
+  },
+  {
+    "mes": "AZCAPOTZALCO",
+    "nombre": "AZCAPOTZALCO",
+    "codigo": "AZCAPOTZALCO",
+    "imagen": "img/711/AZCAPOTZALCO.jpg",
+    "tienda": "7ELEVEN",
+    "formato": null,
+    "tipo": "NORMAL",
+    "familia": null
+  },
+  {
+    "mes": "BICENTENARIO",
+    "nombre": "BICENTENARIO",
+    "codigo": "BICENTENARIO",
+    "imagen": "img/711/BICENTENARIO.jpg",
+    "tienda": "7ELEVEN",
+    "formato": null,
+    "tipo": "NORMAL",
+    "familia": null
+  },
+  {
+    "mes": "COALIMEX",
+    "nombre": "COALIMEX",
+    "codigo": "COALIMEX",
+    "imagen": "img/711/COALIMEX.jpg",
+    "tienda": "7ELEVEN",
+    "formato": null,
+    "tipo": "NORMAL",
+    "familia": null
+  },
+  {
+    "mes": "NIC ROMERO",
+    "nombre": "NIC ROMERO",
+    "codigo": "NIC ROMERO",
+    "imagen": "img/711/NIC ROMERO.jpg",
+    "tienda": "7ELEVEN",
+    "formato": null,
+    "tipo": "NORMAL",
+    "familia": null
+  },
+  {
+    "mes": "OCT26",
+    "nombre": "OCT26 711 120 RESELLER ZYN PANAL",
+    "codigo": "OCT26_711_120_RESELLER_ZYN PANAL",
+    "imagen": "img/711/OCT26_711_120_RESELLER_ZYN PANAL.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "120",
+    "tipo": "RESELLER",
+    "familia": "ZYN",
+    "exhibicion": "PANAL"
+  },
+  {
+    "mes": "OCT26",
+    "nombre": "OCT26 711 120 RESELLER ZYNACOSTADO",
+    "codigo": "OCT26_711_120_RESELLER_ZYNACOSTADO",
+    "imagen": "img/711/OCT26_711_120_RESELLER_ZYNACOSTADO.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "120",
+    "tipo": "RESELLER",
+    "familia": "ZYN",
+    "exhibicion": "ACOSTADO"
+  },
+  {
+    "mes": "OCT26",
+    "nombre": "OCT26 711 120 ZYN",
+    "codigo": "OCT26_711_120_ZYN",
+    "imagen": "img/711/OCT26_711_120_ZYN.jpg",
     "tienda": "7ELEVEN",
     "formato": "120",
     "tipo": "NORMAL",
-    "familia": "HTU"
+    "familia": "ZYN"
   },
   {
-    "mes": "AGO26",
-    "nombre": "AGO26 711 120 RESELLER",
-    "codigo": "AGO26_711_120_RESELLER",
-    "imagen": "img/711/AGO26_711_120_RESELLER.jpg",
-    "tienda": "7ELEVEN",
-    "formato": "120",
-    "tipo": "RESELLER",
-    "familia": "HTU"
-  },
-  {
-    "mes": "AGO26",
-    "nombre": "AGO26 711 151",
-    "codigo": "AGO26_711_151",
-    "imagen": "img/711/AGO26_711_151.jpg",
-    "tienda": "7ELEVEN",
-    "formato": "151",
-    "tipo": "NORMAL",
-    "familia": "HTU"
-  },
-  {
-    "mes": "AGO26",
-    "nombre": "AGO26 711 151 RESELLER",
-    "codigo": "AGO26_711_151_RESELLER",
-    "imagen": "img/711/AGO26_711_151_RESELLER.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 711 151 RESELLER ZYN PANAL",
+    "codigo": "OCT26_711_151_RESELLER_ZYN PANAL",
+    "imagen": "img/711/OCT26_711_151_RESELLER_ZYN PANAL.jpg",
     "tienda": "7ELEVEN",
     "formato": "151",
     "tipo": "RESELLER",
-    "familia": "HTU"
+    "familia": "ZYN",
+    "exhibicion": "PANAL"
   },
   {
-    "mes": "AGO26",
-    "nombre": "AGO26 711 183",
-    "codigo": "AGO26_711_183",
-    "imagen": "img/711/AGO26_711_183.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 711 151 RESELLER ZYNACOSTADO",
+    "codigo": "OCT26_711_151_RESELLER_ZYNACOSTADO",
+    "imagen": "img/711/OCT26_711_151_RESELLER_ZYNACOSTADO.jpg",
     "tienda": "7ELEVEN",
-    "formato": "183",
-    "tipo": "NORMAL",
-    "familia": "HTU"
+    "formato": "151",
+    "tipo": "RESELLER",
+    "familia": "ZYN",
+    "exhibicion": "ACOSTADO"
   },
   {
-    "mes": "AGO26",
-    "nombre": "AGO26 711 183 RESELLER",
-    "codigo": "AGO26_711_183_RESELLER",
-    "imagen": "img/711/AGO26_711_183_RESELLER.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 711 151 ZYN",
+    "codigo": "OCT26_711_151_ZYN",
+    "imagen": "img/711/OCT26_711_151_ZYN.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "151",
+    "tipo": "NORMAL",
+    "familia": "ZYN"
+  },
+  {
+    "mes": "OCT26",
+    "nombre": "OCT26 711 183 RESELLER ZYN PANAL",
+    "codigo": "OCT26_711_183_RESELLER_ZYN PANAL",
+    "imagen": "img/711/OCT26_711_183_RESELLER_ZYN PANAL.jpg",
     "tienda": "7ELEVEN",
     "formato": "183",
     "tipo": "RESELLER",
-    "familia": "HTU"
+    "familia": "ZYN",
+    "exhibicion": "PANAL"
   },
   {
-    "mes": "AGO26",
-    "nombre": "AGO26 711 193",
-    "codigo": "AGO26_711_193",
-    "imagen": "img/711/AGO26_711_193.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 711 183 RESELLER ZYNACOSTADO",
+    "codigo": "OCT26_711_183_RESELLER_ZYNACOSTADO",
+    "imagen": "img/711/OCT26_711_183_RESELLER_ZYNACOSTADO.jpg",
     "tienda": "7ELEVEN",
-    "formato": "193",
-    "tipo": "NORMAL",
-    "familia": "HTU"
+    "formato": "183",
+    "tipo": "RESELLER",
+    "familia": "ZYN",
+    "exhibicion": "ACOSTADO"
   },
   {
-    "mes": "AGO26",
-    "nombre": "AGO26 711 193 RESELLER",
-    "codigo": "AGO26_711_193_RESELLER",
-    "imagen": "img/711/AGO26_711_193_RESELLER.jpg",
+    "mes": "OCT26",
+    "nombre": "OCT26 711 183 ZYN",
+    "codigo": "OCT26_711_183_ZYN",
+    "imagen": "img/711/OCT26_711_183_ZYN.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "183",
+    "tipo": "NORMAL",
+    "familia": "ZYN"
+  },
+  {
+    "mes": "OCT26",
+    "nombre": "OCT26 711 193 RESELLER ZYN LINEAL",
+    "codigo": "OCT26_711_193_RESELLER_ZYN LINEAL",
+    "imagen": "img/711/OCT26_711_193_RESELLER_ZYN LINEAL.jpg",
     "tienda": "7ELEVEN",
     "formato": "193",
     "tipo": "RESELLER",
-    "familia": "HTU"
+    "familia": "ZYN",
+    "exhibicion": "LINEAL"
+  },
+  {
+    "mes": "OCT26",
+    "nombre": "OCT26 711 193 RESELLER ZYN PANAL",
+    "codigo": "OCT26_711_193_RESELLER_ZYN PANAL",
+    "imagen": "img/711/OCT26_711_193_RESELLER_ZYN PANAL.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "193",
+    "tipo": "RESELLER",
+    "familia": "ZYN",
+    "exhibicion": "PANAL"
+  },
+  {
+    "mes": "OCT26",
+    "nombre": "OCT26 711 193 ZYN",
+    "codigo": "OCT26_711_193_ZYN",
+    "imagen": "img/711/OCT26_711_193_ZYN.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "193",
+    "tipo": "NORMAL",
+    "familia": "ZYN"
+  },
+  {
+    "mes": "OCT26",
+    "nombre": "OCT26 711 91 RESELLER ZYNACOSTADO",
+    "codigo": "OCT26_711_91_RESELLER_ZYNACOSTADO",
+    "imagen": "img/711/OCT26_711_91_RESELLER_ZYNACOSTADO.jpg",
+    "tienda": "7ELEVEN",
+    "formato": "91",
+    "tipo": "RESELLER",
+    "familia": "ZYN",
+    "exhibicion": "ACOSTADO"
+  },
+  {
+    "mes": "POPOCATEPETL",
+    "nombre": "POPOCATEPETL",
+    "codigo": "POPOCATEPETL",
+    "imagen": "img/711/POPOCATEPETL.jpg",
+    "tienda": "7ELEVEN",
+    "formato": null,
+    "tipo": "NORMAL",
+    "familia": null
+  },
+  {
+    "mes": "TENANGO",
+    "nombre": "TENANGO",
+    "codigo": "TENANGO",
+    "imagen": "img/711/TENANGO.jpg",
+    "tienda": "7ELEVEN",
+    "formato": null,
+    "tipo": "NORMAL",
+    "familia": null
   }
 ]
