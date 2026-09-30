@@ -98,7 +98,7 @@
     "imagen": "img/cck/OCT26_CCK_NS_1_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "HEADER",
-    "FT": "NA"
+    "FT": "NS1"
   },
   {
     "mes": "OCT26",
@@ -107,7 +107,7 @@
     "imagen": "img/cck/OCT26_CCK_NS_1_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "HEADER",
-    "FT": "NA"
+    "FT": "NS1"
   },
   {
     "mes": "OCT26",
@@ -116,7 +116,7 @@
     "imagen": "img/cck/OCT26_CCK_NS_2_HEADER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "HEADER",
-    "FT": 2
+    "FT": "NS2"
   },
   {
     "mes": "OCT26",
@@ -125,6 +125,6 @@
     "imagen": "img/cck/OCT26_CCK_NS_2_HEADER_RESELLER_HTU_ZYN.jpg",
     "familia": "ZYN",
     "header": "HEADER",
-    "FT": 2
+    "FT": "NS2"
   }
 ]
