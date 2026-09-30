@@ -1,17 +1,8 @@
 
 [
+
   {
-    "mes": "711OCT26",
-    "nombre": "711OCT26",
-    "codigo": "711OCT26",
-    "imagen": "img/711/711OCT26.jpg",
-    "tienda": "7ELEVEN",
-    "formato": null,
-    "tipo": "NORMAL",
-    "familia": null
-  },
-  {
-    "mes": "AZCAPOTZALCO",
+    "mes": "OCT26",
     "nombre": "AZCAPOTZALCO",
     "codigo": "AZCAPOTZALCO",
     "imagen": "img/711/AZCAPOTZALCO.jpg",
@@ -21,7 +12,7 @@
     "familia": null
   },
   {
-    "mes": "BICENTENARIO",
+    "mes": "OCT26",
     "nombre": "BICENTENARIO",
     "codigo": "BICENTENARIO",
     "imagen": "img/711/BICENTENARIO.jpg",
@@ -31,7 +22,7 @@
     "familia": null
   },
   {
-    "mes": "COALIMEX",
+    "mes": "OCT26",
     "nombre": "COALIMEX",
     "codigo": "COALIMEX",
     "imagen": "img/711/COALIMEX.jpg",
@@ -41,7 +32,7 @@
     "familia": null
   },
   {
-    "mes": "NIC ROMERO",
+    "mes": "OCT26",
     "nombre": "NIC ROMERO",
     "codigo": "NIC ROMERO",
     "imagen": "img/711/NIC ROMERO.jpg",
@@ -190,7 +181,7 @@
     "exhibicion": "ACOSTADO"
   },
   {
-    "mes": "POPOCATEPETL",
+    "mes": "OCT26",
     "nombre": "POPOCATEPETL",
     "codigo": "POPOCATEPETL",
     "imagen": "img/711/POPOCATEPETL.jpg",
@@ -200,7 +191,7 @@
     "familia": null
   },
   {
-    "mes": "TENANGO",
+    "mes": "OCT26",
     "nombre": "TENANGO",
     "codigo": "TENANGO",
     "imagen": "img/711/TENANGO.jpg",
