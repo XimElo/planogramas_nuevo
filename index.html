@@ -284,23 +284,26 @@ function generarFiltrosPorTienda(tienda) {
     f.innerHTML = `
       <div class="filtro-grupo">
         <span>Familia:</span>
-        <button class="filtro-btn" onclick="setFiltro('familia','ZYN',this)">ZYN</button>
-        <button class="filtro-btn" onclick="setFiltro('header','RESELLER',this)">Reseller</button>
-        <button class="filtro-btn" onclick="setFiltro('header','NORMAL',this)">Normal</button>
-
+       <button class="filtro-btn"onclick="setFiltro('tipo','RESELLER',this)">Reseller</button>
+       <button class="filtro-btn"onclick="setFiltro('tipo','NORMAL',this)">Normal</button>
       </div>
 
       <div class="filtro-grupo">
         <span>FT:</span>
-        <button class="filtro-btn" onclick="setFiltro('ft',2,this)">2</button>
-        <button class="filtro-btn" onclick="setFiltro('ft',3,this)">3</button>
-        <button class="filtro-btn" onclick="setFiltro('ft',4,this)">4</button>
-        <button class="filtro-btn" onclick="setFiltro('ft',5,this)">5</button>
-        <button class="filtro-btn" onclick="setFiltro('ft',6,this)">6</button>
-        <button class="filtro-btn" onclick="setFiltro('ft','NS1',this)">NS1</button>
-        <button class="filtro-btn" onclick="setFiltro('ft','NS2',this)">NS2</button>
-
+        <button class="filtro-btn" onclick="setFiltro('FT',2,this)">2</button>
+        <button class="filtro-btn" onclick="setFiltro('FT',3,this)">3</button>
+        <button class="filtro-btn" onclick="setFiltro('FT',4,this)">4</button>
+        <button class="filtro-btn" onclick="setFiltro('FT',5,this)">5</button>
+        <button class="filtro-btn" onclick="setFiltro('FT',6,this)">6</button>
+        
       </div>
+      
+      <div class="filtro-grupo">
+      <span>NS:</span>
+      <button class="filtro-btn"onclick="setFiltro('NS',1,this)">NS1</button>
+      <button class="filtro-btn"onclick="setFiltro('NS',2,this)">NS2</button>
+      </div>
+      
     `;
   }
 
