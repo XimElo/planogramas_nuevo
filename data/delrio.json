@@ -3,7 +3,7 @@
   {
     "nombre": "OCT26 DELRIO 3FT HTU",
     "codigo": "OCT26_DELRIO_3FT_HTU",
-    "imagen": "img/DELRIO/OCT26_DELRIO_3FT_HTU.jpg",
+    "imagen": "img/delrio/OCT26_DELRIO_3FT_HTU.jpg",
     "tienda": "DELRIO",
     "ft": 3,
     "familia": "HTU"
@@ -11,7 +11,7 @@
   {
     "nombre": "OCT26 DELRIO 3FT ZYN",
     "codigo": "OCT26_DELRIO_3FT_ZYN",
-    "imagen": "img/DELRIO/OCT26_DELRIO_3FT_ZYN.jpg",
+    "imagen": "img/delrio/OCT26_DELRIO_3FT_ZYN.jpg",
     "tienda": "DELRIO",
     "ft": 3,
     "familia": "ZYN"
@@ -19,7 +19,7 @@
   {
     "nombre": "OCT26 DELRIO 3FT ZYN HTU",
     "codigo": "OCT26_DELRIO_3FT_ZYN_HTU",
-    "imagen": "img/DELRIO/OCT26_DELRIO_3FT_ZYN_HTU.jpg",
+    "imagen": "img/delrio/OCT26_DELRIO_3FT_ZYN_HTU.jpg",
     "tienda": "DELRIO",
     "ft": 3,
     "familia": ["HTU", "ZYN"]
@@ -27,7 +27,7 @@
   {
     "nombre": "OCT26 DELRIO 5FT",
     "codigo": "OCT26_DELRIO_5FT",
-    "imagen": "img/DELRIO/OCT26_DELRIO_5FT.jpg",
+    "imagen": "img/delrio/OCT26_DELRIO_5FT.jpg",
     "tienda": "DELRIO",
     "ft": "NA",
     "familia": {}
@@ -35,7 +35,7 @@
   {
     "nombre": "OCT26 DELRIO 5FT HTU",
     "codigo": "OCT26_DELRIO_5FT_HTU",
-    "imagen": "img/DELRIO/OCT26_DELRIO_5FT_HTU.jpg",
+    "imagen": "img/delrio/OCT26_DELRIO_5FT_HTU.jpg",
     "tienda": "DELRIO",
     "ft": 5,
     "familia": "HTU"
@@ -43,7 +43,7 @@
   {
     "nombre": "OCT26 DELRIO 5FT ZYN",
     "codigo": "OCT26_DELRIO_5FT_ZYN",
-    "imagen": "img/DELRIO/OCT26_DELRIO_5FT_ZYN.jpg",
+    "imagen": "img/delrio/OCT26_DELRIO_5FT_ZYN.jpg",
     "tienda": "DELRIO",
     "ft": 5,
     "familia": "ZYN"
@@ -51,7 +51,7 @@
   {
     "nombre": "OCT26 DELRIO 5FT ZYN HTU",
     "codigo": "OCT26_DELRIO_5FT_ZYN_HTU",
-    "imagen": "img/DELRIO/OCT26_DELRIO_5FT_ZYN_HTU.jpg",
+    "imagen": "img/delrio/OCT26_DELRIO_5FT_ZYN_HTU.jpg",
     "tienda": "DELRIO",
     "ft": 5,
     "familia": ["HTU", "ZYN"]
