@@ -38,6 +38,18 @@
         <img src="img/logo/ckk.png" alt="CCK">
         <span>CCK</span>
       </button>
+
+      <button class="btn-tienda" onclick="abrirTienda('x24', this)"> 
+      <img src = "img/logo/x24.png" alt = "x24">
+      <span>X24</span>
+      </button>
+      
+      <button class="btn-tienda" onclick="abrirTienda('yepas', this)">
+      <img src = "img/logo/yepas.png" alt = "yepas">
+      <span>yepas</span>
+      </button>
+
+      
     </div>
   </header>
 </div>
@@ -319,6 +331,34 @@ function generarFiltrosPorTienda(tienda) {
       <button class="filtro-btn"
               onclick="limpiarFiltro('tipo',this)">
         Todos
+      </button>
+    </div>
+  `;
+}
+
+if (tienda === "x24" || tienda === "yepas") {
+  f.innerHTML = `
+    <div class="filtro-grupo">
+      <span>Mueble:</span>
+
+      <button class="filtro-btn"
+              onclick="setFiltro('mueble',2,this)">
+        2"
+      </button>
+
+      <button class="filtro-btn"
+              onclick="setFiltro('mueble',3,this)">
+        3"
+      </button>
+
+      <button class="filtro-btn"
+              onclick="setFiltro('mueble',4,this)">
+        4"
+      </button>
+
+      <button class="filtro-btn"
+              onclick="setFiltro('mueble',5,this)">
+        5"
       </button>
     </div>
   `;
