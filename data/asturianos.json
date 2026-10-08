@@ -2,7 +2,7 @@
   {
     "nombre": "OCT26 ASTURIANOS 2FT ZYN",
     "codigo": "OCT26_ASTURIANOS_2FT_ZYN",
-    "imagen": "img/ASTURIANOS/OCT26_ASTURIANOS_2FT_ZYN.jpg",
+    "imagen": "img/asturianos/OCT26_ASTURIANOS_2FT_ZYN.jpg",
     "tienda": "ASTURIANOS",
     "ft": 2,
     "familia": "ZYN"
@@ -10,7 +10,7 @@
   {
     "nombre": "OCT26 ASTURIANOS 2FT ZYN HTU",
     "codigo": "OCT26_ASTURIANOS_2FT_ZYN_HTU",
-    "imagen": "img/ASTURIANOS/OCT26_ASTURIANOS_2FT_ZYN_HTU.jpg",
+    "imagen": "img/asturianos/OCT26_ASTURIANOS_2FT_ZYN_HTU.jpg",
     "tienda": "ASTURIANOS",
     "ft": 2,
     "familia": "HTU"
@@ -18,7 +18,7 @@
   {
     "nombre": "OCT26 ASTURIANOS 3FT ZYN",
     "codigo": "OCT26_ASTURIANOS_3FT_ZYN",
-    "imagen": "img/ASTURIANOS/OCT26_ASTURIANOS_3FT_ZYN.jpg",
+    "imagen": "img/asturianos/OCT26_ASTURIANOS_3FT_ZYN.jpg",
     "tienda": "ASTURIANOS",
     "ft": 3,
     "familia": "ZYN"
@@ -26,7 +26,7 @@
   {
     "nombre": "OCT26 ASTURIANOS 3FT ZYN HTU",
     "codigo": "OCT26_ASTURIANOS_3FT_ZYN_HTU",
-    "imagen": "img/ASTURIANOS/OCT26_ASTURIANOS_3FT_ZYN_HTU.jpg",
+    "imagen": "img/asturianos/OCT26_ASTURIANOS_3FT_ZYN_HTU.jpg",
     "tienda": "ASTURIANOS",
     "ft": 3,
     "familia": "HTU"
@@ -34,7 +34,7 @@
   {
     "nombre": "OCT26 ASTURIANOS 4FT ZYN",
     "codigo": "OCT26_ASTURIANOS_4FT_ZYN",
-    "imagen": "img/ASTURIANOS/OCT26_ASTURIANOS_4FT_ZYN.jpg",
+    "imagen": "img/asturianos/OCT26_ASTURIANOS_4FT_ZYN.jpg",
     "tienda": "ASTURIANOS",
     "ft": 4,
     "familia": "ZYN"
@@ -42,7 +42,7 @@
   {
     "nombre": "OCT26 ASTURIANOS 5FT ZYN",
     "codigo": "OCT26_ASTURIANOS_5FT_ZYN",
-    "imagen": "img/ASTURIANOS/OCT26_ASTURIANOS_5FT_ZYN.jpg",
+    "imagen": "img/asturianos/OCT26_ASTURIANOS_5FT_ZYN.jpg",
     "tienda": "ASTURIANOS",
     "ft": 5,
     "familia": "ZYN"
