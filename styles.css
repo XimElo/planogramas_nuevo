@@ -49,11 +49,21 @@ h1 {
    BOTONES DE TIENDA
 ========================= */
 .tiendas {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 30px 0;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
 }
+
+
+@media (max-width: 768px) {
+
+  .tiendas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
 
 .btn-tienda {
   background: #fff;
