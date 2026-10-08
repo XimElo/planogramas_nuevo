@@ -1,0 +1,146 @@
+[
+  {
+    "nombre": {
+      "nombre": "OCT26 DELRIO 3FT"
+    },
+    "codigo": {
+      "codigo": "OCT26_DELRIO_3FT"
+    },
+    "imagen": {
+      "imagen": "img/DELRIO/OCT26_DELRIO_3FT.jpg"
+    },
+    "tienda": {
+      "tienda": "DELRIO"
+    },
+    "ft": "NA",
+    "familia": {
+      "familia": {}
+    }
+  },
+  {
+    "nombre": {
+      "nombre": "OCT26 DELRIO 3FT HTU"
+    },
+    "codigo": {
+      "codigo": "OCT26_DELRIO_3FT_HTU"
+    },
+    "imagen": {
+      "imagen": "img/DELRIO/OCT26_DELRIO_3FT_HTU.jpg"
+    },
+    "tienda": {
+      "tienda": "DELRIO"
+    },
+    "ft": 3,
+    "familia": {
+      "familia": "HTU"
+    }
+  },
+  {
+    "nombre": {
+      "nombre": "OCT26 DELRIO 3FT ZYN"
+    },
+    "codigo": {
+      "codigo": "OCT26_DELRIO_3FT_ZYN"
+    },
+    "imagen": {
+      "imagen": "img/DELRIO/OCT26_DELRIO_3FT_ZYN.jpg"
+    },
+    "tienda": {
+      "tienda": "DELRIO"
+    },
+    "ft": 3,
+    "familia": {
+      "familia": "ZYN"
+    }
+  },
+  {
+    "nombre": {
+      "nombre": "OCT26 DELRIO 3FT ZYN HTU"
+    },
+    "codigo": {
+      "codigo": "OCT26_DELRIO_3FT_ZYN_HTU"
+    },
+    "imagen": {
+      "imagen": "img/DELRIO/OCT26_DELRIO_3FT_ZYN_HTU.jpg"
+    },
+    "tienda": {
+      "tienda": "DELRIO"
+    },
+    "ft": 3,
+    "familia": {
+      "familia": ["HTU", "ZYN"]
+    }
+  },
+  {
+    "nombre": {
+      "nombre": "OCT26 DELRIO 5FT"
+    },
+    "codigo": {
+      "codigo": "OCT26_DELRIO_5FT"
+    },
+    "imagen": {
+      "imagen": "img/DELRIO/OCT26_DELRIO_5FT.jpg"
+    },
+    "tienda": {
+      "tienda": "DELRIO"
+    },
+    "ft": "NA",
+    "familia": {
+      "familia": {}
+    }
+  },
+  {
+    "nombre": {
+      "nombre": "OCT26 DELRIO 5FT HTU"
+    },
+    "codigo": {
+      "codigo": "OCT26_DELRIO_5FT_HTU"
+    },
+    "imagen": {
+      "imagen": "img/DELRIO/OCT26_DELRIO_5FT_HTU.jpg"
+    },
+    "tienda": {
+      "tienda": "DELRIO"
+    },
+    "ft": 5,
+    "familia": {
+      "familia": "HTU"
+    }
+  },
+  {
+    "nombre": {
+      "nombre": "OCT26 DELRIO 5FT ZYN"
+    },
+    "codigo": {
+      "codigo": "OCT26_DELRIO_5FT_ZYN"
+    },
+    "imagen": {
+      "imagen": "img/DELRIO/OCT26_DELRIO_5FT_ZYN.jpg"
+    },
+    "tienda": {
+      "tienda": "DELRIO"
+    },
+    "ft": 5,
+    "familia": {
+      "familia": "ZYN"
+    }
+  },
+  {
+    "nombre": {
+      "nombre": "OCT26 DELRIO 5FT ZYN HTU"
+    },
+    "codigo": {
+      "codigo": "OCT26_DELRIO_5FT_ZYN_HTU"
+    },
+    "imagen": {
+      "imagen": "img/DELRIO/OCT26_DELRIO_5FT_ZYN_HTU.jpg"
+    },
+    "tienda": {
+      "tienda": "DELRIO"
+    },
+    "ft": 5,
+    "familia": {
+      "familia": ["HTU", "ZYN"]
+    }
+  }
+]
