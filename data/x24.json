@@ -1,1 +1,51 @@
-
+[
+  {
+    "nombre": "OCT26 X24 MUEBLE 2 A",
+    "codigo": "OCT26_X24_MUEBLE_2_A",
+    "imagen": "img/X24/OCT26_X24_MUEBLE_2_A.jpg",
+    "tienda": "X24",
+    "mueble": 2
+  },
+  {
+    "nombre": "OCT26 X24 MUEBLE 3 A",
+    "codigo": "OCT26_X24_MUEBLE_3_A",
+    "imagen": "img/X24/OCT26_X24_MUEBLE_3_A.jpg",
+    "tienda": "X24",
+    "mueble": 3
+  },
+  {
+    "nombre": "OCT26 X24 MUEBLE 3 B",
+    "codigo": "OCT26_X24_MUEBLE_3_B",
+    "imagen": "img/X24/OCT26_X24_MUEBLE_3_B.jpg",
+    "tienda": "X24",
+    "mueble": 3
+  },
+  {
+    "nombre": "OCT26 X24 MUEBLE 4 A",
+    "codigo": "OCT26_X24_MUEBLE_4_A",
+    "imagen": "img/X24/OCT26_X24_MUEBLE_4_A.jpg",
+    "tienda": "X24",
+    "mueble": 4
+  },
+  {
+    "nombre": "OCT26 X24 MUEBLE 4 B",
+    "codigo": "OCT26_X24_MUEBLE_4_B",
+    "imagen": "img/X24/OCT26_X24_MUEBLE_4_B.jpg",
+    "tienda": "X24",
+    "mueble": 4
+  },
+  {
+    "nombre": "OCT26 X24 MUEBLE 5 A",
+    "codigo": "OCT26_X24_MUEBLE_5_A",
+    "imagen": "img/X24/OCT26_X24_MUEBLE_5_A.jpg",
+    "tienda": "X24",
+    "mueble": 5
+  },
+  {
+    "nombre": "OCT26 X24 MUEBLE 5 B",
+    "codigo": "OCT26_X24_MUEBLE_5_B",
+    "imagen": "img/X24/OCT26_X24_MUEBLE_5_B.jpg",
+    "tienda": "X24",
+    "mueble": 5
+  }
+]
