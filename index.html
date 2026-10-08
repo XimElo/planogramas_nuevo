@@ -46,7 +46,30 @@
       
       <button class="btn-tienda" onclick="abrirTienda('yepas', this)">
       <img src = "img/logo/YEPAS.png" alt = "YEPAS">
-      <span>yepas</span>
+      <span>YEPAS</span>
+      </button>
+
+      <button class="btn-tienda"onclick="abrirTienda('asturianos', this)">
+      <img src = "img/logo/asturianos.png" alt = "ASTURIANOS">
+      <span>ASTURIANOS</span>
+      </button>
+ 
+      <button class="btn-tienda"
+      onclick="abrirTienda('delrio', this)">
+      <img src = "img/logo/delrios.png" alt = "DEL RIO">
+      <span>DEL RÍO</span>
+      </button>
+ 
+      <button class="btn-tienda"
+      onclick="abrirTienda('gomart', this)">
+      <img src = "img/logo/gomart.png" alt = "GO MART">
+      <span>GO MART</span>
+      </button>
+       
+      <button class="btn-tienda"
+      onclick="abrirTienda('superq', this)">
+      <img src = "img/logo/superq.png" alt = "SUPER Q">
+      <span>SUPER Q</span>
       </button>
 
       
@@ -363,6 +386,78 @@ if (tienda === "x24" || tienda === "yepas") {
     </div>
   `;
 }
+
+if (
+  tienda === "asturianos" ||
+  tienda === "delrio" ||
+  tienda === "gomart" ||
+  tienda === "superq"
+) {
+
+  f.innerHTML = `
+
+    <div class="filtro-grupo">
+
+      <span>Familia:</span>
+
+      <button class="filtro-btn"
+        onclick="setFiltro('familia','HTU',this)">
+        TEREA
+      </button>
+
+      <button class="filtro-btn"
+        onclick="setFiltro('familia','ZYN',this)">
+        ZYN
+      </button>
+
+    </div>
+
+    <div class="filtro-grupo">
+
+      <span>FT:</span>
+
+      <button class="filtro-btn"
+        onclick="setFiltro('ft',2,this)">
+        2
+      </button>
+
+      <button class="filtro-btn"
+        onclick="setFiltro('ft',3,this)">
+        3
+      </button>
+
+      <button class="filtro-btn"
+        onclick="setFiltro('ft',4,this)">
+        4
+      </button>
+
+      <button class="filtro-btn"
+        onclick="setFiltro('ft',5,this)">
+        5
+      </button>
+
+      <button class="filtro-btn"
+        onclick="setFiltro('ft',6,this)">
+        6
+      </button>
+
+      <button class="filtro-btn"
+        onclick="setFiltro('ft',7,this)">
+        7
+      </button>
+
+      <button class="filtro-btn"
+        onclick="setFiltro('ft','NS2',this)">
+        NS2
+      </button>
+
+    </div>
+  `;
+}
+  
+
+
+  
 }
 </script>
 </body>
