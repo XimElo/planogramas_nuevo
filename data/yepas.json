@@ -3,35 +3,35 @@
   {
     "nombre": "OCT26 YEPAS MUEBLE 3 A",
     "codigo": "OCT26_YEPAS_MUEBLE_3_A",
-    "imagen": "img/YEPAS/OCT26_YEPAS_MUEBLE_3_A.jpg",
+    "imagen": "img/yepas/OCT26_YEPAS_MUEBLE_3_A.jpg",
     "tienda": "YEPAS",
     "mueble": 3
   },
   {
     "nombre": "OCT26 YEPAS MUEBLE 4 A",
     "codigo": "OCT26_YEPAS_MUEBLE_4_A",
-    "imagen": "img/YEPAS/OCT26_YEPAS_MUEBLE_4_A.jpg",
+    "imagen": "img/yepas/OCT26_YEPAS_MUEBLE_4_A.jpg",
     "tienda": "YEPAS",
     "mueble": 4
   },
   {
     "nombre": "OCT26 YEPAS MUEBLE 4 B",
     "codigo": "OCT26_YEPAS_MUEBLE_4_B",
-    "imagen": "img/YEPAS/OCT26_YEPAS_MUEBLE_4_B.jpg",
+    "imagen": "img/yepas/OCT26_YEPAS_MUEBLE_4_B.jpg",
     "tienda": "YEPAS",
     "mueble": 4
   },
   {
     "nombre": "OCT26 YEPAS MUEBLE 5 A",
     "codigo": "OCT26_YEPAS_MUEBLE_5_A",
-    "imagen": "img/YEPAS/OCT26_YEPAS_MUEBLE_5_A.jpg",
+    "imagen": "img/yepas/OCT26_YEPAS_MUEBLE_5_A.jpg",
     "tienda": "YEPAS",
     "mueble": 5
   },
   {
     "nombre": "OCT26 YEPAS MUEBLE 5 B",
     "codigo": "OCT26_YEPAS_MUEBLE_5_B",
-    "imagen": "img/YEPAS/OCT26_YEPAS_MUEBLE_5_B.jpg",
+    "imagen": "img/yepas/OCT26_YEPAS_MUEBLE_5_B.jpg",
     "tienda": "YEPAS",
     "mueble": 5
   }
