@@ -1,0 +1,90 @@
+[
+  {
+    "nombre": "OCT26 SUPERQ 2FT ZYN",
+    "codigo": "OCT26_SUPERQ_2FT_ZYN",
+    "imagen": "img/SUPERQ/OCT26_SUPERQ_2FT_ZYN.jpg",
+    "tienda": "SUPERQ",
+    "ft": 2,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 SUPERQ 3FT ZYN",
+    "codigo": "OCT26_SUPERQ_3FT_ZYN",
+    "imagen": "img/SUPERQ/OCT26_SUPERQ_3FT_ZYN.jpg",
+    "tienda": "SUPERQ",
+    "ft": 3,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 SUPERQ 3FT ZYN HTU",
+    "codigo": "OCT26_SUPERQ_3FT_ZYN_HTU",
+    "imagen": "img/SUPERQ/OCT26_SUPERQ_3FT_ZYN_HTU.jpg",
+    "tienda": "SUPERQ",
+    "ft": 3,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 SUPERQ 4FT ZYN",
+    "codigo": "OCT26_SUPERQ_4FT_ZYN",
+    "imagen": "img/SUPERQ/OCT26_SUPERQ_4FT_ZYN.jpg",
+    "tienda": "SUPERQ",
+    "ft": 4,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 SUPERQ 4FT ZYN HTU",
+    "codigo": "OCT26_SUPERQ_4FT_ZYN_HTU",
+    "imagen": "img/SUPERQ/OCT26_SUPERQ_4FT_ZYN_HTU.jpg",
+    "tienda": "SUPERQ",
+    "ft": 4,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 SUPERQ 5FT ZYN",
+    "codigo": "OCT26_SUPERQ_5FT_ZYN",
+    "imagen": "img/SUPERQ/OCT26_SUPERQ_5FT_ZYN.jpg",
+    "tienda": "SUPERQ",
+    "ft": 5,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 SUPERQ 5FT ZYN HTU",
+    "codigo": "OCT26_SUPERQ_5FT_ZYN_HTU",
+    "imagen": "img/SUPERQ/OCT26_SUPERQ_5FT_ZYN_HTU.jpg",
+    "tienda": "SUPERQ",
+    "ft": 5,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 SUPERQ 6FT ZYN",
+    "codigo": "OCT26_SUPERQ_6FT_ZYN",
+    "imagen": "img/SUPERQ/OCT26_SUPERQ_6FT_ZYN.jpg",
+    "tienda": "SUPERQ",
+    "ft": 6,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 SUPERQ 6FT ZYN HTU",
+    "codigo": "OCT26_SUPERQ_6FT_ZYN_HTU",
+    "imagen": "img/SUPERQ/OCT26_SUPERQ_6FT_ZYN_HTU.jpg",
+    "tienda": "SUPERQ",
+    "ft": 6,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 SUPERQ 7FT ZYN",
+    "codigo": "OCT26_SUPERQ_7FT_ZYN",
+    "imagen": "img/SUPERQ/OCT26_SUPERQ_7FT_ZYN.jpg",
+    "tienda": "SUPERQ",
+    "ft": 7,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 SUPERQ NS2",
+    "codigo": "OCT26_SUPERQ_NS2",
+    "imagen": "img/SUPERQ/OCT26_SUPERQ_NS2.jpg",
+    "tienda": "SUPERQ",
+    "ft": "NA",
+    "familia": "ZYN"
+  }
+]
