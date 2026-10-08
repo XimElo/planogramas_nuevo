@@ -1,0 +1,130 @@
+[
+  {
+    "nombre": "OCT26 GOMART 2FT TEREA",
+    "codigo": "OCT26_GOMART_2FT_TEREA",
+    "imagen": "img/GOMART/OCT26_GOMART_2FT_TEREA.jpg",
+    "tienda": "GOMART",
+    "ft": 2,
+    "familia": "TEREA"
+  },
+  {
+    "nombre": "OCT26 GOMART 2FT ZYN",
+    "codigo": "OCT26_GOMART_2FT_ZYN",
+    "imagen": "img/GOMART/OCT26_GOMART_2FT_ZYN.jpg",
+    "tienda": "GOMART",
+    "ft": 2,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 GOMART 3FT TEREA",
+    "codigo": "OCT26_GOMART_3FT_TEREA",
+    "imagen": "img/GOMART/OCT26_GOMART_3FT_TEREA.jpg",
+    "tienda": "GOMART",
+    "ft": 3,
+    "familia": "TEREA"
+  },
+  {
+    "nombre": "OCT26 GOMART 3FT ZYN",
+    "codigo": "OCT26_GOMART_3FT_ZYN",
+    "imagen": "img/GOMART/OCT26_GOMART_3FT_ZYN.jpg",
+    "tienda": "GOMART",
+    "ft": 3,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 GOMART 4FT TEREA",
+    "codigo": "OCT26_GOMART_4FT_TEREA",
+    "imagen": "img/GOMART/OCT26_GOMART_4FT_TEREA.jpg",
+    "tienda": "GOMART",
+    "ft": 4,
+    "familia": "TEREA"
+  },
+  {
+    "nombre": "OCT26 GOMART 4FT ZYN",
+    "codigo": "OCT26_GOMART_4FT_ZYN",
+    "imagen": "img/GOMART/OCT26_GOMART_4FT_ZYN.jpg",
+    "tienda": "GOMART",
+    "ft": 4,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 GOMART 4FT ZYN TEREA",
+    "codigo": "OCT26_GOMART_4FT_ZYN_TEREA",
+    "imagen": "img/GOMART/OCT26_GOMART_4FT_ZYN_TEREA.jpg",
+    "tienda": "GOMART",
+    "ft": 4,
+    "familia": "TEREA"
+  },
+  {
+    "nombre": "OCT26 GOMART 5FT TEREA",
+    "codigo": "OCT26_GOMART_5FT_TEREA",
+    "imagen": "img/GOMART/OCT26_GOMART_5FT_TEREA.jpg",
+    "tienda": "GOMART",
+    "ft": 5,
+    "familia": "TEREA"
+  },
+  {
+    "nombre": "OCT26 GOMART 5FT ZYN",
+    "codigo": "OCT26_GOMART_5FT_ZYN",
+    "imagen": "img/GOMART/OCT26_GOMART_5FT_ZYN.jpg",
+    "tienda": "GOMART",
+    "ft": 5,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 GOMART 5FT ZYN TEREA",
+    "codigo": "OCT26_GOMART_5FT_ZYN_TEREA",
+    "imagen": "img/GOMART/OCT26_GOMART_5FT_ZYN_TEREA.jpg",
+    "tienda": "GOMART",
+    "ft": 5,
+    "familia": "TEREA"
+  },
+  {
+    "nombre": "OCT26 GOMART 6FT TEREA",
+    "codigo": "OCT26_GOMART_6FT_TEREA",
+    "imagen": "img/GOMART/OCT26_GOMART_6FT_TEREA.jpg",
+    "tienda": "GOMART",
+    "ft": 6,
+    "familia": "TEREA"
+  },
+  {
+    "nombre": "OCT26 GOMART 6FT ZYN",
+    "codigo": "OCT26_GOMART_6FT_ZYN",
+    "imagen": "img/GOMART/OCT26_GOMART_6FT_ZYN.jpg",
+    "tienda": "GOMART",
+    "ft": 6,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 GOMART 6FT ZYN TEREA",
+    "codigo": "OCT26_GOMART_6FT_ZYN_TEREA",
+    "imagen": "img/GOMART/OCT26_GOMART_6FT_ZYN_TEREA.jpg",
+    "tienda": "GOMART",
+    "ft": 6,
+    "familia": "TEREA"
+  },
+  {
+    "nombre": "OCT26 GOMART 7FT TEREA",
+    "codigo": "OCT26_GOMART_7FT_TEREA",
+    "imagen": "img/GOMART/OCT26_GOMART_7FT_TEREA.jpg",
+    "tienda": "GOMART",
+    "ft": 7,
+    "familia": "TEREA"
+  },
+  {
+    "nombre": "OCT26 GOMART 7FT ZYN",
+    "codigo": "OCT26_GOMART_7FT_ZYN",
+    "imagen": "img/GOMART/OCT26_GOMART_7FT_ZYN.jpg",
+    "tienda": "GOMART",
+    "ft": 7,
+    "familia": "ZYN"
+  },
+  {
+    "nombre": "OCT26 GOMART 7FT ZYN TEREA",
+    "codigo": "OCT26_GOMART_7FT_ZYN_TEREA",
+    "imagen": "img/GOMART/OCT26_GOMART_7FT_ZYN_TEREA.jpg",
+    "tienda": "GOMART",
+    "ft": 7,
+    "familia": "TEREA"
+  }
+]
