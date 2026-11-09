@@ -223,6 +223,25 @@ gap: 20px;
   color: #777;
 }
 
+.modal-nov26{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.5);
+  z-index:9999;
+}
+
+.modal-content{
+  background:#fff;
+  max-width:450px;
+  margin:10% auto;
+  padding:25px;
+  border-radius:12px;
+  text-align:center;
+}
+
+
+
 /* =========================
    BUSCADOR
 ========================= */
