@@ -286,6 +286,22 @@ function generarFiltrosPorTienda(tienda) {
     f.innerHTML = `
  
 
+<div class="filtro-grupo">
+  <span>Mes:</span>
+
+  <button class="filtro-btn"
+          onclick="setFiltro('mes','OCT26',this)">
+    OCT26
+  </button>
+
+  <button class="filtro-btn"
+          onclick="setFiltro('mes','NOV26',this)">
+    NOV26
+  </button>
+
+</div>
+
+
   <div class="filtro-grupo">
     <span>Tipo:</span>
     <button class="filtro-btn" onclick="setFiltro('familia','HTU',this)">TEREA</button>
