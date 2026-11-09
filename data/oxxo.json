@@ -557,4 +557,129 @@
   }
 
 
+
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO 4 CHAR HEADER",
+    "codigo": "NOV26_OXXO_4_CHAR_HEADER",
+    "imagen": "img/oxxo/NOV26_OXXO_4_CHAR_HEADER.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_4_CHAR_HEADER",
+    "tipo": "NORMAL",
+    "familia": "HTU"
+  },
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO 4 CHAR HEADER HTU CHARHTU ZYN CHARZYN25",
+    "codigo": "NOV26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN25",
+    "imagen": "img/oxxo/NOV26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN25.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_4_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN25",
+    "tipo": "NORMAL",
+    "familia": "ZYN"
+  },
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO 5 CHAR HEADER",
+    "codigo": "NOV26_OXXO_5_CHAR_HEADER",
+    "imagen": "img/oxxo/NOV26_OXXO_5_CHAR_HEADER.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_5_CHAR_HEADER",
+    "tipo": "NORMAL",
+    "familia": "HTU"
+  },
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO 5 CHAR HEADER HTU",
+    "codigo": "NOV26_OXXO_5_CHAR_HEADER_HTU",
+    "imagen": "img/oxxo/NOV26_OXXO_5_CHAR_HEADER_HTU.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_5_CHAR_HEADER_HTU",
+    "tipo": "NORMAL",
+    "familia": "HTU"
+  },
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO 5 CHAR HEADER HTU CHARHTU",
+    "codigo": "NOV26_OXXO_5_CHAR_HEADER_HTU_CHARHTU",
+    "imagen": "img/oxxo/NOV26_OXXO_5_CHAR_HEADER_HTU_CHARHTU.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_5_CHAR_HEADER_HTU_CHARHTU",
+    "tipo": "NORMAL",
+    "familia": "HTU"
+  },
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO 5 CHAR HEADER HTU CHARHTU ZYN CHARZYN",
+    "codigo": "NOV26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN",
+    "imagen": "img/oxxo/NOV26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_5_CHAR_HEADER_HTU_CHARHTU_ZYN_CHARZYN",
+    "tipo": "NORMAL",
+    "familia": "ZYN"
+  },
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO 5 CHAR HEADER HTU ZYN",
+    "codigo": "NOV26_OXXO_5_CHAR_HEADER_HTU_ZYN",
+    "imagen": "img/oxxo/NOV26_OXXO_5_CHAR_HEADER_HTU_ZYN.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_5_CHAR_HEADER_HTU_ZYN",
+    "tipo": "NORMAL",
+    "familia": "ZYN"
+  },
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO 5 CHAR HEADER HTU ZYN CHARZYN25",
+    "codigo": "NOV26_OXXO_5_CHAR_HEADER_HTU_ZYN_CHARZYN25",
+    "imagen": "img/oxxo/NOV26_OXXO_5_CHAR_HEADER_HTU_ZYN_CHARZYN25.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_5_CHAR_HEADER_HTU_ZYN_CHARZYN25",
+    "tipo": "NORMAL",
+    "familia": "ZYN"
+  },
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO 5 CHAR HEADER ZYN",
+    "codigo": "NOV26_OXXO_5_CHAR_HEADER_ZYN",
+    "imagen": "img/oxxo/NOV26_OXXO_5_CHAR_HEADER_ZYN.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_5_CHAR_HEADER_ZYN",
+    "tipo": "NORMAL",
+    "familia": "ZYN"
+  },
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO 5 CHAR HEADER ZYN CHARZYN25",
+    "codigo": "NOV26_OXXO_5_CHAR_HEADER_ZYN_CHARZYN25",
+    "imagen": "img/oxxo/NOV26_OXXO_5_CHAR_HEADER_ZYN_CHARZYN25.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_5_CHAR_HEADER_ZYN_CHARZYN25",
+    "tipo": "NORMAL",
+    "familia": "ZYN"
+  },
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO NS",
+    "codigo": "NOV26_OXXO_NS",
+    "imagen": "img/oxxo/NOV26_OXXO_NS.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_NS",
+    "tipo": "NORMAL",
+    "familia": "HTU"
+  },
+  {
+    "mes": "NOV26",
+    "nombres": "NOV26 OXXO NS RESELLER",
+    "codigo": "NOV26_OXXO_NS_RESELLER",
+    "imagen": "img/oxxo/NOV26_OXXO_NS_RESELLER.jpg",
+    "tienda": "OXXO",
+    "formato": "NOV26_OXXO_NS_RESELLER",
+    "tipo": "RESELLER",
+    "familia": "HTU"
+  }
+
+
+  
+
 ]
