@@ -110,25 +110,7 @@
 
 <script>
 
-  /* ========================
-   MODAL
-======================== */
 
-  function mostrarModalNov26() {
-
-  document
-    .getElementById("modalNov26")
-    .style.display = "block";
-
-}
-
-function cerrarModalNov26() {
-
-  document
-    .getElementById("modalNov26")
-    .style.display = "none";
-
-}
 
 /* ========================
    TRADUCCIÓN GLOBAL
@@ -198,17 +180,7 @@ function setFiltro(campo, valor, btn) {
     btn.classList.remove("activo");
     if (filtrosActivos[campo].length === 0) delete filtrosActivos[campo];
   }
-if (
-  campo === "mes" &&
-  valor === "NOV26" &&
-  index === -1
-) {
 
-  mostrarModalNov26();
-
-}
-  aplicarFiltros();
-}
 
 function limpiarFiltros() {
   filtrosActivos = {};
@@ -499,36 +471,7 @@ if (
   
 
 
-  
-}
 
-
-  <!-- ========================
-    modal
-======================== -->
-<div id="modalNov26" class="modal-nov26">
-
-  <div class="modal-content">
-
-    <h2>⚠️ Aviso NOV26</h2>
-
-    <p>
-      NOV26 no es una implementación general.
-    </p>
-
-    <p>
-      Utilízalo únicamente si se te indicó expresamente.
-    </p>
-
-    <p>
-      En caso contrario continúa utilizando OCT26.
-    </p>
-
-    <button onclick="cerrarModalNov26()">
-      Entendido
-    </button>
-
-  </div>
 
 </div> 
 </script>
